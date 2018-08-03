@@ -2,7 +2,8 @@
    "name": "Descubrir Gobstones",
    "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
-      { "id": "1.1",        "name": "Glotón, el robot",
+      { "id": "1.1",        "name": "La simulación del docente robot",
         "path": "Proyectos/1.Descubrir Gobstones/1.1.La simulación del docente robot"
       }
-      ]}]
+    ]
+} ]
