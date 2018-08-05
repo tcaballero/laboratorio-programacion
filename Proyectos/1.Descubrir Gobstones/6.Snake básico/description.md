@@ -25,5 +25,5 @@ uno de los que se muestran u otros diferentes.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/6.Snake%20b%C3%A1sico/description.pdf "Enunciado de 'Snake básico' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/6.Snake%20b%C3%A1sico/assets/resources/description.pdf "Enunciado de 'Snake básico' en PDF"
 

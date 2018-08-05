@@ -37,4 +37,4 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/5.1.Marquemos%20las%20puntas/description.pdf "Enunciado de 'Marquemos las puntas' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/5.1.Marquemos%20las%20puntas/assets/resources/description.pdf "Enunciado de 'Marquemos las puntas' en PDF"

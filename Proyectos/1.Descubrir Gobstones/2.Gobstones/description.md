@@ -38,4 +38,4 @@ Estos descubrimientos te van a permitir hacer cosas muy interesantes.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/2.Gobstones/description.pdf "Enunciado de 'Gobstones' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/2.Gobstones/assets/resources/description.pdf "Enunciado de 'Gobstones' en PDF"
