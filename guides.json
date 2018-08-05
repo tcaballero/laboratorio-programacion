@@ -20,5 +20,11 @@
     , { "id": "3.3",        "name": "Una víbora más inquieta",
         "path": "Proyectos/1.Descubrir Gobstones/3.3.Una víbora más inquieta"
       }
+    , { "id": "4.1",        "name": "Vaciar la celda",
+        "path": "Proyectos/1.Descubrir Gobstones/4.1.Vaciar la celda"
+      }
+    , { "id": "4.2",        "name": "Limpiar la cruz roja",
+        "path": "Proyectos/1.Descubrir Gobstones/4.2.Limpiar la cruz roja"
+      }
     ]
 } ]
