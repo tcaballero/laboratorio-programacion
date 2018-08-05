@@ -8,5 +8,8 @@
     , { "id": "1.2",        "name": "El docente, el granjero y las bolitas",
         "path": "Proyectos/1.Descubrir Gobstones/1.2.El docente, el granjero y las bolitas"
       }
+    , { "id": "2",          "name": "Gobstones",
+        "path": "Proyectos/1.Descubrir Gobstones/2.Gobstones"
+      }
     ]
 } ]
