@@ -26,5 +26,11 @@
     , { "id": "4.2",        "name": "Limpiar la cruz roja",
         "path": "Proyectos/1.Descubrir Gobstones/4.2.Limpiar la cruz roja"
       }
+    , { "id": "5.1",        "name": "Marquemos las puntas",
+        "path": "Proyectos/1.Descubrir Gobstones/5.1.Marquemos las puntas"
+      }
+    , { "id": "5.2",        "name": "Lugar para los corners",
+        "path": "Proyectos/1.Descubrir Gobstones/5.2.Lugar para los corners"
+      }
     ]
 } ]
