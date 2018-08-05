@@ -5,5 +5,8 @@
       { "id": "1.1",        "name": "La simulación del docente robot",
         "path": "Proyectos/1.Descubrir Gobstones/1.1.La simulación del docente robot"
       }
+    , { "id": "1.2",        "name": "El docente, el granjero y las bolitas",
+        "path": "Proyectos/1.Descubrir Gobstones/1.2.El docente, el granjero y las bolitas"
+      }
     ]
 } ]
