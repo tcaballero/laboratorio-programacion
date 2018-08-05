@@ -59,13 +59,13 @@
         "path": "Proyectos/2.Procedimientos/3.1.Preparar el fútbol de robots"
       }
     , { "id": "3.2",        "name": "Preparar el fútbol de robots, sin procedimientos",
-        "path": "Proyectos/2.Procedimientoss/3.2.Preparar el fútbol de robots, sin procedimientos"
+        "path": "Proyectos/2.Procedimientos/3.2.Preparar el fútbol de robots, sin procedimientos"
       }
     , { "id": "4",          "name": "La gran aventura del mar encantado",
-        "path": "Proyectos/2.Procedimientos/4.1.La gran aventura del mar encantado"
+        "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"
       }
     , { "id": "5",          "name": "Lucho enciende las luces",
-        "path": "Proyectos/2.Procedimientos/6.Lucho enciende las luces"
+        "path": "Proyectos/2.Procedimientos/5.Lucho enciende las luces"
       }
     ]
 } ]
