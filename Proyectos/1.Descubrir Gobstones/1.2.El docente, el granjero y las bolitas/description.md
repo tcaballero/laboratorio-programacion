@@ -24,4 +24,4 @@ Básicamente, son tres formas distintas de visualizar la ejecución de un solo p
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/1.Descubrir%20Gobstones/1.2.E;%20docente%2C%20el%20granjero%20y%20las%20bolitas/assets/resources/description.pdf "Enunciado de 'El docente, el granjero y las bolitas' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/1.2.E;%20docente%2C%20el%20granjero%20y%20las%20bolitas/assets/resources/description.pdf "Enunciado de 'El docente, el granjero y las bolitas' en PDF"

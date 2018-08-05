@@ -20,4 +20,4 @@ La diferencia es que en lugar de armar una víbora de bolitas horizontal, tenés
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/1.Descubrir%20Gobstones/3.2.V%C3%ADbora%20de%20bolitas%2C%20vertical/description.pdf "Enunciado de 'Víbora de bolitas, vertical' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/3.2.V%C3%ADbora%20de%20bolitas%2C%20vertical/description.pdf "Enunciado de 'Víbora de bolitas, vertical' en PDF"
