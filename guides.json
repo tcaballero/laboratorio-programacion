@@ -32,5 +32,8 @@
     , { "id": "5.2",        "name": "Lugar para los corners",
         "path": "Proyectos/1.Descubrir Gobstones/5.2.Lugar para los corners"
       }
+    , { "id": "6",          "name": "Snake básico",
+        "path": "Proyectos/1.Descubrir Gobstones/6.Snake básico"
+      }
     ]
 } ]
