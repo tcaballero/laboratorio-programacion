@@ -1,4 +1,4 @@
-#Proyecto 3.1.1.2. Programo el cuadrado, programo el cuadrado
+#Proyecto 1.2. Programo el cuadrado, programo el cuadrado
 
 A) Construí un programa para dibujar dos cuadrados de color rojo, cada uno de tres bolitas 
    de lado, como muestra la figura. 
@@ -33,4 +33,4 @@ Acordate, al terminar, de volver a guardar tu solución con un nombre diferente 
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.1.1.2.Programo%20el%20cuadrado%2C%20programo%20el%20cuadrado/assets/resources/description.pdf "Enunciado de 'Programo el cuadrado, programo el cuadrado' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/1.2.Programo%20el%20cuadrado%2C%20programo%20el%20cuadrado/assets/resources/description.pdf "Enunciado de 'Programo el cuadrado, programo el cuadrado' en PDF"

@@ -1,4 +1,4 @@
-# Proyecto 3.2.3. La gran aventura del mar encantado
+# Proyecto 4. La gran aventura del mar encantado
 
 *“La mañana empezó mal para la Princesa: el Caballero Negro había secuestrado al Príncipe 
 y ella aún no había arreglado las cosas con el Mago. 
@@ -39,4 +39,4 @@ fue la intención de quien lo programó, cuál es el problema y cómo se solucio
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.2.3.La%20gran%20aventura%20del%20mar%20encantado/assets/resources/description.pdf "Enunciado de 'La gran aventura del mar encantado' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/4.La%20gran%20aventura%20del%20mar%20encantado/assets/resources/description.pdf "Enunciado de 'La gran aventura del mar encantado' en PDF"

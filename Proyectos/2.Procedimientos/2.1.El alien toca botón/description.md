@@ -1,4 +1,4 @@
-# Proyecto 3.2.1. El alien toca botón
+# Proyecto 2.1. El alien toca botón
 
 En esta actividad no vamos a trabajar con bolitas… directamente. 
 La idea es que en el tablero hay un alien que para poder activar su nave tiene que 
@@ -20,4 +20,4 @@ del alien y el botón. Investigá un poco el entorno para encontrarlos.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.2.1.El%20alien%20toca%20bot%C3%B3n/assets/resources/description.pdf "Enunciado de 'El alien toca botón' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/2.1.El%20alien%20toca%20bot%C3%B3n/assets/resources/description.pdf "Enunciado de 'El alien toca botón' en PDF"
