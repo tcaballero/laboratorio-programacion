@@ -1,6 +1,11 @@
-﻿//
-// Describe el procedimiento...
-//
+﻿program {
+  DibujarCuadradoRojo()
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Mover(Oeste)
+  DibujarCuadradoRojo()
+}
+
 procedure DibujarCuadradoRojo() {
   Poner(Rojo)
   Mover(Este)
@@ -20,11 +25,3 @@ procedure DibujarCuadradoRojo() {
   Mover(Sur)
 }
 
-
-program {
-  DibujarCuadradoRojo()
-  IrAlBorde(Este)
-  Mover(Oeste)
-  Mover(Oeste)
-  DibujarCuadradoRojo()
-}

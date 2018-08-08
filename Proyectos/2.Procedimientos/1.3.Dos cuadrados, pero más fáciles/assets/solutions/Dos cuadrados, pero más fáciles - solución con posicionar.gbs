@@ -1,6 +1,15 @@
-﻿//
-// Describe el procedimiento...
-//
+﻿program {
+  DibujarCuadradoRojo()
+  PosicionarPara2doCuadrado()
+  DibujarCuadradoRojo()
+}
+
+procedure PosicionarPara2doCuadrado() {
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Mover(Oeste)
+}
+
 procedure DibujarCuadradoRojo() {
   Poner(Rojo)
   Mover(Este)
@@ -18,20 +27,4 @@ procedure DibujarCuadradoRojo() {
   Mover(Sur)
   Poner(Rojo)
   Mover(Sur)
-}
-
-//
-// Describe el procedimiento...
-//
-procedure PosicionarPara2doCuadrado() {
-  IrAlBorde(Este)
-  Mover(Oeste)
-  Mover(Oeste)
-}
-
-
-program {
-  DibujarCuadradoRojo()
-  PosicionarPara2doCuadrado()
-  DibujarCuadradoRojo()
 }

@@ -17,6 +17,8 @@ blocks:
           <block type="BOOM"></block>
         </category>
         <category name="Procedimientos primitivos">
+          <block type="MoverAlienAlEste"></block>
+          <block type="TocarBotón"></block>
         </category>
         <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
         </category>
