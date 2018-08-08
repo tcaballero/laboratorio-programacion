@@ -1,3 +1,4 @@
+name: Programo el cuadrado
 attire:
   active: null
   user_permissions:
@@ -99,4 +100,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Programo el cuadrado
