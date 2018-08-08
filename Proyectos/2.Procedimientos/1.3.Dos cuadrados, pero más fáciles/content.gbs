@@ -3,5 +3,5 @@ program {
 }
 
 procedure DibujarCuadradoRojo() {
-
+  ...
 }
