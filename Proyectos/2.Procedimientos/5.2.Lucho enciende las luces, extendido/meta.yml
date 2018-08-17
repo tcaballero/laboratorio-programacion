@@ -1,3 +1,4 @@
+name: Lucho enciende las luces, extendido
 attire:
   active: Lucho enciende las luces
   user_permissions:
@@ -36,4 +37,3 @@ library:
 source:
   visible: true
   percentage: 0.65  
-name: Lucho enciende las luces, extendido
