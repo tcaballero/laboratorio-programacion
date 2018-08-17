@@ -64,8 +64,11 @@
     , { "id": "4",          "name": "La gran aventura del mar encantado",
         "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"
       }
-    , { "id": "5",          "name": "Lucho enciende las luces",
-        "path": "Proyectos/2.Procedimientos/5.Lucho enciende las luces"
+    , { "id": "5.1",          "name": "Lucho enciende las luces",
+        "path": "Proyectos/2.Procedimientos/5.1.Lucho enciende las luces"
+      }
+    , { "id": "5.2",          "name": "Lucho enciende las luces, extendido",
+        "path": "Proyectos/2.Procedimientos/5.2.Lucho enciende las luces, extendido"
       }
     ]
 } ]
