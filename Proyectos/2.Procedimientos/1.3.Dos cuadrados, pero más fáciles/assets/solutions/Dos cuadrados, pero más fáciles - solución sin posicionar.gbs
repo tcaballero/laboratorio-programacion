@@ -3,11 +3,13 @@
    PRECONDICIONES: 
      El tablero tiene al menos 3 celdas de lado.
 	 Idealmente tiene al menos 7 celdas de lado.
+	 La celda inicial es la esquina SurOeste
 */
 program {
   DibujarCuadradoRojo()
-    // Se debe ubicar al cabezal para garantizar la precondición de DibujarCuadradoRojo
-  IrAlBorde(Este)  Mover(Oeste)  Mover(Oeste)
+  IrAlBorde(Este)  
+  Mover(Oeste) // Se debe ubicar al cabezal para garantizar
+  Mover(Oeste) // la precondición de DibujarCuadradoRojo
   DibujarCuadradoRojo()
 }
 
