@@ -1,7 +1,17 @@
+/*
+   PROPÓSITO: ...
+   PRECONDICIONES: 
+     ...
+*/
 program {
     
 }
-
+	 
 procedure DibujarCuadradoRojo() {
+  /*
+     PROPÓSITO: ...
+     PRECONDICIONES: 
+       ...
+  */
   ...
 }
