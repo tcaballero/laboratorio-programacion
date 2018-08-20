@@ -22,7 +22,7 @@ blocks:
         <block type="procedures_defnoreturnnoparams"></block>
     </category>
 board:
-  active: 1
+  active: 2
   initial_board_source: selected
   user_permissions:
     can_change_source: false
