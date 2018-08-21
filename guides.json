@@ -84,6 +84,8 @@
     , { "id": "1.2",        "name": "Tablero de Ludo, toma 2",
         "path": "Proyectos/3.Parámetros y repetición/1.2.Tablero de Ludo, toma 2"
       }
-	
+    , { "id": "1.3",        "name": "Tablero de Ludo, toma 3",
+        "path": "Proyectos/3.Parámetros y repetición/1.3.Tablero de Ludo, toma 3"
+      }
 	] } 
 ]
