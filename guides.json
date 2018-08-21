@@ -87,5 +87,38 @@
     , { "id": "1.3",        "name": "Tablero de Ludo, toma 3",
         "path": "Proyectos/3.Parámetros y repetición/1.3.Tablero de Ludo, toma 3"
       }
+    , { "id": "2.1",    "name": "Poner muchas bolitas se vuelve incómodo",
+        "path": "Proyectos/3.Parámetros y repetición/2.1.Poner muchas bolitas se vuelve incómodo"
+      }
+    , { "id": "2.2",    "name": "La computadora repite por nosotros",
+        "path": "Proyectos/3.Parámetros y repetición/2.2.La computadora repite por nosotros"
+      }
+    , { "id": "3.",      "name": "El final del pasillo",
+        "path": "Proyectos/3.Parámetros y repetición/3.El final del pasillo"
+      }
+    , { "id": "4",      "name": "Siga la flecha",
+        "path": "Proyectos/3.Parámetros y repetición/4.Siga la flecha"
+      }
+    , { "id": "5",      "name": "Candela, me quemo",
+        "path": "Proyectos/3.Parámetros y repetición/5.Candela, me quemo"
+      }
+    , { "id": "6",      "name": "Entrenamiento para fútbol de robots",
+        "path": "Proyectos/3.Parámetros y repetición/6.Entrenamiento para fútbol de robots"
+      }
+    , { "id": "7.1",    "name": "Ludo loco, toma 1",
+        "path": "Proyectos/3.Parámetros y repetición/7.1.Ludo loco, toma 1"
+      }
+    , { "id": "7.2",    "name": "Ludo loco, toma 2",
+        "path": "Proyectos/3.Parámetros y repetición/7.2.Ludo loco, toma 2"
+      }
+    , { "id": "8.1",    "name": "Dibujar figuras con subtareas",
+        "path": "Proyectos/3.Parámetros y repetición/8.1.Dibujar figuras con subtareas"
+      }
+    , { "id": "8.2",    "name": "Dibujar figuras con subtareas, revisado",
+        "path": "Proyectos/3.Parámetros y repetición/8.2.Dibujar figuras con subtareas, revisado"
+      }
+    , { "id": "9",      "name": "Varias cosas de una sola vez",
+        "path": "Proyectos/3.Parámetros y repetición/9.Varias cosas de una sola vez"
+      }
 	] } 
 ]
