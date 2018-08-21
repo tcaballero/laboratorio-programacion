@@ -64,11 +64,23 @@
     , { "id": "4",          "name": "La gran aventura del mar encantado",
         "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"
       }
-    , { "id": "5.1",          "name": "Lucho enciende las luces",
+    , { "id": "5.1",        "name": "Lucho enciende las luces",
         "path": "Proyectos/2.Procedimientos/5.1.Lucho enciende las luces"
       }
-    , { "id": "5.2",          "name": "Lucho enciende las luces, extendido",
-        "path": "Proyectos/2.Procedimientos/5.2.Lucho enciende las luces, extendido"
+    , { "id": "6",          "name": "Reparando la nave",
+        "path": "Proyectos/2.Procedimientos/6.Reparando la nave"
       }
-    ]
-} ]
+    ] }
+, {
+   "name": "Parámetros y repetición",
+   "repo": "gobstones/curso-InPr-UNQ",
+   "exercises": [
+      { "id": "1.1",        "name": "Ludo loco, toma 1",
+        "path": "Proyectos/3.Parámetros y repetición/1.1.Ludo loco, toma 1"
+      }
+    , { "id": "1.2",        "name": "Ludo loco, toma 2",
+        "path": "Proyectos/3.Parámetros y repetición/1.2.Ludo loco, toma 2"
+      }
+	
+	] } 
+]
