@@ -3,8 +3,15 @@
 }
 
 procedure DibujarCuadrado(colorDelCuadrado) {
+  DibujarLíneaHacia(colorDelCuadrado, ...)
+  DibujarLíneaHacia(...,...)
   ...
 }
+
+procedure DibujarLíneaHacia(colorDeLaLínea, direcciónDeDibujo) {
+  ...
+}
+
 
 procedure PosicionarseParaElPrimerCuadrado() {
   IrAlBorde(Oeste)  IrAlBorde(Sur)

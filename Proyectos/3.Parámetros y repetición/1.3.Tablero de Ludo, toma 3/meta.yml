@@ -1,4 +1,4 @@
-name: 'Tablero de Ludo, toma 2'
+name: 'Tablero de Ludo, toma 3'
 attire:
   active: Cuadrados
   user_permissions:
@@ -90,7 +90,7 @@ blocks:
 						   , "RepeticionSimple"
            , "EXPRESIONES" , "Color", "Direccion", "Numero"
            , "DEFINICIONES", "procedures_defnoreturnnoparams"
-                           , "procedures_defnoreturn", "ComandoCompletar"
+                           , "procedures_defnoreturn"
            ]
 board:
   active: 1

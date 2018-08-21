@@ -10,10 +10,14 @@
 }
 
 procedure DibujarCuadrado(colorDelCuadrado) {
-  repeat(2) { Poner(colorDelCuadrado)  Mover(Norte) }
-  repeat(2) { Poner(colorDelCuadrado)  Mover(Este)  }
-  repeat(2) { Poner(colorDelCuadrado)  Mover(Sur)   }
-  repeat(2) { Poner(colorDelCuadrado)  Mover(Oeste) }
+  DibujarLíneaHacia(colorDelCuadrado, Norte)
+  DibujarLíneaHacia(colorDelCuadrado, Este)
+  DibujarLíneaHacia(colorDelCuadrado, Sur)
+  DibujarLíneaHacia(colorDelCuadrado, Oeste)
+}
+
+procedure DibujarLíneaHacia(colorDeLaLínea, direcciónDeDibujo) {
+  repeat(2) { Poner(colorDeLaLínea)  Mover(direcciónDeDibujo) }
 }
 
 procedure PosicionarseParaElPrimerCuadrado() {
