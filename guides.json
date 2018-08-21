@@ -78,11 +78,11 @@
    "name": "Parámetros y repetición",
    "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
-      { "id": "1.1",        "name": "Ludo loco, toma 1",
-        "path": "Proyectos/3.Parámetros y repetición/1.1.Ludo loco, toma 1"
+      { "id": "1.1",        "name": "Tablero de Ludo, toma 1",
+        "path": "Proyectos/3.Parámetros y repetición/1.1.Tablero de Ludo, toma 1"
       }
-    , { "id": "1.2",        "name": "Ludo loco, toma 2",
-        "path": "Proyectos/3.Parámetros y repetición/1.2.Ludo loco, toma 2"
+    , { "id": "1.2",        "name": "Tablero de Ludo, toma 2",
+        "path": "Proyectos/3.Parámetros y repetición/1.2.Tablero de Ludo, toma 2"
       }
 	
 	] } 
