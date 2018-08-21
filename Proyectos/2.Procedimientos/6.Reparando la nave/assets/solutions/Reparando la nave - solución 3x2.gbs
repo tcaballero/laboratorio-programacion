@@ -3,7 +3,7 @@ program { RepararLaNaveYEscapar() }
 procedure RepararLaNaveYEscapar() {
   repeat (3) { 
     ConseguirUnHierro() 
-    ConseguirUnCarbon()
+    ConseguirUnCarbón()
   } 
   VolverACasa()
 }
@@ -15,11 +15,11 @@ procedure ConseguirUnHierro() {
   PonerHierroEnLaNave()
 }
 
-procedure ConseguirUnCarbon() {
-  IrHastaElCarbon()
-  AgarrarCarbon()
-  VolverConElCarbon()
-  PonerCarbonEnLaNave()
+procedure ConseguirUnCarbón() {
+  IrHastaElCarbón()
+  AgarrarCarbón()
+  VolverConElCarbón()
+  PonerCarbónEnLaNave()
 }
 
 procedure IrHastaElHierro() {
@@ -30,12 +30,12 @@ procedure VolverConElHierro() {
   repeat (3) { MoverMarcianoAl_(Sur) } 
 }
 
-procedure IrHastaElCarbon() {
+procedure IrHastaElCarbón() {
   repeat (3) { MoverMarcianoAl_(Norte); MoverMarcianoAl_(Este) }
   MoverMarcianoAl_(Este)
 }
 
-procedure VolverConElCarbon() {
+procedure VolverConElCarbón() {
   repeat (3) { MoverMarcianoAl_(Sur); MoverMarcianoAl_(Oeste) }
   MoverMarcianoAl_(Oeste)
 }
