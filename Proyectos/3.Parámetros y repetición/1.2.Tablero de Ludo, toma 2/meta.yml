@@ -3,7 +3,7 @@ attire:
   active: Cuadrados
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
   defaultToolbox: |
       <category name="COMANDOS">
