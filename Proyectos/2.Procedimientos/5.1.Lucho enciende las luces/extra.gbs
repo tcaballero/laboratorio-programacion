@@ -5,6 +5,7 @@ procedure EncenderLuz() {
    else                              { BOOM("No hay luz en esta celda") }}
 }
 
+/*@ATTRIBUTE@block_name@Mover a Lucho al _@*/
 procedure MoverALuchoAl_(dir) { 
    if (not hayBolitas(Negro)) { BOOM("No está lucho en este lugar") }
    Sacar(Negro) Mover(dir) Poner(Negro) 
