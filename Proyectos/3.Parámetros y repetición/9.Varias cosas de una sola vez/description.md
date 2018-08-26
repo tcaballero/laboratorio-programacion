@@ -15,8 +15,11 @@ lo interesante es conseguirlo usando solamente los procedimientos que definiste 
 
 Después que completaste esta tarea, tenemos dos desafíos: 
 1. ¿Podés usar el procedimiento `SacarMuchasBolitas` para sacar todas las de un color determinado? 
-   ¿Cuántas tendrías que sacar? ¿Cómo llamarías a un procedimiento que haga esta tarea? 
-2. ¿Cómo harías para sacar todas las bolitas, de todos los colores?
+   ¿Cómo llamarías a un procedimiento que haga esta tarea?  
+   Pero más importante, ¿cuántas tendrías que sacar? ¿Qué dato te falta para lograrlo?
+   
+2. Suponiendo que ya tenés el procedimiento del ítem anterior, ¿cómo harías para sacar todas las bolitas, de todos los colores?
+   Nuevamente, ¿cómo llamarías a ese procedimiento? 
  
 [Enunciado en PDF][PDF]
 
