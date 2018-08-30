@@ -1,4 +1,4 @@
-﻿program {
+program {
   PosicionarseParaElPrimerCuadrado()
   DibujarCuadrado(Rojo)
   PosicionarseParaElSegundoCuadrado()
@@ -10,13 +10,17 @@
 }
 
 procedure DibujarCuadrado(colorDelCuadrado) {
-  DibujarLíneaHacia(colorDelCuadrado, Norte)
-  DibujarLíneaHacia(colorDelCuadrado, Este)
-  DibujarLíneaHacia(colorDelCuadrado, Sur)
-  DibujarLíneaHacia(colorDelCuadrado, Oeste)
+  /*
+  */
+  DibujarLíneaDeLargo2(colorDelCuadrado, Norte)
+  DibujarLíneaDeLargo2(colorDelCuadrado, Este)
+  DibujarLíneaDeLargo2(colorDelCuadrado, Sur)
+  DibujarLíneaDeLargo2(colorDelCuadrado, Oeste)
 }
 
-procedure DibujarLíneaHacia(colorDeLaLínea, direcciónDeDibujo) {
+procedure DibujarLíneaDeLargo2(colorDeLaLínea, direcciónDeDibujo) {
+  /*
+  */
   repeat(2) { Poner(colorDeLaLínea)  Mover(direcciónDeDibujo) }
 }
 

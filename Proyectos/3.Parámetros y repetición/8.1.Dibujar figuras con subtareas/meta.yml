@@ -89,6 +89,7 @@ blocks:
                            , "Mis procedimientos"
 						   , "RepeticionSimple"
            , "EXPRESIONES" , "Color", "Direccion", "Numero"
+		                   , "OperadorNumerico"
            , "DEFINICIONES", "procedures_defnoreturnnoparams"
                            , "procedures_defnoreturn"
            ]
