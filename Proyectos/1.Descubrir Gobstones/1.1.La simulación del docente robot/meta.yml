@@ -6,7 +6,7 @@ attire:
   visible: true
 blocks:
   defaultToolbox: |
-      <category name="COMANDOS">
+      <category name="COMANDOS" attr="header">
       </category>
         <category name="Comandos primitivos">
           <block type="Poner"></block>
@@ -82,8 +82,6 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: []
-  visible: [ "COMANDOS" ]
 board:
   active: 1
   initial_board_source: selected
