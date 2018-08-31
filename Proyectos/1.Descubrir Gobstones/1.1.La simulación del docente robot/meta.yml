@@ -6,7 +6,7 @@ attire:
   visible: true
 blocks:
   defaultToolbox: |
-      <category name="COMANDOS" attr="header">
+      <category name="COMANDOS">
       </category>
         <category name="Comandos primitivos">
           <block type="Poner"></block>
@@ -82,18 +82,22 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
+  disabled: []
+  visible: [ "COMANDOS" ]
 board:
   active: 1
   initial_board_source: selected
+  visible_edition: true
+  collapse_toolbox: false
   user_permissions:
-    can_change_source: false
+    can_view_attire_section: false
     can_edit_board: false
-  visible_edition: false
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_view_size_section: false
 execution_speed:
   active: medium
   user_permissions:
     can_change_speed: true
 library:
   visible: false
-source:
-  visible: true
