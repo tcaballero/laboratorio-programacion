@@ -1,4 +1,4 @@
-# Proyecto 3.1. Preparando el fútbol de robots
+# Proyecto 3.1. Preparar el fútbol de robots
 
 En esta actividad vas a completar un programa para que el robot Beto juegue al fútbol, 
 llevando una pelota hacia el arco y haciendo un gol. 
@@ -46,4 +46,4 @@ programa cumpla su cometido.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/3.1.Preparando%20el%20f%C3%BAtbol%20de%20robots/assets/resources/description.pdf "Enunciado de 'Preparando el fútbol de robots' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/3.1.Preparar%20el%20f%C3%BAtbol%20de%20robots/assets/resources/description.pdf "Enunciado de 'Preparar el fútbol de robots' en PDF"
