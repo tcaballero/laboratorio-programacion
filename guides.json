@@ -1,6 +1,4 @@
-[ {
-   "name": "Descubrir Gobstones",
-   "repo": "gobstones/curso-InPr-UNQ",
+[ {"name": "Descubrir Gobstones",   "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "La simulación del docente robot",
         "path": "Proyectos/1.Descubrir Gobstones/1.1.La simulación del docente robot"
@@ -36,9 +34,7 @@
         "path": "Proyectos/1.Descubrir Gobstones/6.Snake básico"
       }
     ] }
-, {
-   "name": "Procedimientos",
-   "repo": "gobstones/curso-InPr-UNQ",
+, {"name": "Procedimientos",   "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "Programo el cuadrado",
         "path": "Proyectos/2.Procedimientos/1.1.Programo el cuadrado"
@@ -74,9 +70,7 @@
         "path": "Proyectos/2.Procedimientos/6.Reparando la nave"
       }
     ] }
-, {
-   "name": "Parámetros y repetición",
-   "repo": "gobstones/curso-InPr-UNQ",
+, {"name": "Parámetros y repetición",   "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "Tablero de Ludo, toma 1",
         "path": "Proyectos/3.Parámetros y repetición/1.1.Tablero de Ludo, toma 1"
@@ -121,4 +115,34 @@
         "path": "Proyectos/3.Parámetros y repetición/9.Varias cosas de una sola vez"
       }
 	] } 
+, { "name": "Expresiones y tipos",    "repo": "gobstones/curso-InPr-UNQ",
+    "exercises": [
+      { "id": "1.1",        "name": "No encuentro bolitas de color Sur",
+        "path": "Proyectos/4.Expresiones y tipos/1.1.No encuentro bolitas de color Sur"
+      }
+    , { "id": "1.2",        "name": "Para dónde queda Rojo",
+        "path": "Proyectos/4.Expresiones y tipos/1.2.Para dónde queda Rojo"
+      }
+    , { "id": "1.3",        "name": "Y por qué hace BOOM",
+        "path": "Proyectos/4.Expresiones y tipos/1.3.Y por qué hace BOOM"
+      }
+    , { "id": "2.1",        "name": "El cabezal juega a ser mimo",
+        "path": "Proyectos/4.Expresiones y tipos/2.1.El cabezal juega a ser mimo"
+      }
+    , { "id": "2.2",        "name": "El mimo que suma",
+        "path": "Proyectos/4.Expresiones y tipos/2.2.El mimo que suma"
+      }
+    , { "id": "2.3",        "name": "Super mimo multiplica",
+        "path": "Proyectos/4.Expresiones y tipos/2.3.Super mimo multiplica"
+      }
+    , { "id": "3.1",        "name": "Escapar de la jaula",
+        "path": "Proyectos/4.Expresiones y tipos/3.1.Escapar de la jaula"
+      }
+    , { "id": "3.2",        "name": "La flecha enloqueció",
+        "path": "Proyectos/4.Expresiones y tipos/3.2.La flecha enloqueció"
+      }
+    , { "id": "4",          "name": "Laberinto",
+        "path": "Proyectos/4.Expresiones y tipos/4.Laberinto"
+      }
+    ] }
 ]
