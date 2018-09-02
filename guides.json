@@ -70,79 +70,82 @@
         "path": "Proyectos/2.Procedimientos/6.Reparando la nave"
       }
     ] }
-, {"name": "Parámetros y repetición",   "repo": "gobstones/curso-InPr-UNQ",
+, {"name": "Repetición simple",   "repo": "gobstones/curso-InPr-UNQ",
+   "exercises": [
+      { "id": "1.1",    "name": "Poner muchas bolitas se vuelve incómodo",
+        "path": "Proyectos/3.Repetición simple/1.1.Poner muchas bolitas se vuelve incómodo"
+      }
+    , { "id": "1.2",    "name": "La computadora repite por nosotros",
+        "path": "Proyectos/3.Repetición simple/1.2.La computadora repite por nosotros"
+      }
+    , { "id": "2.",      "name": "El final del pasillo",
+        "path": "Proyectos/3.Repetición simple/2.El final del pasillo"
+      }
+    , { "id": "3",      "name": "Siga la flecha",
+        "path": "Proyectos/3.Repetición simple/3.Siga la flecha"
+      }
+    , { "id": "4",      "name": "Candela, me quemo",
+        "path": "Proyectos/3.Repetición simple/4.Candela, me quemo"
+      }
+    , { "id": "5",      "name": "Entrenamiento para fútbol de robots",
+        "path": "Proyectos/3.Repetición simple/5.Entrenamiento para fútbol de robots"
+      }
+	] } 
+, {"name": "Parámetros",   "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "Tablero de Ludo, toma 1",
-        "path": "Proyectos/3.Parámetros y repetición/1.1.Tablero de Ludo, toma 1"
+        "path": "Proyectos/4.Parámetros/1.1.Tablero de Ludo, toma 1"
       }
     , { "id": "1.2",        "name": "Tablero de Ludo, toma 2",
-        "path": "Proyectos/3.Parámetros y repetición/1.2.Tablero de Ludo, toma 2"
+        "path": "Proyectos/4.Parámetros/1.2.Tablero de Ludo, toma 2"
       }
     , { "id": "1.3",        "name": "Tablero de Ludo, toma 3",
-        "path": "Proyectos/3.Parámetros y repetición/1.3.Tablero de Ludo, toma 3"
+        "path": "Proyectos/4.Parámetros/1.3.Tablero de Ludo, toma 3"
       }
-    , { "id": "2.1",    "name": "Poner muchas bolitas se vuelve incómodo",
-        "path": "Proyectos/3.Parámetros y repetición/2.1.Poner muchas bolitas se vuelve incómodo"
+    , { "id": "2.1",    "name": "Ludo loco, toma 1",
+        "path": "Proyectos/4.Parámetros/2.1.Ludo loco, toma 1"
       }
-    , { "id": "2.2",    "name": "La computadora repite por nosotros",
-        "path": "Proyectos/3.Parámetros y repetición/2.2.La computadora repite por nosotros"
+    , { "id": "2.2",    "name": "Ludo loco, toma 2",
+        "path": "Proyectos/4.Parámetros/2.2.Ludo loco, toma 2"
       }
-    , { "id": "3.",      "name": "El final del pasillo",
-        "path": "Proyectos/3.Parámetros y repetición/3.El final del pasillo"
+    , { "id": "3.1",    "name": "Dibujar figuras con subtareas",
+        "path": "Proyectos/4.Parámetros/3.1.Dibujar figuras con subtareas"
       }
-    , { "id": "4",      "name": "Siga la flecha",
-        "path": "Proyectos/3.Parámetros y repetición/4.Siga la flecha"
+    , { "id": "3.2",    "name": "Dibujar figuras con subtareas, revisado",
+        "path": "Proyectos/4.Parámetros/3.2.Dibujar figuras con subtareas, revisado"
       }
-    , { "id": "5",      "name": "Candela, me quemo",
-        "path": "Proyectos/3.Parámetros y repetición/5.Candela, me quemo"
-      }
-    , { "id": "6",      "name": "Entrenamiento para fútbol de robots",
-        "path": "Proyectos/3.Parámetros y repetición/6.Entrenamiento para fútbol de robots"
-      }
-    , { "id": "7.1",    "name": "Ludo loco, toma 1",
-        "path": "Proyectos/3.Parámetros y repetición/7.1.Ludo loco, toma 1"
-      }
-    , { "id": "7.2",    "name": "Ludo loco, toma 2",
-        "path": "Proyectos/3.Parámetros y repetición/7.2.Ludo loco, toma 2"
-      }
-    , { "id": "8.1",    "name": "Dibujar figuras con subtareas",
-        "path": "Proyectos/3.Parámetros y repetición/8.1.Dibujar figuras con subtareas"
-      }
-    , { "id": "8.2",    "name": "Dibujar figuras con subtareas, revisado",
-        "path": "Proyectos/3.Parámetros y repetición/8.2.Dibujar figuras con subtareas, revisado"
-      }
-    , { "id": "9",      "name": "Varias cosas de una sola vez",
-        "path": "Proyectos/3.Parámetros y repetición/9.Varias cosas de una sola vez"
+    , { "id": "4",      "name": "Varias cosas de una sola vez",
+        "path": "Proyectos/4.Parámetros/4.Varias cosas de una sola vez"
       }
 	] } 
 , { "name": "Expresiones y tipos",    "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",        "name": "No encuentro bolitas de color Sur",
-        "path": "Proyectos/4.Expresiones y tipos/1.1.No encuentro bolitas de color Sur"
+        "path": "Proyectos/5.Expresiones y tipos/1.1.No encuentro bolitas de color Sur"
       }
     , { "id": "1.2",        "name": "Para dónde queda Rojo",
-        "path": "Proyectos/4.Expresiones y tipos/1.2.Para dónde queda Rojo"
+        "path": "Proyectos/5.Expresiones y tipos/1.2.Para dónde queda Rojo"
       }
     , { "id": "1.3",        "name": "Y por qué hace BOOM",
-        "path": "Proyectos/4.Expresiones y tipos/1.3.Y por qué hace BOOM"
+        "path": "Proyectos/5.Expresiones y tipos/1.3.Y por qué hace BOOM"
       }
     , { "id": "2.1",        "name": "El cabezal juega a ser mimo",
-        "path": "Proyectos/4.Expresiones y tipos/2.1.El cabezal juega a ser mimo"
+        "path": "Proyectos/5.Expresiones y tipos/2.1.El cabezal juega a ser mimo"
       }
     , { "id": "2.2",        "name": "El mimo que suma",
-        "path": "Proyectos/4.Expresiones y tipos/2.2.El mimo que suma"
+        "path": "Proyectos/5.Expresiones y tipos/2.2.El mimo que suma"
       }
     , { "id": "2.3",        "name": "Super mimo multiplica",
-        "path": "Proyectos/4.Expresiones y tipos/2.3.Super mimo multiplica"
+        "path": "Proyectos/5.Expresiones y tipos/2.3.Super mimo multiplica"
       }
     , { "id": "3.1",        "name": "Escapar de la jaula",
-        "path": "Proyectos/4.Expresiones y tipos/3.1.Escapar de la jaula"
+        "path": "Proyectos/5.Expresiones y tipos/3.1.Escapar de la jaula"
       }
     , { "id": "3.2",        "name": "La flecha enloqueció",
-        "path": "Proyectos/4.Expresiones y tipos/3.2.La flecha enloqueció"
+        "path": "Proyectos/5.Expresiones y tipos/3.2.La flecha enloqueció"
       }
     , { "id": "4",          "name": "Laberinto",
-        "path": "Proyectos/4.Expresiones y tipos/4.Laberinto"
+        "path": "Proyectos/5.Expresiones y tipos/4.Laberinto"
       }
     ] }
 ]

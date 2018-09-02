@@ -20,4 +20,4 @@ y podés lograr que pida **más** de un argumento.
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/3.Par%C3%A1%20y%20repetici%C3%B3n/1.3.Tablero%20de%20ludo,%20toma%203/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 3' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Par%C3%A1metros/1.3.Tablero%20de%20ludo,%20toma%203/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 3' en PDF"
