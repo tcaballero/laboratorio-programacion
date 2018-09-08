@@ -118,6 +118,9 @@
     , { "id": "4",      "name": "Varias cosas de una sola vez",
         "path": "Proyectos/4.Parámetros/4.Varias cosas de una sola vez"
       }
+    , { "id": "5",      "name": "El planeta de Nano",
+        "path": "Proyectos/4.Parámetros/5.El planeta de Nano"
+      }
 	] } 
 , { "name": "Expresiones y tipos",    "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
