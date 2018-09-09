@@ -85,7 +85,7 @@ blocks:
   disabled: [ "Poner", "Sacar", "IrAlBorde"
             , "AlternativaCompleta"
             , "Color"
-            , "nroBolitas", "hayBolitas"
+            , "nroBolitas", "hayBolitas", "puedeMover"
             , "OperadorNumerico", "OperadorDeComparacion"
             , "siguiente", "previo", "opuesto"
             ]
