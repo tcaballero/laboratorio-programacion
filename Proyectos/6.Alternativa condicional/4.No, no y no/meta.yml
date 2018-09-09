@@ -82,9 +82,9 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ "Poner", "Mover", "Sacar", "IrAlBorde"
+  disabled: [ "Poner", "Sacar", "IrAlBorde"
             , "AlternativaCompleta"
-            , "Color", "Direccion"
+            , "Color"
             , "nroBolitas", "hayBolitas", "puedeMover"
             , "OperadorNumerico", "OperadorDeComparacion"
             , "siguiente", "previo", "opuesto"

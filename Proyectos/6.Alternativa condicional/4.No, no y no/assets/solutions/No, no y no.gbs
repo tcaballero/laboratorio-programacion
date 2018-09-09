@@ -15,3 +15,7 @@ procedure AgregarPelotaSiHaceFalta() {
     AgregarPelota()
   }
 }
+
+procedure IrALaSiguientePosiciónAControlar() {
+   Mover(Sur)
+}
