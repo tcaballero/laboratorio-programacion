@@ -5,7 +5,7 @@
 procedure CompletarLaFilaDePelotas() {
   repeat(4) {
     AgregarPelotaSiHaceFalta()
-    Mover(Sur)
+    IrALaSiguientePosiciónAControlar()
   }
   AgregarPelotaSiHaceFalta()
 }

@@ -6,3 +6,7 @@ procedure AgregarPelota() {
 	else 
 		{ Poner(Negro) }
 }
+
+procedure IrALaSiguientePosiciónAControlar() {
+    Mover(Sur)
+}
