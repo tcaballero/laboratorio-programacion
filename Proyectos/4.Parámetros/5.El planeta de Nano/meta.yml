@@ -94,7 +94,6 @@ blocks:
            , "EXPRESIONES" , "Color", "Direccion", "Numero"
            , "DEFINICIONES", "procedures_defnoreturn"
            ]
-  defaultToolbox: |
 board:
   active: 1
   initial_board_source: selected
