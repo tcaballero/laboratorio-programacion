@@ -1,0 +1,34 @@
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.6
+board:
+  visible_edition: false
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: true
+    can_view_size_section: false
+    can_view_attire_section: false
+    can_toggle_visibility: false
+  active: 1
+  initial_board_source: selected
+execution_speed:
+  user_permissions:
+    can_change_speed: false
+  active: instantaneous
+attire:
+  user_permissions:
+    can_toggle_visibility: false
+  active: null
+blocks:
+  visible:
+    - Poner
+    - Sacar
+    - Mover
+    - Color
+    - Direccion
+  disabled: []
+name: Nuevo proyecto
