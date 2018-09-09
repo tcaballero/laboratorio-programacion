@@ -83,7 +83,7 @@ blocks:
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
   disabled: [ "Poner", "Mover", "Sacar", "IrAlBorde"
-            , "Color"
+            , "Color", "Direccion"
             ]
   visible: [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
                            , "Procedimientos primitivos"
