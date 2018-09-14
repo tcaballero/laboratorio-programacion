@@ -1,6 +1,6 @@
 name: 'El docente, el granjero y las bolitas'
 attire:
-  active: Sembrando tomates 2
+  active: Sembrando tomates
   user_permissions:
     can_toggle_visibility: true
   visible: true
