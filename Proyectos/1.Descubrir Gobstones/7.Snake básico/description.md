@@ -1,4 +1,4 @@
-#Proyecto 6. Snake básico
+#Proyecto 7. Snake básico
 
 Como verás, el tablero inicial muestra algunas bolitas rojas (siempre en la misma posición) 
 que representan manzanas. El objetivo de la actividad es que dibujes una serie de bolitas verdes, 
@@ -33,5 +33,5 @@ uno de los que se muestran u otros diferentes.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/6.Snake%20b%C3%A1sico/assets/resources/description.pdf "Enunciado de 'Snake básico' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/1.Descubrir%20Gobstones/7.Snake%20b%C3%A1sico/assets/resources/description.pdf "Enunciado de 'Snake básico' en PDF"
 

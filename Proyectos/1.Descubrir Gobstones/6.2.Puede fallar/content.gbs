@@ -1,6 +1,6 @@
 program {
     /*
-    Mi programa pone una bolita de color azul en la
+    Mi programa pone una bolita de color Azul en la
     celda inmediatamente al Norte (la lindante al Norte),
     dejando el cabezal en la celda de donde arrancó (la
     celda actual).
