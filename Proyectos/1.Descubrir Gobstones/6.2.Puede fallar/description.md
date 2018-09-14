@@ -1,4 +1,4 @@
-# Puede fallar
+# 6.2. Puede fallar
 No siempre nuestros programas funcionan como esperamos. Ejecuta el siguiente programa y observa que ocurre.
 
 > **Para pensar**
