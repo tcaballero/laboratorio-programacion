@@ -27,7 +27,7 @@ Estos descubrimientos te van a permitir hacer cosas muy interesantes.
 > La celda actual es la celda que el cabezal tiene justo debajo, y es la única en la que puede 
 > realizar acciones en cada momento.
 
-.
+
 
 > **Cuestión de argumento**
 >
