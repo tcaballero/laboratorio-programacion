@@ -1,60 +1,60 @@
 name: Sembrando tomates
 rules:
-  - image: EstudianteAntes-conDocente.png
+  - image: ParcelaAntes-conGranjero.png
     when:
       black: 2
       blue: 0
       green: 0
       red: 0
-  - image: EstudianteAntes.png
+  - image: ParcelaAntes.png
     when:
       black: 0
       blue: 0
       green: 0
       red: 0
-  - image: EstudianteYCaramelo-conDocente.png
+  - image: ParcelaYSiembra-conGranjero.png
     when:
       black: 2
       blue: 0
       green: 1
       red: 0
-  - image: EstudianteYCaramelo.png
+  - image: ParcelaYSiembra.png
     when:
       black: 0
       blue: 0
       green: 1
       red: 0
-  - image: EstudianteYPapel-conDocente.png
+  - image: ParcelaYTomates-conGranjero.png
     when:
       black: 2
       blue: 1
       green: 0
       red: 1
-  - image: EstudianteYPapel.png
+  - image: ParcelaYTomates.png
     when:
       black: 0
       blue: 1
       green: 0
       red: 1
-  - image: EstudianteFeliz-conDocente.png
+  - image: ParcelaCosechada-conGranjero.png
     when:
       black: 2
       blue: 1
       green: 0
       red: 0
-  - image: EstudianteFeliz.png
+  - image: ParcelaCosechada.png
     when:
       black: 0
       blue: 1
       green: 0
       red: 0
-  - image: Escritorio-conDocente.png
+  - image: Granero-conGranjero.png
     when:
       black: 3
       blue: 0
       green: 0
       red: 0
-  - image: Escritorio.png
+  - image: Granero.png
     when:
       black: 1
       blue: 0
