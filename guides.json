@@ -191,4 +191,55 @@
         "path": "Proyectos/7.Funciones/4.Está lista la cena"
       }
     ] }
+, { "name": "Repetición condicional",  "repo": "gobstones/curso-InPr-UNQ",
+    "exercises": [
+      { "id": "1.1",      "name": "Super Lucho 1",
+        "path": "Proyectos/8.Repetición condicional/1.1.Super Lucho 1"
+      }
+    , { "id": "1.2",        "name": "Super Lucho 2",
+        "path": "Proyectos/8.Repetición condicional/1.2.Super Lucho 2"
+      }
+    , { "id": "2",        "name": "Laberinto con queso, recargado",
+        "path": "Proyectos/8.Repetición condicional/2.Laberinto con queso, recargado"
+      }
+    , { "id": "3",        "name": "Más entrenamiento para Beto",
+        "path": "Proyectos/8.Repetición condicional/3.Más entrenamiento para Beto"
+      }
+    , { "id": "4",        "name": "Hansel y Gretel van a la casa de la bruja",
+        "path": "Proyectos/8.Repetición condicional/4.Hansel y Gretel van a la casa de la bruja"
+      }
+    , { "id": "5",        "name": "Limpiemos imágenes",
+        "path": "Proyectos/8.Repetición condicional/5.Limpiemos imágenes"
+      }
+     , { "id": "6",        "name": "¿Dónde puse las llaves?",
+        "path": "Proyectos/8.Repetición condicional/6.Dónde puse las llaves"
+      }
+   ] }
+, { "name": "Otras herramientas avanzadas",  "repo": "gobstones/curso-InPr-UNQ",
+    "exercises": [
+      { "id": "1.1",      "name": "Recuerden la contraseña",
+        "path": "Proyectos/9.Otras herramientas avanzadas/1.1.Recuerden la contraseña"
+      }
+    , { "id": "1.2",        "name": "Otra vez el cabezal juega a ser mimo",
+        "path": "Proyectos/9.Otras herramientas avanzadas/1.2.Otra vez el cabezal juega a ser mimo"
+      }
+    , { "id": "2.1",        "name": "Super Lucho también cuenta luces",
+        "path": "Proyectos/9.Otras herramientas avanzadas/2.1.Super Lucho también cuenta luces"
+      }
+    , { "id": "2.2",        "name": "A qué distancia está el borde",
+        "path": "Proyectos/9.Otras herramientas avanzadas/2.2.A qué distancia está el borde"
+      }
+    , { "id": "3.1",        "name": "Contar las baldosas",
+        "path": "Proyectos/9.Otras herramientas avanzadas/3.1.Contar las baldosas"
+      }
+    , { "id": "3.2",        "name": "Contar las baldosas rajadas",
+        "path": "Proyectos/9.Otras herramientas avanzadas/3.2.Contar las baldosas rajadas"
+      }
+    , { "id": "3.3",        "name": "Super Lucho, recargado",
+        "path": "Proyectos/9.Otras herramientas avanzadas/3.3.Super Lucho, recargado"
+      }
+    , { "id": "4",        "name": "El radar",
+        "path": "Proyectos/9.Otras herramientas avanzadas/4.El radar"
+      }
+   ] }
 ]
