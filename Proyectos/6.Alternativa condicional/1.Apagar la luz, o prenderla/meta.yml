@@ -82,7 +82,7 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ "Mover", "Sacar", "IrAlBorde"
+  disabled: [ "Mover", "IrAlBorde"
             , "RepeticionSimple"
             , "Direccion", "Numero"
             , "nroBolitas", "OperadorNumerico"

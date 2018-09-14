@@ -1,9 +1,29 @@
-name: El planeta de Nano
+name: Haz lo que yo digo…
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.6
+board:
+  visible_edition: false
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: true
+    can_view_size_section: false
+    can_view_attire_section: false
+    can_toggle_visibility: false
+  active: 1
+  initial_board_source: selected
+execution_speed:
+  user_permissions:
+    can_change_speed: false
+  active: instantaneous
 attire:
-  active: El planeta de Nano
   user_permissions:
     can_toggle_visibility: false
-  visible: true
+  active: null
 blocks:
   defaultToolbox: |
       <category name="COMANDOS">
@@ -82,33 +102,12 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ "Poner", "Mover", "Sacar", "IrAlBorde"
-            , "Color", "Direccion"
-            ]
-  visible: [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
-                           , "Procedimientos primitivos"
-                           , "Mis procedimientos"
-						   , "RepeticionSimple"
-           , "EXPRESIONES" , "Color", "Direccion", "Numero"
-           , "DEFINICIONES", "procedures_defnoreturn"
-           ]
-board:
-  active: 1
-  initial_board_source: selected
-  visible_edition: false
-  collapse_toolbox: false
-  user_permissions:
-    can_view_attire_section: false
-    can_edit_board: false
-    can_change_initial_board: false
-    can_change_initial_board_source: false
-    can_view_size_section: false
-execution_speed:
-  active: high
-  user_permissions:
-    can_change_speed: true
-library:
-  visible: false
-source:
-  visible: true
-  percentage: 0.75  
+  visible:
+    - COMANDOS
+    - Poner
+    - Sacar
+    - Mover
+    - EXPRESIONES
+    - Color
+    - Direccion
+  disabled: []

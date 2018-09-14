@@ -9,13 +9,17 @@ function hayFlor() {
 procedure MantenerElCantero() {
   repeat(9) {
     MantenerSecciónDelCantero()
-    Mover(Este)
+    IrALaSiguienteSecciónDelCantero()
   }
   MantenerSecciónDelCantero()
 }
 
 procedure MantenerSecciónDelCantero() {
   if (not hayFlor()) { PlantarFlor() }
+}
+
+procedure IrALaSiguienteSecciónDelCantero() {
+   Mover(Este)
 }
 
 procedure PlantarFlor() {

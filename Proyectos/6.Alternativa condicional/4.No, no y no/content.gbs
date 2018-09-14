@@ -5,11 +5,16 @@
 procedure CompletarLaFilaDePelotas() {
   repeat(4) {
     AgregarPelotaSiHaceFalta()
-    Mover(Sur)
+    IrALaSiguientePosiciónAControlar()
   }
   AgregarPelotaSiHaceFalta()
 }
 
 procedure AgregarPelotaSiHaceFalta() {
   ...
+}
+
+
+procedure IrALaSiguientePosiciónAControlar() {
+    Mover(Sur)
 }
