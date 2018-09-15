@@ -1,9 +1,19 @@
-# Proyecto 'Limpiemos imágenes'
+# 5. Limpiemos imágenes
 
-¿Te acordás la codificación de imágenes RGB que aprendimos en el capítulo 5? Usábamos bolitas rojas, azules y verdes para codificar una imagen. Resulta que una de estas imágenes “se manchó con ceniza”, lo cual quiere decir que algunas celdas tienen bolitas negras que hacen que la imagen no se vea bien. Completá el programa para que cumpla el propósito de eliminar las bolitas negras de todas las celdas, para que la imagen vuelva a ser una imagen RGB correctamente codificada.
+¿Te acordás la codificación de imágenes RGB que aprendimos en el capítulo 5? 
+Usábamos bolitas rojas, azules y verdes para codificar una imagen. 
+Resulta que una de estas imágenes “se manchó con ceniza”, lo cual quiere decir 
+que algunas celdas tienen bolitas negras que hacen que la imagen no se vea bien. 
+Completá el programa para que cumpla el propósito de eliminar las bolitas negras 
+de todas las celdas, para que la imagen vuelva a ser una imagen RGB correctamente 
+codificada.
 
-La estrategia de solución que ya está empezada en el procedimiento `LimpiarLaImagen` es la de hacer un recorrido sobre las celdas del tablero. Tu trabajo consiste en completar ese recorrido, y también completar los procedimientos y funciones que representan las subtareas para las partes del mismo: 
-  * el procedimiento `ComenzarElRecorrido` para posicionarse al principio de la imagen y no olvidarte ninguna celda, 
+La estrategia de solución que ya está empezada en el procedimiento `LimpiarLaImagen` 
+es la de hacer un recorrido sobre las celdas del tablero. 
+Tu trabajo consiste en completar ese recorrido, y también completar los procedimientos 
+y funciones que representan las subtareas para las partes del mismo: 
+  * el procedimiento `ComenzarElRecorrido` para posicionarse al principio de la imagen 
+     y no olvidarte ninguna celda, 
   * la función `esLaÚltimaCelda` para indicar el fin del recorrido,
   * el procedimiento `EliminarCenizaDeLaCeldaActual` para procesar cada celda, y
   * el procedimiento `PasarALaSiguienteCelda` que ya te lo damos hecho. 
@@ -15,4 +25,4 @@ Te mostramos un tablero inicial posible, y su correspondiente tablero final.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/794.Limpiemos%20im%C3%A1genes/assets/resources/description.pdf "Enunciado de 'Limpiemos imágenes' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/8.Repetici%C3%B3n%20condicional/5.Limpiemos%20im%C3%A1genes/assets/resources/description.pdf "Enunciado de 'Limpiemos imágenes' en PDF"
