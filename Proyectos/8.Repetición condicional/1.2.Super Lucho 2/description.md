@@ -1,4 +1,4 @@
-# 1.2. Super Lucho 2
+#Proyecto 1.2. Super Lucho 2
 
 Y ahí va Lucho de nuevo a prender todas las luces. 
 Igual que en _“Super Lucho 1”_, no sabemos cuánto mide la fila, 
@@ -10,8 +10,7 @@ Algunos de los tableros iniciales son:
 </center>
 
 Parece que vas a tener que combinar la herramienta que 
-encontraste para _“Super Lucho 1”_ con la alternativa condicional 
-del capítulo 3… 
+encontraste para _“Super Lucho 1”_ con la alternativa condicional… 
 ¡No te olvides de dividir en subtareas!
 
 > **Un consejo**

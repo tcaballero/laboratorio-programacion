@@ -1,6 +1,6 @@
 #Proyecto 1.2 Otra vez el cabezal juega a ser mimo
 
-¿Te acordás de la actividad _“El cabezal puede contar”_ del capítulo 4? 
+¿Te acordás de la actividad _“El cabezal juega a ser mimo”_? 
 Ahí el cabezal tenía que imitar la cantidad de bolitas azules usando bolitas 
 rojas y tuviste que descubrir la expresión primitiva `nroBolitas` para hacerlo. 
 En esta actividad hay que hacer algo parecido: imitar las bolitas azules de la 
@@ -18,11 +18,14 @@ Te mostramos algunos tableros iniciales y sus correspondientes tableros finales.
 Vas a precisar alguna forma de recordar cuántas bolitas azules hay en la celda actual 
 antes de moverte al Este, porque si te movés sin recordar, ¡la expresión `nroBolitas(Azul)` 
 te va a dar cero y no el número que precisás! 
-Tenés que explorar el entorno una vez más. 
-
-Lo que necesitás es algo que funcione como el papel en el juego del mensaje. 
-Cuando lo encuentres, acordate de que elegir nombres adecuados para las cosas es importante. 
+Lo que necesitás es una variable, como en la actividad anterior.
 ¿Qué te parece `cantidadDeAzulesAImitar` para el nombre con el que recordar el dato importante?  
+
+> **Déjà vu**
+>
+> ¿No te resulta familiar esta actividad?
+> Quizás hayas hecho algo parecido cuando tuviste que imitar el largo del pasto de tu vecino…
+> Pero cuando te propusimos esa actividad, no tenías variables, y por eso era más difícil.
 
 [Enunciado en PDF][PDF]
 

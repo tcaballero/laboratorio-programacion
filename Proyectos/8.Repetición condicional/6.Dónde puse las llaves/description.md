@@ -1,4 +1,4 @@
-# 6. ¿Dónde puse las llaves?
+#Proyecto 6. ¿Dónde puse las llaves?
 
 ¿Alguna vez te pasó de ver a alguien buscando las llaves, porque no sabe dónde las dejó? 
 En ocasiones en un programa también hay que buscar algo, como por ejemplo, una celda especial. 

@@ -1,7 +1,7 @@
 #Proyecto 2.1 Super Lucho también cuenta luces
 
 Una vez más tenemos que ayudar a Lucho a prender las luces. 
-Al igual que en la actividad _Super Lucho”_, hay una fila de luces que 
+Al igual que en las actividades de _"Super Lucho"_, hay una fila de luces que 
 termina en una meta, pero no sabemos cuántas hay. 
 El programa que tenés que construir en este proyecto tiene que hacer que 
 Lucho prenda todas las luces y, al llegar a la meta, anotar, usando 
@@ -17,7 +17,7 @@ Pero ahora no alcanza con usarla una vez: cada vez que prendas una luz, la varia
 va a tener que incrementarse para acumular el valor necesario; para eso, se puede usar 
 el valor de la variable, sumarle uno y volverlo a recordar en la misma variable. 
 Es como si agregaras un palito en el papel, cada vez que prendés una luz. 
-En el código que te damos, eso ya viene hecho para que aprendas cómo se hacer, pero 
+En el código que te damos eso ya viene hecho para que aprendas cómo se hace, pero 
 tenés que completar el resto del programa para conseguir el propósito. 
 Fijate el nombre que le dimos a la variable: `cantidadDeLucesQueYaPrendí`. 
 ¿Cuánto tiene que valer al principio?

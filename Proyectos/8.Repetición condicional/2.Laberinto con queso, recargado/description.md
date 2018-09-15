@@ -1,4 +1,4 @@
-# 2. Laberinto con queso, recargado
+#Proyecto 2. Laberinto con queso, recargado
 
 Otra vez más el ratón está en el laberinto, como en la actividad _“Laberinto con queso”_, 
 y hay queso tirado en el piso en distintos lugares; y como antes, las flechas indican para 

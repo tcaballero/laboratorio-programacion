@@ -1,4 +1,4 @@
-# 1.1. Super Lucho 1
+#Proyecto 1.1. Super Lucho 1
 
 Vas a tener que ayudar a Lucho otra vez, como siempre, a prender todas las luces. 
 Fijate que hay luces apagadas en todas las posiciones de la fila donde está Lucho. 
@@ -11,7 +11,8 @@ Algunos de los tableros iniciales son:
 </center>
 
 Si no se te ocurre cómo hacer, pensá que Lucho debe **repetir** la tarea de encender una 
-luz **hasta que** llegue a la meta. Vas a tener que buscar una herramienta nueva…
+luz **hasta que** llegue a la meta. 
+Vas a tener que buscar una herramienta nueva…
 
 [Enunciado en PDF][PDF]
 
