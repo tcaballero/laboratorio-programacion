@@ -97,7 +97,7 @@ blocks:
                             , "siguiente", "previo", "opuesto"
             , "DEFINICIONES", "procedures_defnoreturn"
                             , "procedures_defreturnsimplewithparams"
-                            , "procedures_defreturn"
+                            , "procedures_defreturn"           
             ]
 board:
   active: 1
@@ -112,3 +112,7 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
+source:
+  visible: true
+  percentage: 0.80
+  

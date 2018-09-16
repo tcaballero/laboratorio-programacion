@@ -91,7 +91,6 @@ blocks:
             , "OperadorDeNegacion", "OperadorLogico"
             , "siguiente", "previo", "opuesto"
             , "procedures_defreturn"
-            , "procedures_defnoreturn"
             , "procedures_defreturnsimplewithparams"
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
@@ -121,3 +120,6 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
+source:
+  visible: true
+  percentage: 0.80

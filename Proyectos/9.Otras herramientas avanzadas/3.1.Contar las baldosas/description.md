@@ -13,7 +13,7 @@ Te mostramos algunos tableros finales, sin vestimenta y con ella:
 El consejo es que utilices un recorrido por celdas, como el de 
 _“Limpiemos imágenes”_, pero que le agregues un acumulador que vaya 
 contando cuántas celdas visitaste. 
-O sea, podés usar una función similar a `esLaUltimaCelda` y un procedimiento 
+O sea, podés usar una función similar a `esLaÚltimaCelda` y un procedimiento 
 similar a `PasarALaSiguienteCelda` de aquel programa; y la variable para acumular 
 el resultado puede llamarse `cantidadDeBaldosasYaVistas`. 
 ¡Prestá atención a los casos de borde! 

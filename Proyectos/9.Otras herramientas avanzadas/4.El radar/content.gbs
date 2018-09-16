@@ -1,4 +1,5 @@
-﻿program { ... }
+﻿program {
+}
 
 procedure SimularUnRadar() {
   if (hayEnCuadrante(Rojo, Norte, Oeste)) { ... }
