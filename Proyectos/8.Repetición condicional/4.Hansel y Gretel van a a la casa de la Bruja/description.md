@@ -10,6 +10,7 @@ cada sección del camino se representa con 1 bolita negra y la casa de la bruja 
 representa con 3 bolitas negras. 
 En el tablero puede haber también bolitas negras que no pertenecen al camino, y 
 que no serán tenidas en cuenta en la solución.
+
 En el proyecto se provee también un procedimiento primitivo `AvanzarCarreta` que 
 se encarga de avanzar la carreta; completá el programa para que avance la carreta hasta 
 la casa de la bruja sin olvidar ir dejando miguitas en el camino. 
