@@ -4,8 +4,6 @@ function encontréLasLlaves() { return (...) }
 
 procedure BuscarLasLlaves() {
   ...
-  while (not (...)) 
-    { ... }
 }
 
 procedure PasarAlSiguienteCajónYAbrirlo() {
@@ -19,8 +17,9 @@ procedure PasarAlSiguienteCajónYAbrirlo() {
 
 procedure IrAlPrimerCajónYAbrirlo() {
   ...
-  AbrirElCajón()
 }
 
-procedure AbrirElCajón() { ... }
+procedure AbrirElCajón() { 
+  ... 
+}
 

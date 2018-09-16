@@ -89,7 +89,6 @@ blocks:
             , "nroBolitas", "hayBolitas"
             , "OperadorNumerico", "OperadorDeComparacion"
             , "siguiente", "previo", "opuesto"
-            , "procedures_defnoreturn"
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                             , "Procedimientos primitivos", "Mis procedimientos"
@@ -117,3 +116,6 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
+source:
+  visible: true
+  percentage: 0.80

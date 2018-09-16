@@ -83,7 +83,6 @@ blocks:
       </category>
   disabled: [ "Poner", "Mover", "Sacar", "IrAlBorde"
             , "RepeticionSimple"
-            , "AlternativaSimple"
             , "hayBolitas", "puedeMover"
             , "OperadorNumerico"
             , "OperadorLogico"
@@ -119,3 +118,7 @@ execution_speed:
 library:
   visible: false
 name: 'Laberinto con queso, recargado'
+source:
+  visible: true
+  percentage: 0.85
+

@@ -2,10 +2,6 @@
 
 procedure LimpiarLaImagen() {
   ...
-  while (not (esLaÚltimaCelda())) {
-    ...
-  }
-  ...
 }
 
 function esLaÚltimaCelda() { return (... && not(puedeMover(Norte))) }
@@ -23,5 +19,7 @@ procedure ComenzarElRecorrido() {
   ...
 }
 
-procedure EliminarCenizaDeLaCeldaActual() { ... }
+procedure EliminarCenizaDeLaCeldaActual() { 
+  ... 
+}
 
