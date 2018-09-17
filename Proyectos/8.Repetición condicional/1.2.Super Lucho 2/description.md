@@ -2,7 +2,7 @@
 
 Y ahí va Lucho de nuevo a prender todas las luces. 
 Igual que en _“Super Lucho 1”_, no sabemos cuánto mide la fila, 
-pero ahora hay posiciones que no tienen luz. 
+pero ahora hay posiciones que no tienen luz (y quizás alguna ya esté prendida). 
 Algunos de los tableros iniciales son:
 
 <center>
