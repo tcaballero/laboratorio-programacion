@@ -2,18 +2,20 @@
 }
 
 procedure SimularUnRadar() {
-  if (hayEnCuadrante(Rojo, Norte, Oeste)) { ... }
-  if (hayEnCuadrante(Rojo, ..., ...)) { Poner(Negro) }
+  if (hayEnCuadrante(avión(), Norte, Oeste)) { ... }
+  if (hayEnCuadrante(avión(), ..., ...)) { Poner(Negro) }
   if (...) { Poner(Verde) }
   if (...) { ... }
 }
 
-function hayEnCuadrante(color, dirección1, dirección2) {
+function avión() { return(Rojo) }
+
+function hayEnCuadrante(objeto, dirección1, dirección2) {
   ...
   return (...)
 }
 
-procedure BuscarEnCuadrante(colorABuscar, direcciónPrincipal, direcciónSecundaria) {
+procedure BuscarEnCuadrante(objetoABuscar, direcciónPrincipal, direcciónSecundaria) {
   anchoDelCuadrante := ...
   ...
 }
