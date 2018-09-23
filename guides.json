@@ -215,7 +215,7 @@
         "path": "Proyectos/8.Repetición condicional/6.Dónde puse las llaves"
       }
    ] }
-, { "name": "Otras herramientas avanzadas",  "repo": "curso-InPr-UNQ",
+, { "name": "Otras herramientas avanzadas",  "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",      "name": "Recuerden la contraseña",
         "path": "Proyectos/9.Otras herramientas avanzadas/1.1.Recuerden la contraseña"
