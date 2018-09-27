@@ -4,30 +4,33 @@ program { EncenderYContar() }
 // El recorrido de encendido, con una función antes que hace la cuenta
 //  (debe recorrer 2 veces porque las funciones no modifican estado)
 procedure EncenderYContar() {
-  cantidadDeLucesAEncender := contarLasLucesApagadasQueHay() // Contar las luces que hay que encender
-  ComenzarElRecorrido()                                      // IniciarRecorrido()
-  while (not (esLaÚltimaCelda())) {                          // while (hayQueSeguir())
-    PrenderLuzSiHay()                                        //   ProcesarElementoActual()
-    PasarALaSiguienteCelda()                                 //   PasarAlSiguienteElemento()
+  cantidadDeLucesAEncender := 
+                  cantidadDeLucesApagadasEnElTablero() // Contar las luces que hay que encender
+  ComenzarElRecorrido()                                // IniciarRecorrido()
+  while (not (esLaÚltimaCelda())) {                    // while (hayQueSeguir())
+    PrenderLuzSiHay()                                  //   ProcesarElementoActual()
+    PasarALaSiguienteCelda()                           //   PasarAlSiguienteElemento()
   }
-  PrenderLuzSiHay()                                          // ProcesarÚltimoElemento()
-  InformarElTotalDeLuces(cantidadDeLucesAEncender)           // FinalizarRecorrido()
+  PrenderLuzSiHay()                                    // ProcesarÚltimoElemento()
+  InformarElTotalDeLuces(cantidadDeLucesAEncender)     // FinalizarRecorrido()
 }
 
 // ---------------------------------------------------------------------
 // El recorrido para contar
 //  (no enciende las luces, porque el recorrido es imaginario)
-function contarLasLucesApagadasQueHay() {
-  ComenzarElRecorrido()                                                  // IniciarRecorrido()
-  cantidadDeLucesApagadasQueVí := 0                                      //  (¡¡y la variable para contar!!)
-  while (not (esLaÚltimaCelda())) {                                      // while (hayQueSeguir())
-    cantidadDeLucesApagadasQueVí := cantidadDeLucesApagadasQueVí         //   ProcesarElementoActual()
-                                  + cantidadDeLucesApagadasEnEsteLugar()
-    PasarALaSiguienteCelda()                                             //   PasarAlSiguienteElemento()
+function cantidadDeLucesApagadasEnElTablero() {
+  ComenzarElRecorrido()                                // IniciarRecorrido()
+  cantidadDeLucesApagadasQueVí := 0                    //  (¡¡y la variable para contar!!)
+  while (not (esLaÚltimaCelda())) {                    // while (hayQueSeguir())
+    cantidadDeLucesApagadasQueVí := 
+                  cantidadDeLucesApagadasQueVí         //   ProcesarElementoActual()
+                + cantidadDeLucesApagadasEnEsteLugar()
+    PasarALaSiguienteCelda()                           //   PasarAlSiguienteElemento()
   }
-  cantidadDeLucesApagadasQueVí := cantidadDeLucesApagadasQueVí           // ProcesarÚltimoElemento()
-                                + cantidadDeLucesApagadasEnEsteLugar()
-  return (cantidadDeLucesApagadasQueVí)                                  // FinalizarRecorrido()
+  cantidadDeLucesApagadasQueVí := 
+                cantidadDeLucesApagadasQueVí           // ProcesarÚltimoElemento()
+              + cantidadDeLucesApagadasEnEsteLugar()
+  return (cantidadDeLucesApagadasQueVí)                // FinalizarRecorrido()
 }
 
 function cantidadDeLucesApagadasEnEsteLugar() {
