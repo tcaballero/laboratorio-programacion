@@ -1786,16 +1786,20 @@ procedure AuxIluminarLaCartaEspañolaActual() {
 /*==================================================================================================*/
 /*--------------------------- OPERACIONES ESPECÍFICAS DE LA ACTIVIDAD ------------------------------*/
 /*==================================================================================================*/
-procedure DecirPalo_(palo) {
+procedure DecirPalo_(palo)    { AuxDecirPalo_(palo)    }
+procedure DecirNúmero_(valor) { AuxDecirNúmero_(valor) }
+
+procedure AuxDecirPalo_(palo) {
   carta := aux_cartaEspañolaParaAdivinar()   // Se recuerdan antes, porque si
   valor := aux_númeroDicho()                 // no existen, no se dice el palo
   AuxIrAlInicioDelPalo()
   AuxDecirElPalo(palo)
-  AuxDescubrirCartaEspañolaParaAdivinar()
-  AuxValidarResultado(carta == aux_armarCartaEspañola(valor, palo))
+  if (carta == aux_armarCartaEspañola(valor, palo)) 
+    { AuxDescubrirCartaEspañolaParaAdivinar() }
+  // AuxValidarResultado(carta == aux_armarCartaEspañola(valor, palo))
 }
 
-procedure DecirNúmero_(valor) {
+procedure AuxDecirNúmero_(valor) {
   AuxValidarExistenciaCartaEspañolaParaAdivinar()
   AuxIrAlInicioDeLaSalida()
   AuxDecirElValor(valor)
