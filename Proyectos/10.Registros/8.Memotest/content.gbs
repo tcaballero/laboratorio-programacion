@@ -1,0 +1,67 @@
+interactive program {
+  K_ARROW_LEFT  -> { Moverse(Oeste)          }
+  K_ARROW_RIGHT -> { Moverse(Este)           }
+  K_ARROW_UP    -> { Moverse(Norte)          }
+  K_ARROW_DOWN  -> { Moverse(Sur)            }
+  K_ENTER       -> { ProcesarLaCartaActual() }
+}
+
+function lasCartasSonIguales(primeraCartaAControlar, segundaCartaACotrolar) {
+  return (...)
+}
+
+function hayDosCartasDestapadas() {
+  return (hayCartaDestapadaSinIluminar() && hayOtraCartaDestapadaSinIluminar())
+}
+
+function lasCartasDestapadasSonIguales() {
+  primeraCarta := cartaActual()
+  IrALaCartaOtraCartaDestapada()
+  segundaCarta := cartaActual()
+  return (lasCartasSonIguales(primeraCarta, segundaCarta))
+}
+
+procedure ProcesarLaCartaActual() {
+  DestaparLaCartaActualSiSePuede()
+  IluminarLasCartasDestapadasSiCorresponde()
+}
+
+procedure Moverse(dirección) {
+  if (hayDosCartasDestapadas()) {
+    TaparAmbasCartasDestapadas()
+  }
+  MoverSiPuede_(dirección)
+}
+
+procedure DestaparLaCartaActualSiSePuede() {
+  if (hayCartaTapada()) {
+    DarVueltaLaCartaActual()
+  }
+}
+
+procedure IluminarLasCartasDestapadasSiCorresponde() {
+  if (hayDosCartasDestapadas() && lasCartasDestapadasSonIguales()) {
+    IluminarAmbasCartasDestapadas()
+  }
+}
+
+procedure TaparAmbasCartasDestapadas() {
+  IrALaCartaOtraCartaDestapada()
+  DarVueltaLaCartaActual()
+  IrALaCartaOtraCartaDestapada()
+  DarVueltaLaCartaActual()
+}
+
+procedure IluminarAmbasCartasDestapadas() {
+  IrALaCartaOtraCartaDestapada()
+  IluminarLaCartaActual()
+  IrALaCartaOtraCartaDestapada()
+  IluminarLaCartaActual()
+}
+
+procedure IrALaCartaOtraCartaDestapada() {
+  PasarASiguientePosición()
+  while (not (hayCartaDestapadaSinIluminar())) {
+    PasarASiguientePosición()
+  }
+}
