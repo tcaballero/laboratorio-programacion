@@ -29,15 +29,15 @@
 /----- Licencia: GNU General Public License, v2                                             ---------/
 /----- Sitio Oficial de la licencia: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html  --------*/
 /*==================================================================================================*/
-/*@ATTRIBUTE@block_name@Poner _, _ veces@*/ procedure Poner__Veces(c,n) { AuxPoner__Veces(c,n) }
-/*@ATTRIBUTE@block_name@Sacar _, _ veces@*/ procedure Sacar__Veces(c,n) { AuxSacar__Veces(c,n) }
-/*@ATTRIBUTE@block_name@Mover _, _ veces@*/ procedure Mover__Veces(d,n) { AuxMover__Veces(d,n) }
-procedure SacarTodas()       { AuxSacarTodas()      }
-procedure SacarTodas_(c)     { AuxSacarTodas_(c)    }
-procedure MoverSiPuede_(dir) { AuxMoverSiPuede(dir) }
+///*@ATTRIBUTE@block_name@Poner _, _ veces@*/ procedure Poner__Veces(c,n) { AuxPoner__Veces(c,n) }
+///*@ATTRIBUTE@block_name@Sacar _, _ veces@*/ procedure Sacar__Veces(c,n) { AuxSacar__Veces(c,n) }
+///*@ATTRIBUTE@block_name@Mover _, _ veces@*/ procedure Mover__Veces(d,n) { AuxMover__Veces(d,n) }
+//procedure SacarTodas()       { AuxSacarTodas()      }
+//procedure SacarTodas_(c)     { AuxSacarTodas_(c)    }
+//procedure MoverSiPuede_(dir) { AuxMoverSiPuede(dir) }
 
-procedure IrAlOrigen()              { AuxIrAlOrigen()              }
-procedure PasarASiguientePosición() { AuxPasarASiguientePosición() }
+//procedure IrAlOrigen()              { AuxIrAlOrigen()              }
+//procedure PasarASiguientePosición() { AuxPasarASiguientePosición() }
 /*==================================================================================================*/
 /*----------------------------- FIN INTERFAZ de 00.Gobstones-Base.gbs ------------------------------*/
 /*==================================================================================================*/
@@ -113,8 +113,8 @@ procedure AuxSacarAtributoZ() { AuxSacarAtributo(aux_códigoParaElAtributoZ())  
 function  aux_hayAtributo(códigoAtributo)  {
    return (aux_contieneLaIésimaPotenciaDe2(nroBolitas(aux_colorParaElAtributo()),códigoAtributo))
 }
-procedure AuxPonerAtributo(códigoAtributo) { Poner__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
-procedure AuxSacarAtributo(códigoAtributo) { Sacar__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
+procedure AuxPonerAtributo(códigoAtributo) { AuxPoner__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
+procedure AuxSacarAtributo(códigoAtributo) { AuxSacar__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
 
 function aux_contieneLaIésimaPotenciaDe2(n,i) {
   // PRECONDICIÓN: n>=0, i>=0
@@ -201,10 +201,11 @@ procedure AuxAvanzarRecorridoGral(dirPpal, dirSecundaria) {
 //-------------------------------
 // PARA CORRECCIÓN DE GOBSTONES, HASTA QUE LO ARREGLEMOS
 //function último(xs)  { return (ultimo(xs)) }
-function esVacía(xs) { return (xs==[])     }
+//function esVacía(xs) { return (aux_esVacía())  }
+function aux_esVacía(xs) { return (xs==[])     }
 //-------------------------------
 
-function calcularLongitud_(lista) { return(aux_calcularLongitud(lista)) }
+//function calcularLongitud_(lista) { return(aux_calcularLongitud(lista)) }
 
 /*==================================================================================================*/
 /*-------------------------------- FIN INTERFAZ de 00-Listas-Base.gbs ------------------------------*/
@@ -259,24 +260,24 @@ function aux_calcularLongitud(lista) {
 //---------------------------------------------------------------------------------------------------/
 /*------------------ Operaciones de sensado de números en el tablero (interfaz) ---------------------/
 /---------------------------------------------------------------------------------------------------*/
-function hayNúmeroPorDígitos() { return(aux_hayNúmeroPorDígitos()) }
+//function hayNúmeroPorDígitos() { return(aux_hayNúmeroPorDígitos()) }
 
-function elNúmeroPorDígitosEstáOculto()   { return(    aux_elNúmeroPorDígitosEstáOcultoConBoom())                       }
-function elNúmeroPorDígitosNoEstáOculto() { return(not aux_elNúmeroPorDígitosEstáOcultoConBoom())                       }
-function hayNúmeroPorDígitosOculto()      { return(aux_hayNúmeroPorDígitos() &&     aux_elNúmeroPorDígitosEstáOculto()) }
-function hayNúmeroPorDígitosNoOculto()    { return(aux_hayNúmeroPorDígitos() && not aux_elNúmeroPorDígitosEstáOculto()) }
+//function elNúmeroPorDígitosEstáOculto()   { return(    aux_elNúmeroPorDígitosEstáOcultoConBoom())                       }
+//function elNúmeroPorDígitosNoEstáOculto() { return(not aux_elNúmeroPorDígitosEstáOcultoConBoom())                       }
+//function hayNúmeroPorDígitosOculto()      { return(aux_hayNúmeroPorDígitos() &&     aux_elNúmeroPorDígitosEstáOculto()) }
+//function hayNúmeroPorDígitosNoOculto()    { return(aux_hayNúmeroPorDígitos() && not aux_elNúmeroPorDígitosEstáOculto()) }
 
 //---------------------------------------------------------------------------------------------------/
 /*--------------------------- Operaciones de E/S de números (interfaz) ------------------------------/
 /---------------------------------------------------------------------------------------------------*/
-function  númeroPorDígitosActual()        { return(aux_númeroPorDígitosActual()) }
-function  númeroPorDígitosOculto()        { return(aux_númeroPorDígitosOculto()) }
+//function  númeroPorDígitosActual()        { return(aux_númeroPorDígitosActual()) }
+//function  númeroPorDígitosOculto()        { return(aux_númeroPorDígitosOculto()) }
 
-procedure PonerNúmeroPorDígitos_(número)  { AuxPonerNúmeroPorDígitos(número)     }
-procedure SacarNúmeroPorDígitosActual()   { AuxSacarNúmeroPorDígitosActual()     }
+//procedure PonerNúmeroPorDígitos_(número)  { AuxPonerNúmeroPorDígitos(número)     }
+//procedure SacarNúmeroPorDígitosActual()   { AuxSacarNúmeroPorDígitosActual()     }
 
-procedure OcultarNúmeroPorDígitosActual() { AuxOcultarNúmeroPorDígitosActual()   }
-procedure RevelarNúmeroPorDígitosActual() { AuxRevelarNúmeroPorDígitosActual()   }
+//procedure OcultarNúmeroPorDígitosActual() { AuxOcultarNúmeroPorDígitosActual()   }
+//procedure RevelarNúmeroPorDígitosActual() { AuxRevelarNúmeroPorDígitosActual()   }
 
 /*==================================================================================================*/
 /*------------------------ FIN INTERFAZ de 01-01-NúmerosPorDígitos-Base.gbs ------------------------*/
@@ -368,13 +369,13 @@ procedure AuxPonerDígito(dígito) {
 procedure AuxPonerNúmeroPorDígitos(número) {
   movióDeMás := False
   dígitos := aux_códigoParaElNúmeroPorDígitos(número)
-  while (not esVacía(dígitos) && not aux_terminóElRecorridoGral(Este, Sur)) {
+  while (not aux_esVacía(dígitos) && not aux_terminóElRecorridoGral(Este, Sur)) {
     AuxPonerDígito(primero(dígitos))
     dígitos := resto(dígitos)
     AuxPasarASiguientePosición()
     movióDeMás := True
   }
-  if (not esVacía(dígitos)) { AuxPonerDígito(primero(dígitos)) }
+  if (not aux_esVacía(dígitos)) { AuxPonerDígito(primero(dígitos)) }
   else { if (movióDeMás) /* Retrocede un lugar */ { AuxAvanzarRecorridoGral(Oeste, Norte) } }
 }
 
@@ -435,7 +436,7 @@ function aux_dígitoParaElCódigo(códigoDígito) { return(códigoDígito) }
 function aux_númeroPorDígitosParaElCódigo(códigoNúmeroPorDígitos) {
    númeroLeído      := 0
    dígitosFaltantes := códigoNúmeroPorDígitos
-   while (not esVacía(dígitosFaltantes)) {
+   while (not aux_esVacía(dígitosFaltantes)) {
       númeroLeído      := númeroLeído * 10 + primero(dígitosFaltantes)
       dígitosFaltantes := resto(dígitosFaltantes)
    }
@@ -509,24 +510,24 @@ function aux_esDatoDígito(dato)   { return (aux_esUnDígitoVálido(dato))      
 //---------------------------------------------------------------------------------------------------/
 /*------------------ Operaciones de sensado de números en el tablero (interfaz) ---------------------/
 /---------------------------------------------------------------------------------------------------*/
-function hayNúmero() { return(aux_hayNúmero()) }
+//function hayNúmero() { return(aux_hayNúmero()) }
 
-function elNúmeroEstáOculto()   { return(    aux_elNúmeroEstáOcultoConBoom())             }
-function elNúmeroNoEstáOculto() { return(not aux_elNúmeroEstáOcultoConBoom())             }
-function hayNúmeroOculto()      { return(aux_hayNúmero() &&     aux_elNúmeroEstáOculto()) }
-function hayNúmeroNoOculto()    { return(aux_hayNúmero() && not aux_elNúmeroEstáOculto()) }
+//function elNúmeroEstáOculto()   { return(    aux_elNúmeroEstáOcultoConBoom())             }
+//function elNúmeroNoEstáOculto() { return(not aux_elNúmeroEstáOcultoConBoom())             }
+//function hayNúmeroOculto()      { return(aux_hayNúmero() &&     aux_elNúmeroEstáOculto()) }
+//function hayNúmeroNoOculto()    { return(aux_hayNúmero() && not aux_elNúmeroEstáOculto()) }
 
 //---------------------------------------------------------------------------------------------------/
 /*--------------------------- Operaciones de E/S de números (interfaz) ------------------------------/
 /---------------------------------------------------------------------------------------------------*/
-function  númeroActual()        { return(aux_númeroActual()) }
-function  númeroOculto()        { return(aux_númeroOculto()) }
+//function  númeroActual()        { return(aux_númeroActual()) }
+//function  númeroOculto()        { return(aux_númeroOculto()) }
 
-procedure PonerNúmero_(número)  { AuxPonerNúmero(número)     }
-procedure SacarNúmeroActual()   { AuxSacarNúmeroActual()     }
+//procedure PonerNúmero_(número)  { AuxPonerNúmero(número)     }
+//procedure SacarNúmeroActual()   { AuxSacarNúmeroActual()     }
 
-procedure OcultarNúmeroActual() { AuxOcultarNúmeroActual()   }
-procedure RevelarNúmeroActual() { AuxRevelarNúmeroActual()   }
+//procedure OcultarNúmeroActual() { AuxOcultarNúmeroActual()   }
+//procedure RevelarNúmeroActual() { AuxRevelarNúmeroActual()   }
 
 /*==================================================================================================*/
 /*------------------------------ FIN INTERFAZ de 01-Números-Base.gbs -------------------------------*/
@@ -675,44 +676,44 @@ type Letra is variant {
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de creación de letras (interfaz) -----------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@tooltip@Denota una letra*/
-/*@ATTRIBUTE@block_name@_@*/
-/*@ATTRIBUTE@block_dropdown@[("A", 'A'), ("B", 'B'), ("C", 'C'), ("D", 'D'), ("E", 'E'), ("F", 'F'), ("G", 'G'), ("H", 'H'), ("I", 'I'), ("J", 'J'), ("K", 'K'), ("L", 'L'), ("M", 'M'), ("N", 'N'), ("enie", 'Ñ'), ("O", 'O'), ("P", 'P'), ("Q", 'Q'), ("R", 'R'), ("S", 'S'), ("T", 'T'), ("U", 'U'), ("V", 'V'), ("W", 'W'), ("X", 'X'), ("Y", 'Y'), ("Z", 'Z'), ("espacio", 'Espacio')]@*/
-function letra_(letra) { return(letra) }
+///*@ATTRIBUTE@tooltip@Denota una letra*/
+///*@ATTRIBUTE@block_name@_@*/
+///*@ATTRIBUTE@block_dropdown@[("A", 'A'), ("B", 'B'), ("C", 'C'), ("D", 'D'), ("E", 'E'), ("F", 'F'), ("G", 'G'), ("H", 'H'), ("I", 'I'), ("J", 'J'), ("K", 'K'), ("L", 'L'), ("M", 'M'), ("N", 'N'), ("enie", 'Ñ'), ("O", 'O'), ("P", 'P'), ("Q", 'Q'), ("R", 'R'), ("S", 'S'), ("T", 'T'), ("U", 'U'), ("V", 'V'), ("W", 'W'), ("X", 'X'), ("Y", 'Y'), ("Z", 'Z'), ("espacio", 'Espacio')]@*/
+//function letra_(letra) { return(letra) }
 
-function letraParaElCódigo_(códigoLetra) { return(aux_letraParaElCódigo(códigoLetra)) }
+//function letraParaElCódigo_(códigoLetra) { return(aux_letraParaElCódigo(códigoLetra)) }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------- Operaciones de acceso a letras (interfaz) -------------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@_ está antes que la letra _@*/   function esMenorLetra__(letra1, letra2) { return(aux_esMenorLetra(letra1, letra2)) }
-/*@ATTRIBUTE@block_name@_ está después que la letra _@*/ function esMayorLetra__(letra1, letra2) { return(aux_esMayorLetra(letra1, letra2)) }
-/*@ATTRIBUTE@block_name@la letra más chica@*/            function minLetra()             { return(aux_minLetra())            }
-/*@ATTRIBUTE@block_name@la letra más grande@*/           function maxLetra()             { return(aux_maxLetra())            }
-/*@ATTRIBUTE@block_name@letra siguiente a _@*/           function letraSiguiente_(letra) { return(aux_letraSiguiente(letra)) }
-/*@ATTRIBUTE@block_name@letra previa a _@*/              function letraPrevia_(letra)    { return(aux_letraPrevia(letra))    }
+///*@ATTRIBUTE@block_name@_ está antes que la letra _@*/   function esMenorLetra__(letra1, letra2) { return(aux_esMenorLetra(letra1, letra2)) }
+///*@ATTRIBUTE@block_name@_ está después que la letra _@*/ function esMayorLetra__(letra1, letra2) { return(aux_esMayorLetra(letra1, letra2)) }
+///*@ATTRIBUTE@block_name@la letra más chica@*/            function minLetra()             { return(aux_minLetra())            }
+///*@ATTRIBUTE@block_name@la letra más grande@*/           function maxLetra()             { return(aux_maxLetra())            }
+///*@ATTRIBUTE@block_name@letra siguiente a _@*/           function letraSiguiente_(letra) { return(aux_letraSiguiente(letra)) }
+///*@ATTRIBUTE@block_name@letra previa a _@*/              function letraPrevia_(letra)    { return(aux_letraPrevia(letra))    }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------- Operaciones de sensado de letras en el tablero (interfaz) ---------------------/
 /---------------------------------------------------------------------------------------------------*/
-function hayLetra() { return(aux_hayLetra()) }
+//function hayLetra() { return(aux_hayLetra()) }
 
-function laLetraEstáOculta()   { return(    aux_laLetraEstáOcultaConBoom())            }
-function laLetraNoEstáOculta() { return(not aux_laLetraEstáOcultaConBoom())            }
-function hayLetraOculta()      { return(aux_hayLetra() &&     aux_laLetraEstáOculta()) }
-function hayLetraNoOculta()    { return(aux_hayLetra() && not aux_laLetraEstáOculta()) }
+//function laLetraEstáOculta()   { return(    aux_laLetraEstáOcultaConBoom())            }
+//function laLetraNoEstáOculta() { return(not aux_laLetraEstáOcultaConBoom())            }
+//function hayLetraOculta()      { return(aux_hayLetra() &&     aux_laLetraEstáOculta()) }
+//function hayLetraNoOculta()    { return(aux_hayLetra() && not aux_laLetraEstáOculta()) }
 
 //---------------------------------------------------------------------------------------------------/
 /*---------------------------- Operaciones de E/S de letras (interfaz) ------------------------------/
 /---------------------------------------------------------------------------------------------------*/
-function  letraActual()      { return(aux_letraActual()) }
-function  letraOculta()      { return(aux_letraOculta()) }
+//function  letraActual()      { return(aux_letraActual()) }
+//function  letraOculta()      { return(aux_letraOculta()) }
 
-procedure PonerLetra_(letra) { AuxPonerLetra(letra)      }
-procedure SacarLetraActual() { AuxSacarLetraActual()     }
+//procedure PonerLetra_(letra) { AuxPonerLetra(letra)      }
+//procedure SacarLetraActual() { AuxSacarLetraActual()     }
 
-procedure OcultarLetraActual() { AuxOcultarLetraActual() }
-procedure RevelarLetraActual() { AuxRevelarLetraActual() }
+//procedure OcultarLetraActual() { AuxOcultarLetraActual() }
+//procedure RevelarLetraActual() { AuxRevelarLetraActual() }
 
 /*==================================================================================================*/
 /*------------------------------- FIN INTERFAZ de 02-Letras-Base.gbs -------------------------------*/
@@ -948,12 +949,12 @@ type PaloDeCartaEspañola  is variant { case Bastos {} case Copas {} case Espada
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de creación de palos (interfaz) ------------------------/
 /---------------------------------------------------------------------------------------------------*/
-///*@ATTRIBUTE@tooltip@Denota el palo de una carta de un mazo de cartas españolas*/
+/*@ATTRIBUTE@tooltip@Denota el palo de una carta de un mazo de cartas españolas*/
 /*@ATTRIBUTE@block_name@_@*/
 /*@ATTRIBUTE@block_dropdown@[("Bastos", 'Bastos'), ("Copas", 'Copas'), ("Espadas", 'Espadas'), ("Oros", 'Oros')]@*/
 function paloDeCartaEspañolaDe40_(palo) { return (palo) }
 
-///*@ATTRIBUTE@tooltip@Denota el palo de espadas de un mazo de cartas españolas*/
+/*@ATTRIBUTE@tooltip@Denota el palo de espadas de un mazo de cartas españolas*/
 /*@ATTRIBUTE@block_name@Bastos@*/ function bastos()  { return(Bastos)  }
 /*@ATTRIBUTE@block_name@Copas@*/  function copas()   { return(Copas)   }
 /*@ATTRIBUTE@block_name@Espadas@*/function espadas() { return(Espadas) }
@@ -962,12 +963,12 @@ function paloDeCartaEspañolaDe40_(palo) { return (palo) }
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------- Operaciones de acceso a palos (interfaz) --------------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@_ es menor palo que _@*/ function esMenorPalo__(palo1, palo2) { return(aux_esMenorPaloDeCartaEspañola(palo1, palo2)) }
-/*@ATTRIBUTE@block_name@_ es mayor palo que _@*/ function esMayorPalo__(palo1, palo2) { return(aux_esMayorPaloDeCartaEspañola(palo1, palo2)) }
-/*@ATTRIBUTE@block_name@el palo más chico@*/     function minPalo()            { return(aux_minPaloDeCartaEspañola())           }
-/*@ATTRIBUTE@block_name@el palo más grande@*/    function maxPalo()            { return(aux_maxPaloDeCartaEspañola())           }
-/*@ATTRIBUTE@block_name@palo siguiente a _@*/    function paloSiguiente_(palo) { return(aux_paloDeCartaEspañolaSiguiente(palo)) }
-/*@ATTRIBUTE@block_name@palo previo a _@*/       function paloPrevio_(palo)    { return(aux_paloDeCartaEspañolaPrevio(palo))    }
+///*@ATTRIBUTE@block_name@_ es menor palo que _@*/ function esMenorPalo__(palo1, palo2) { return(aux_esMenorPaloDeCartaEspañola(palo1, palo2)) }
+///*@ATTRIBUTE@block_name@_ es mayor palo que _@*/ function esMayorPalo__(palo1, palo2) { return(aux_esMayorPaloDeCartaEspañola(palo1, palo2)) }
+///*@ATTRIBUTE@block_name@el palo más chico@*/     function minPalo()            { return(aux_minPaloDeCartaEspañola())           }
+///*@ATTRIBUTE@block_name@el palo más grande@*/    function maxPalo()            { return(aux_maxPaloDeCartaEspañola())           }
+///*@ATTRIBUTE@block_name@palo siguiente a _@*/    function paloSiguiente_(palo) { return(aux_paloDeCartaEspañolaSiguiente(palo)) }
+///*@ATTRIBUTE@block_name@palo previo a _@*/       function paloPrevio_(palo)    { return(aux_paloDeCartaEspañolaPrevio(palo))    }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------- Operaciones de sensado de palos en el tablero (interfaz) ----------------------/
@@ -1111,23 +1112,24 @@ function aux_códigoParaElPaloDeCartaEspañolaPrevio(palo) {
 ///*@ATTRIBUTE@tooltip@Denota el valor de una carta de un mazo de cartas españolas de 40 cartas*/
 /*@ATTRIBUTE@block_name@_@*/
 /*@ATTRIBUTE@block_dropdown@[("As", '1'), ("2", '2'), ("3", '3'), ("4", '4'), ("5", '5'), ("6", '6'), ("7", '7'), ("Sota", '10'), ("Caballo", '11'), ("Rey", '12')]@*/
-function númeroDeCartaEspañolaDe40_(valor) { return (valor) }
+function númeroDeCartaEspañolaDe40_(valor) { if (not aux_esCódigoParaElValorDeCartaEspañolaDe40(valor)) { BOOM("No es un número válido de carta española de 40 cartas") } 
+                                             return (valor) }
 
-/*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
-/*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
-/*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
-/*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
-/*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
+///*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
+///*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
+///*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
+///*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
+///*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de acceso a valores (interfaz) -------------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@_ es menor valor que _@*/ function esMenorValor__(valor1, valor2) { return(aux_esMenorValorDeCartaEspañola(valor1, valor2)) }
-/*@ATTRIBUTE@block_name@_ es mayor valor que _@*/ function esMayorValor__(valor1, valor2) { return(aux_esMayorValorDeCartaEspañola(valor1, valor2)) }
-/*@ATTRIBUTE@block_name@el valor más chico@*/     function minValor()             { return(aux_minValorDeCartaEspañola())                }
-/*@ATTRIBUTE@block_name@el valor más grande@*/    function maxValor()             { return(aux_maxValorDeCartaEspañola())                }
-/*@ATTRIBUTE@block_name@valor siguiente a _@*/    function valorSiguiente_(valor) { return(aux_valorDeCartaEspañolaSiguiente(valor)) }
-/*@ATTRIBUTE@block_name@valor previo a _@*/       function valorPrevio_(valor)    { return(aux_valorDeCartaEspañolaPrevio(valor))    }
+///*@ATTRIBUTE@block_name@_ es menor valor que _@*/ function esMenorValor__(valor1, valor2) { return(aux_esMenorValorDeCartaEspañola(valor1, valor2)) }
+///*@ATTRIBUTE@block_name@_ es mayor valor que _@*/ function esMayorValor__(valor1, valor2) { return(aux_esMayorValorDeCartaEspañola(valor1, valor2)) }
+///*@ATTRIBUTE@block_name@el valor más chico@*/     function minValor()             { return(aux_minValorDeCartaEspañola())                }
+///*@ATTRIBUTE@block_name@el valor más grande@*/    function maxValor()             { return(aux_maxValorDeCartaEspañola())                }
+///*@ATTRIBUTE@block_name@valor siguiente a _@*/    function valorSiguiente_(valor) { return(aux_valorDeCartaEspañolaSiguiente(valor)) }
+///*@ATTRIBUTE@block_name@valor previo a _@*/       function valorPrevio_(valor)    { return(aux_valorDeCartaEspañolaPrevio(valor))    }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------ Operaciones de sensado de valores en el tablero (interfaz) ---------------------/
@@ -1334,53 +1336,53 @@ type CartaEspañola is variant {
 //---------------------------------------------------------------------------------------------------/
 /*--------------------- Operaciones de creación de cartas españolas (interfaz) ----------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@la carta _ de _@*/           function dameCarta__(v,p) { return(aux_armarCartaEspañola(v, p)) }
-/*@ATTRIBUTE@block_name@comodín@*/                   function dameComodín()    { return(aux_armarComodín())           }
+///*@ATTRIBUTE@block_name@la carta _ de _@*/           function dameCarta__(v,p) { return(aux_armarCartaEspañola(v, p)) }
+///*@ATTRIBUTE@block_name@comodín@*/                   function dameComodín()    { return(aux_armarComodín())           }
 
 //---------------------------------------------------------------------------------------------------/
 /*---------------------- Operaciones de acceso de cartas españolas (interfaz) -----------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@es comodín _@*/              function esComodín_(c)          { return(aux_esComodín(c))   }
+///*@ATTRIBUTE@block_name@es comodín _@*/              function esComodín_(c)          { return(aux_esComodín(c))   }
 /*@ATTRIBUTE@block_name@palo de _@*/                 function dameElPalo_(c)         { return(aux_dameElPalo(c))  }
 /*@ATTRIBUTE@block_name@número de _@*/               function dameElNúmero_(c)       { return(aux_dameElValor(c)) }
 
-/*@ATTRIBUTE@block_name@_ es menor carta que _@*/    function esMenorCarta__(carta1, carta2) { return(aux_esMenorCartaEspañola(carta1, carta2)) }
-/*@ATTRIBUTE@block_name@_ es mayor carta que _@*/    function esMayorCarta__(carta1, carta2) { return(aux_esMayorCartaEspañola(carta1, carta2)) }
-/*@ATTRIBUTE@block_name@la carta más chica@*/        function minCarta()             { return(aux_minCartaEspañola()) }
-/*@ATTRIBUTE@block_name@la carta más grande@*/       function maxCarta()             { return(aux_maxCartaEspañola()) }
-/*@ATTRIBUTE@block_name@la carta siguiente a _@*/    function cartaSiguiente_(carta) { return(aux_cartaEspañolaSiguiente(carta)) }
-/*@ATTRIBUTE@block_name@la carta previa a _@*/       function cartaPrevia_(carta)    { return(aux_cartaEspañolaPrevia(carta)) }
+///*@ATTRIBUTE@block_name@_ es menor carta que _@*/    function esMenorCarta__(carta1, carta2) { return(aux_esMenorCartaEspañola(carta1, carta2)) }
+///*@ATTRIBUTE@block_name@_ es mayor carta que _@*/    function esMayorCarta__(carta1, carta2) { return(aux_esMayorCartaEspañola(carta1, carta2)) }
+///*@ATTRIBUTE@block_name@la carta más chica@*/        function minCarta()             { return(aux_minCartaEspañola()) }
+///*@ATTRIBUTE@block_name@la carta más grande@*/       function maxCarta()             { return(aux_maxCartaEspañola()) }
+///*@ATTRIBUTE@block_name@la carta siguiente a _@*/    function cartaSiguiente_(carta) { return(aux_cartaEspañolaSiguiente(carta)) }
+///*@ATTRIBUTE@block_name@la carta previa a _@*/       function cartaPrevia_(carta)    { return(aux_cartaEspañolaPrevia(carta)) }
 
 //---------------------------------------------------------------------------------------------------/
 /*---------------- Operaciones de sensado de cartas españolas en el tablero (interfaz) --------------/
 /---------------------------------------------------------------------------------------------------*/
-function hayCarta()          { return(aux_hayCartaEspañola())                                    }
+//function hayCarta()          { return(aux_hayCartaEspañola())                                    }
 
-function laCartaEstáTapada() { return(aux_laCartaEspañolaEstáTapadaConBoom())                    }
-function hayCartaTapada()    { return(aux_hayCartaEspañola() && aux_laCartaEspañolaEstáTapada()) }
+//function laCartaEstáTapada() { return(aux_laCartaEspañolaEstáTapadaConBoom())                    }
+//function hayCartaTapada()    { return(aux_hayCartaEspañola() && aux_laCartaEspañolaEstáTapada()) }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------ Operaciones de E/S de cartas españolas (interfaz) ------------------------/
 /---------------------------------------------------------------------------------------------------*/
 function  cartaActual()               { return(aux_cartaEspañolaActual())     }
-function  cartaTapada()               { return(aux_cartaEspañolaTapada())     }
-procedure PonerCarta_(carta)          { AuxPonerCartaEspañolaDestapada(carta) }
-procedure SacarCartaActual()          { AuxSacarCartaEspañolaActual()         }
+//function  cartaTapada()               { return(aux_cartaEspañolaTapada())     }
+//procedure PonerCarta_(carta)          { AuxPonerCartaEspañolaDestapada(carta) }
+//procedure SacarCartaActual()          { AuxSacarCartaEspañolaActual()         }
 
-procedure DarVueltaLaCartaActual()    { AuxDarVueltaLaCartaEspañolaActual()   }
-procedure PonerCartaDestapada_(carta) { AuxPonerCartaEspañolaDestapada(carta) }
-procedure PonerCartaTapada_(carta)    { AuxPonerCartaEspañolaTapada(carta)    }
+//procedure DarVueltaLaCartaActual()    { AuxDarVueltaLaCartaEspañolaActual()   }
+//procedure PonerCartaDestapada_(carta) { AuxPonerCartaEspañolaDestapada(carta) }
+//procedure PonerCartaTapada_(carta)    { AuxPonerCartaEspañolaTapada(carta)    }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------ Operaciones específicas para MEMOTEST (interfaz) -------------------------/
 /---------------------------------------------------------------------------------------------------*/
 // DE SENSADO
-function laCartaEstáIluminada()             { return(aux_laCartaEspañolaEstáIluminadaConBoom())      }
-function hayCartaDestapadaSinIluminar()     { return(aux_hayCartaEspañolaDestapadaSinIluminar())     }
-function hayOtraCartaDestapadaSinIluminar() { return(aux_hayOtraCartaEspañolaDestapadaSinIluminar()) }
+//function laCartaEstáIluminada()             { return(aux_laCartaEspañolaEstáIluminadaConBoom())      }
+//function hayCartaDestapadaSinIluminar()     { return(aux_hayCartaEspañolaDestapadaSinIluminar())     }
+//function hayOtraCartaDestapadaSinIluminar() { return(aux_hayOtraCartaEspañolaDestapadaSinIluminar()) }
 
 // De E/S
-procedure IluminarLaCartaActual()           { AuxIluminarLaCartaEspañolaActual()                     }
+//procedure IluminarLaCartaActual()           { AuxIluminarLaCartaEspañolaActual()                     }
 
 /*==================================================================================================*/
 /*------------------------ FIN INTERFAZ de 03-CartasEspañolasDe40-Base.gbs -------------------------*/
@@ -1589,7 +1591,7 @@ function aux_hayCartaEspañolaDestapada() {
 function aux_cartaEspañolaActual() {
   // PRECONDICIÓN: hay una carta destapada en la celda actual
   if (not aux_hayCartaEspañola())      { BOOM("No hay una carta española que pueda leer") }
-  if (aux_laCartaEspañolaEstáTapada()) { BOOM("No puedo leer una carta española tapada")  }
+  //if (aux_laCartaEspañolaEstáTapada()) { BOOM("No puedo leer una carta española tapada")  }
   return(aux_cartaEspañolaParaElCódigo(aux_leerDato()))
 }         
 
@@ -1782,333 +1784,100 @@ procedure AuxIluminarLaCartaEspañolaActual() {
 
 
 /*==================================================================================================*/
-/*-------------------------------- REQUIERE 00-Gobstones-Base.gbs ----------------------------------*/
-/*------------------- (provisto también para 03-01-PalosDeCartaEspañola-Base.gbs -------------------*/
-/*------------------------- y para 03-02-ValoresDeCartaEspañola-Base.gbs) --------------------------*/
-/*----------------------------------- REQUIERE 00-Listas-Base.gbs ----------------------------------*/
-/*-------------------------- REQUIERE 03-01-PalosDeCartaEspañola-Base.gbs --------------------------*/
-/*------------------ REQUIERE 03-02-ValoresDeCartaEspañolaDe40-Base.gbs (o de 50) ------------------*/
-/*----------------------- REQUIERE 03-CartasEspañolasDe40-Base.gbs (o de 50) -----------------------*/
+/*--------------------------- OPERACIONES ESPECÍFICAS DE LA ACTIVIDAD ------------------------------*/
 /*==================================================================================================*/
+procedure DecirPalo_(palo)    { AuxDecirPalo_(palo)    }
+procedure DecirNúmero_(valor) { AuxDecirNúmero_(valor) }
 
-/*==================================================================================================*/
-/*----------------------------- INTERFAZ de 04-MazosEspañoles-Base.gbs ------------------------------/
-/----- Autor: Pablo E. "Fidel" Martínez López -------------------------------------------------------/
-/----- EMail: fidel@unq.edu.ar                -------------------------------------------------------/
-/----- Fecha creación: 2018.06                -------------------------------------------------------/
-/----- Fecha última modificación: 2018.06     -------------------------------------------------------/
-/----- Licencia: GNU General Public License, v2                                             ---------/
-/----- Sitio Oficial de la licencia: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html  --------*/
-/*==================================================================================================*/
-
-//---------------------------------------------------------------------------------------------------/
-/*-------------------------------------- Definiciones de tipos --------------------------------------/
-/---------------------------------------------------------------------------------------------------*/
-type Mazo is record {
-  // INVARIANTE DE REPRESENTACIÓN: el tamaño es siempre la longitud de la lista de cartas
-      field cartas
-      field tamaño
+procedure AuxDecirPalo_(palo) {
+  carta := aux_cartaEspañolaParaAdivinar()   // Se recuerdan antes, porque si
+  valor := aux_númeroDicho()                 // no existen, no se dice el palo
+  AuxIrAlInicioDelPalo()
+  AuxDecirElPalo(palo)
+  if (carta == aux_armarCartaEspañola(valor, palo)) 
+    { AuxDescubrirCartaEspañolaParaAdivinar() }
+  // AuxValidarResultado(carta == aux_armarCartaEspañola(valor, palo))
 }
 
-//---------------------------------------------------------------------------------------------------/
-/*--------------------- Operaciones de creación de un mazo español (interfaz) -----------------------/
-/---------------------------------------------------------------------------------------------------*/
-function mazoVacío()                      { return(aux_armarMazoVacío())               }
-
-/*@ATTRIBUTE@block_name@agregar al mazo _ la carta _ al final@*/ 
-function agregarAlFinalDelMazo__(m,c)     { return(aux_agregarAlFinalDelMazo(m,c))     }
-/*@ATTRIBUTE@block_name@agregar al mazo _ la carta _ al principio@*/ 
-function agregarAlPrincipioDelMazo__(m,c) { return(aux_agregarAlPrincipioDelMazo(m,c)) }
-
-function juntarMazos__(m1,m2)             { return(aux_juntarMazos(m1,m2))             }
-function mazoEspañol()                    { return(aux_mazoEspañolCompleto())          }
-  // 
-
-//---------------------------------------------------------------------------------------------------/
-/*----------------------- Operaciones de acceso a un mazo español (interfaz) ------------------------/
-/---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@block_name@quedan cartas en _?@*/ 
-function quedanCartas_(m)              { return(aux_quedanCartas(m))            }
-
-/*@ATTRIBUTE@block_name@cantidad de cartas del mazo _@*/ 
-function cantidadDeCartasDelMazo_(m)   { return(aux_cantidadDeCartasDelMazo(m)) }
-
-function dameLaPrimeraCartaDe_(mazo)   { return(aux_dameLaPrimeraCarta(mazo))   }
-function sacarLaPrimeraCartaDe_(mazo)  { return(aux_sacarLaPrimeraCarta(mazo))  }
-
-function dameLaÚltimaCartaDe_(mazo)    { return(aux_dameLaÚltimaCarta(mazo))    }
-function sacarLaÚltimaCartaDe_(mazo)   { return(aux_sacarLaÚltimaCarta(mazo))   }
-
-function dameLaCartaMásGrandeDe_(mazo) { return(aux_dameLaCartaMásGrande(mazo)) }
-function dameLaCartaMásChicaDe_(mazo)  { return(aux_dameLaCartaMásChica(mazo))  }
-
-//---------------------------------------------------------------------------------------------------/
-/*------------------ Operaciones de manipulación de un mazo español (interfaz) ----------------------/
-/---------------------------------------------------------------------------------------------------*/
-function  mazoActual()            { return (aux_mazoActual())  }
-function  mazoTapado()            { return (aux_mazoTapado())  }
-
-procedure PonerMazo_(mazo)        { AuxPonerMazo(mazo)         }
-procedure SacarMazoActual()       { AuxSacarMazoActual()       }
-
-procedure DarVueltaElMazoActual() { AuxDarVueltaElMazoActual() }
-
-/*==================================================================================================*/
-/*--------------------------- FIN INTERFAZ de 04-MazosEspañoles-Base.gbs ---------------------------*/
-/*==================================================================================================*/
-
-
-/*==================================================================================================*/
-/*---------------------------- AUXILIARES de 04-MazosEspañoles-Base.gbs ----------------------------*/
-/*==================================================================================================*/
-
-//---------------------------------------------------------------------------------------------------/
-/*--------------- Operaciones a cambiar para pasar de 40 a 50 cartas (auxiliares) -------------------/
-/---------------------------------------------------------------------------------------------------*/
-// POR AHORA, NINGUNA (DEPENDE DE LOS MÓDULOS IMPORTADOS: Cartas y Valores)
-
-//---------------------------------------------------------------------------------------------------/
-/*------------------------ Auxiliares para construir mazos españoles --------------------------------/
-/---------------------------------------------------------------------------------------------------*/
-function aux_armarMazoVacío()                { return(Mazo(cartas<-[]            
-                                                          ,tamaño<-0))                     }
-function aux_agregarAlFinalDelMazo(m, c)     { return(Mazo(cartas<-cartas(m)++[c]
-                                                          ,tamaño<-tamaño(m)+1))           }
-function aux_agregarAlPrincipioDelMazo(m, c) { return(Mazo(cartas<-[c]++cartas(m)                                                     
-                                                          ,tamaño<-tamaño(m)+1))           }
-function aux_juntarMazos(m1,m2)              { return(Mazo(cartas<-cartas(m1)++cartas(m2)
-                                                          ,tamaño<-tamaño(m1)+tamaño(m2))) }
-
-function aux_mazoEspañolCompleto() {
-    // La decisión de si es de 40 o de 50 cartas depende de los valores
-    let (cartasDelMazo,cantidadDeCartas) := aux_armarRepresentaciónDeMazoEspañolCompleto()
-    return(Mazo(cartas<-cartasDelMazo, tamaño<-cantidadDeCartas))
+procedure AuxDecirNúmero_(valor) {
+  AuxValidarExistenciaCartaEspañolaParaAdivinar()
+  AuxIrAlInicioDeLaSalida()
+  AuxDecirElValor(valor)
+  AuxIrAlInicioDeLaEntrada()
 }
 
-//---------------------------------------------------------------------------------------------------/
-/*------------------------- Auxiliares para acceso a mazos españoles --------------------------------/
-/---------------------------------------------------------------------------------------------------*/
-function aux_quedanCartas(mazo) {
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(tamaño(mazo)>0)
+function aux_cartaEspañolaParaAdivinar() {
+  AuxValidarExistenciaCartaEspañolaParaAdivinar()
+  return(aux_cartaEspañolaTapada())
 }
 
-function aux_cantidadDeCartasDelMazo(mazo) {
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(tamaño(mazo))
+procedure AuxDescubrirCartaEspañolaParaAdivinar() {
+  AuxValidarExistenciaCartaEspañolaParaAdivinar()
+  AuxDarVueltaLaCartaEspañolaActual()
 }
 
-function aux_dameLaPrimeraCarta(mazo)   {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(primero(cartas(mazo)))
+procedure AuxValidarExistenciaCartaEspañolaParaAdivinar() {
+  // PROPÓSITO: va a la posición donde debería estar la carta española para adivinar y valida que exista.
+  // PRECONDICIÓN: hay una carta española para adivinar en la posición adecuada.
+  // OBSERVACIÓN: si está la carta esperada, deja el cabezal sobre ella
+  AuxIrAlInicioDeLaEntrada()
+  if (not aux_hayCartaEspañolaTapada()) { BOOM("No hay carta para adivinar") }
 }
 
-function aux_sacarLaPrimeraCarta(mazo)  {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(aux_sacarLaPrimeraCartaDeRepresentaciónDeMazoEspañol(mazo))
+function aux_númeroDicho() {
+  AuxIrAlInicioDeLaSalida()
+  if (not aux_hayNúmero()) { BOOM("Primero deberías decir el número de la carta") }
+  return (aux_númeroActual())
 }
 
-function aux_dameLaÚltimaCarta(mazo)   {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(último(cartas(mazo)))
+procedure AuxIrAlInicioDeLaEntrada() {  IrAlBorde(Norte) IrAlBorde(Oeste) }
+procedure AuxIrAlInicioDeLaSalida()  {  IrAlBorde(Sur) IrAlBorde(Oeste)   }
+procedure AuxIrAlInicioDelPalo() { 
+  AuxIrAlInicioDeLaSalida() 
+  AuxIrAPosiciónLibre()
+  AuxPasarASiguientePosición()
 }
 
-function aux_sacarLaÚltimaCarta(mazo)  {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(aux_sacarLaÚltimaCartaDeRepresentaciónDeMazoEspañol(mazo))
-}
-
-function aux_dameLaCartaMásGrande(mazo)  {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(aux_dameLaMásGrandeDeRepresentaciónDeMazoEspañol(mazo))
-}
-
-function aux_dameLaCartaMásChica(mazo)  {
-  // PRECONDICIÓN: quedan cartas en el mazo, y es válido
-  //if (not aux_esUnMazoVálido(mazo)) { BOOM("No es un mazo válido. ¿Lo manipulaste por tu cuenta?") }
-  return(aux_dameLaMásChicaDeRepresentaciónDeMazoEspañol(mazo))
-}
-
-//---------------------------------------------------------------------------------------------------/
-/*--------------------------- Operaciones de E/S de mazos españoles ---------------------------------/
-/---------------------------------------------------------------------------------------------------*/
-function aux_mazoActual() {
-  return (aux_mazoActualDesdeLaCeldaActual())
-}
-
-function aux_mazoTapado() {
-  return (aux_mazoTapadoDesdeLaCeldaActual())
-}
-
-function aux_mazoActualDesdeLaCeldaActual() {
-   // PROPÓSITO: lee todas las cartas destapadas que están a continuación, 
-   //            a partir de la posición actual yendo al Este y luego al Sur
-   cartasLeídas   := []
-   cantidadLeídas := 0
-   while (not aux_terminóElRecorridoGral(Este, Sur) && aux_hayCartaEspañolaDestapada()) {
-      cartasLeídas   := cartasLeídas ++ [ aux_cartaEspañolaActual() ]
-      cantidadLeídas := cantidadLeídas + 1
-      AuxAvanzarRecorridoGral(Este, Sur)
-   }
-   if (aux_hayCartaEspañolaDestapada()) { 
-    cartasLeídas   := cartasLeídas ++ [ aux_cartaEspañolaActual() ]
-    cantidadLeídas := cantidadLeídas + 1
-  }
-
-   return(Mazo(cartas<-cartasLeídas, tamaño<-cantidadLeídas))
-}
-
-function aux_mazoTapadoDesdeLaCeldaActual() {
-   // PROPÓSITO: lee todas las cartas tapadas que están a continuación, 
-   //            a partir de la posición actual yendo al Este y luego al Sur
-   cartasLeídas   := []
-   cantidadLeídas := 0
-   while (not aux_terminóElRecorridoGral(Este, Sur) && aux_hayCartaEspañolaTapada()) {
-      cartasLeídas   := cartasLeídas ++ [ aux_cartaEspañolaTapada() ]
-      cantidadLeídas := cantidadLeídas + 1
-      AuxAvanzarRecorridoGral(Este, Sur)
-   }
-   if (aux_hayCartaEspañolaTapada()) { 
-    cartasLeídas   := cartasLeídas ++ [ aux_cartaEspañolaTapada() ]
-    cantidadLeídas := cantidadLeídas + 1
-  }
-
-   return(Mazo(cartas<-cartasLeídas, tamaño<-cantidadLeídas))
-}
-
-procedure AuxPonerMazo(mazo) {
-  // PROPÓSITO: muestra la parte del mazo que pueda entre la celda actual 
-  //            y la esquina inferior derecha del tablero, de a una carta por celda
-  // PRECONDICIÓN: las celdas donde vayan a ir cartas deben estar vacías
-  faltanMostrar := cartas(mazo)
-  if (not esVacía(faltanMostrar)) {
-    AuxPonerCartaEspañolaDestapada(primero(faltanMostrar))
-    faltanMostrar := resto(faltanMostrar)
-    while (not aux_terminóElRecorridoGral(Este, Sur) && not esVacía(faltanMostrar)) {
-      AuxAvanzarRecorridoGral(Este, Sur)
-      AuxPonerCartaEspañolaDestapada(primero(faltanMostrar))
-      faltanMostrar := resto(faltanMostrar)
-    }
+procedure AuxIrAPosiciónLibre() {
+  while (not aux_laCeldaEstáVacía()) {
+    AuxPasarASiguientePosición()
   }
 }
 
-procedure AuxSacarMazoActual() {
-   // PROPÓSITO: saca todas las cartas que están a continuación, 
-   //            a partir de la posición actual yendo al Este y luego al Sur
-   movióDeMás := False
-   while (not aux_terminóElRecorridoGral(Este, Sur) && aux_hayCartaEspañolaDestapada()) {
-    AuxSacarCartaEspañolaActual()
-    AuxAvanzarRecorridoGral(Este, Sur)
-    movióDeMás := True
+procedure AuxDecirElValor(valor) {
+   AuxPonerNúmero(valor)
+}
+
+procedure AuxDecirElPalo(palo) {
+  AuxDecir([D,E])
+  AuxEspaciar()
+  switch (palo) to {
+    Bastos  -> { AuxDecir([B,A,S,T,O,S])   }
+    Copas   -> { AuxDecir([C,O,P,A,S])     }
+    Espadas -> { AuxDecir([E,S,P,A,D,A,S]) }
+    Oros    -> { AuxDecir([O,R,O,S])       }
   }
-  if (aux_hayCartaEspañolaDestapada())     { AuxSacarCartaEspañolaActual()         }
-  if (movióDeMás) /* Retrocede un lugar */ { AuxAvanzarRecorridoGral(Oeste, Norte) }
 }
 
-procedure AuxDarVueltaElMazoActual() {
-   // PROPÓSITO: da vuelta todas las cartas destapadas que están a continuación, 
-   //            a partir de la posición actual yendo al Este y luego al Sur
-   movióDeMás := False
-   while (not aux_terminóElRecorridoGral(Este, Sur) && aux_hayCartaEspañola()) {
-    AuxDarVueltaLaCartaEspañolaActual()
-    AuxAvanzarRecorridoGral(Este, Sur)
-    movióDeMás := True
+procedure AuxDecir(msg) {
+  letrasQueFaltan := msg
+  while (not aux_esVacía(letrasQueFaltan)) {
+     AuxPonerLetra(primero(letrasQueFaltan))
+     AuxPasarASiguientePosición ()
+     letrasQueFaltan := resto(letrasQueFaltan)
   }
-  if (aux_hayCartaEspañola())              { AuxDarVueltaLaCartaEspañolaActual()   }
-  if (movióDeMás) /* Retrocede un lugar */ { AuxAvanzarRecorridoGral(Oeste, Norte) }
 }
 
-//---------------------------------------------------------------------------------------------------/
-/*--------------------------- Operaciones auxiliares de codificación --------------------------------/
-/---------------------------------------------------------------------------------------------------*/
-function aux_esUnMazoVálido(mazo) { return(aux_calcularLongitud(cartas(mazo))==tamaño(mazo)) }
-
-function aux_sacarLaPrimeraCartaDeRepresentaciónDeMazoEspañol(mazo) {
-  return(Mazo(cartas<-resto(cartas(mazo))
-             ,tamaño<-tamaño(mazo)-1))
+procedure AuxEspaciar() {
+  AuxPonerLetra(Espacio)
+  AuxPasarASiguientePosición()
 }
 
-function aux_sacarLaÚltimaCartaDeRepresentaciónDeMazoEspañol(mazo) {
-  return(Mazo(cartas<-comienzo(cartas(mazo))
-             ,tamaño<-tamaño(mazo)-1))
+function aux_laCeldaEstáVacía() {
+   return(not hayBolitas(Azul) && not hayBolitas(Negro) 
+       && not hayBolitas(Rojo) && not hayBolitas(Verde))
 }
 
-function aux_dameLaMásGrandeDeRepresentaciónDeMazoEspañol(mazo) {
-  // PRECONDICIÓN: el mazo no está vacío
-  // RECORRIDO SOBRE LAS CARTAS DEL MAZO
-  cartasARecorrer := cartas(mazo)
-  másGrandeActual := primero(cartasARecorrer)          // INICIO CON LA PRIMER CARTA
-  cartasARecorrer := resto(cartasARecorrer)
-  while (not esVacía(cartasARecorrer)) {               // NO SE ACABARON LAS CARTAS?
-                                                       // PROCESAR LA PRÓXIMA CARTA
-    if (aux_esMayorCartaEspañola(primero(cartasARecorrer), másGrandeActual))
-      { másGrandeActual := primero(cartasARecorrer) }
-                                                       // PASAR A LA SIGUENTE CARTA
-    cartasARecorrer := resto(cartasARecorrer)
-  }
-  return(másGrandeActual)
-}
-
-function aux_dameLaMásChicaDeRepresentaciónDeMazoEspañol(mazo) {
-  // PRECONDICIÓN: el mazo no está vacío
-  // RECORRIDO SOBRE LAS CARTAS DEL MAZO
-  cartasARecorrer := cartas(mazo)
-  másChicaActual  := primero(cartasARecorrer)          // INICIO CON LA PRIMER CARTA
-  cartasARecorrer := resto(cartasARecorrer)
-  while (not esVacía(cartasARecorrer)) {               // NO SE ACABARON LAS CARTAS?
-                                                       // PROCESAR LA PRÓXIMA CARTA
-    if (aux_esMenorCartaEspañola(primero(cartasARecorrer), másChicaActual))
-      { másChicaActual := primero(cartasARecorrer) }
-                                                       // PASAR A LA SIGUENTE CARTA
-    cartasARecorrer := resto(cartasARecorrer)
-  }
-  return(másChicaActual)
-}
-
-function aux_armarRepresentaciónDeMazoEspañolCompleto() {
-  // RECORRIDO SOBRE LOS PALOS
-  paloActual        := aux_minPaloDeCartaEspañola()         // INICIAR EN EL PRIMER PALO
-  cartasARetornar   := []
-  cantidadARetornar := 0
-  while(not (paloActual==aux_maxPaloDeCartaEspañola())) {   // NO ES EL ÚLTIMO PALO
-                                                            // PROCESAR EL PALO ACTUAL
-    let (cartasDelPalo, lenDelPalo) := aux_armarRepresentaciónDeCartasDeMazoEspañolCompletoDe(paloActual)
-    cartasARetornar   := cartasARetornar ++ cartasDelPalo
-    cantidadARetornar := cantidadARetornar    +  lenDelPalo
-                                                            // PASAR AL SIGUIENTE PALO
-    paloActual        := aux_paloDeCartaEspañolaSiguiente(paloActual)
-  }
-                                                            // PROCESAR EL ÚLTIMO PALO POR SEPARADO
-  let (cartasDelPalo, lenDelPalo) := aux_armarRepresentaciónDeCartasDeMazoEspañolCompletoDe(paloActual)
-  cartasARetornar   := cartasARetornar ++ cartasDelPalo
-  cantidadARetornar := cantidadARetornar    +  lenDelPalo
-
-  return (cartasARetornar, cantidadARetornar)
-}
-
-function aux_armarRepresentaciónDeCartasDeMazoEspañolCompletoDe(palo) {
-  // RECORRIDO SOBRE LOS VALORES DEL PALO DADO
-  valorActual       := aux_minValorDeCartaEspañola()        // INICIAR EN EL PRIMER VALOR
-  cartasARetornar   := []
-  cantidadARetornar := 0
-  while(not (valorActual==aux_maxValorDeCartaEspañola())) { // NO ES EL ÚLTIMO VALOR
-                                                            // PROCESAR EL VALOR ACTUAL
-    cartasARetornar   := cartasARetornar ++ [aux_armarCartaEspañola(valorActual, palo)]
-    cantidadARetornar := cantidadARetornar    +  1
-                                                            // PASAR AL SIGUIENTE VALOR
-    valorActual       := aux_valorDeCartaEspañolaSiguiente(valorActual)
-  }
-                                                            // PROCESAR EL ÚLTIMO VALOR POR SEPARADO
-  cartasARetornar   := cartasARetornar ++ [aux_armarCartaEspañola(valorActual, palo)]
-  cantidadARetornar := cantidadARetornar    +  1 
-
-  return (cartasARetornar, cantidadARetornar)
-}
-/*==================================================================================================*/
-/*------------------------- FIN AUXILIARES de 04-MazosEspañoles-Base.gbs ---------------------------*/
-/*==================================================================================================*/
+procedure AuxValidarResultado(condición) {
+  if (not condición) { BOOM("El programa no es correcto") }
+}   

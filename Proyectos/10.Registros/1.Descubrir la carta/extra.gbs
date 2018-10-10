@@ -29,14 +29,14 @@
 /----- Licencia: GNU General Public License, v2                                             ---------/
 /----- Sitio Oficial de la licencia: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html  --------*/
 /*==================================================================================================*/
-/*@ATTRIBUTE@block_name@Poner _, _ veces@*/ procedure Poner__Veces(c,n) { AuxPoner__Veces(c,n) }
-/*@ATTRIBUTE@block_name@Sacar _, _ veces@*/ procedure Sacar__Veces(c,n) { AuxSacar__Veces(c,n) }
-/*@ATTRIBUTE@block_name@Mover _, _ veces@*/ procedure Mover__Veces(d,n) { AuxMover__Veces(d,n) }
-procedure SacarTodas()       { AuxSacarTodas()      }
-procedure SacarTodas_(c)     { AuxSacarTodas_(c)    }
-procedure MoverSiPuede_(dir) { AuxMoverSiPuede(dir) }
+///*@ATTRIBUTE@block_name@Poner _, _ veces@*/ procedure Poner__Veces(c,n) { AuxPoner__Veces(c,n) }
+///*@ATTRIBUTE@block_name@Sacar _, _ veces@*/ procedure Sacar__Veces(c,n) { AuxSacar__Veces(c,n) }
+///*@ATTRIBUTE@block_name@Mover _, _ veces@*/ procedure Mover__Veces(d,n) { AuxMover__Veces(d,n) }
+//procedure SacarTodas()       { AuxSacarTodas()      }
+//procedure SacarTodas_(c)     { AuxSacarTodas_(c)    }
+//procedure MoverSiPuede_(dir) { AuxMoverSiPuede(dir) }
 
-procedure IrAlOrigen()              { AuxIrAlOrigen()              }
+//procedure IrAlOrigen()              { AuxIrAlOrigen()              }
 //procedure PasarASiguientePosición() { AuxPasarASiguientePosición() }
 /*==================================================================================================*/
 /*----------------------------- FIN INTERFAZ de 00.Gobstones-Base.gbs ------------------------------*/
@@ -113,8 +113,8 @@ procedure AuxSacarAtributoZ() { AuxSacarAtributo(aux_códigoParaElAtributoZ())  
 function  aux_hayAtributo(códigoAtributo)  {
    return (aux_contieneLaIésimaPotenciaDe2(nroBolitas(aux_colorParaElAtributo()),códigoAtributo))
 }
-procedure AuxPonerAtributo(códigoAtributo) { Poner__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
-procedure AuxSacarAtributo(códigoAtributo) { Sacar__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
+procedure AuxPonerAtributo(códigoAtributo) { AuxPoner__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
+procedure AuxSacarAtributo(códigoAtributo) { AuxSacar__Veces(aux_colorParaElAtributo(), aux_potencia(2,códigoAtributo)) }
 
 function aux_contieneLaIésimaPotenciaDe2(n,i) {
   // PRECONDICIÓN: n>=0, i>=0
