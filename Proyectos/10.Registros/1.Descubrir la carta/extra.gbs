@@ -1827,7 +1827,7 @@ function aux_númeroDicho() {
 }
 
 procedure AuxIrAlInicioDeLaEntrada() {  IrAlBorde(Norte) IrAlBorde(Oeste) }
-procedure AuxIrAlInicioDeLaSalida() {  IrAlBorde(Sur) IrAlBorde(Oeste) Mover(Norte) }
+procedure AuxIrAlInicioDeLaSalida()  {  IrAlBorde(Sur) IrAlBorde(Oeste)   }
 procedure AuxIrAlInicioDelPalo() { 
   AuxIrAlInicioDeLaSalida() 
   AuxIrAPosiciónLibre()
