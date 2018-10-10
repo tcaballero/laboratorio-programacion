@@ -1,4 +1,4 @@
-#Actividad 10. ¡No te gastes el ancho! - parte 2
+#Actividad 5.2. ¡No te gastes el ancho! - parte 2
 
 Otra vez tenés que contestar a una jugada de Truco hecha por la computadora. 
 En el escenario aparece una carta jugada por la computadora, y vos tenés que poner una carta que le gane. 
@@ -31,4 +31,4 @@ En el segundo caso, el 3 de oros gana tranquilo y entonces es mejor jugarlo.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/1.Expresiones%20y%20funciones/10.No%20te%20gastes%20el%20ancho%20-%20parte%202/assets/resources/description.pdf "Enunciado de '¡No te gastes el ancho! - parte 2' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/5.2.No%20te%20gastes%20el%20ancho%20-%20parte%202/assets/resources/description.pdf "Enunciado de '¡No te gastes el ancho! - parte 2' en PDF"

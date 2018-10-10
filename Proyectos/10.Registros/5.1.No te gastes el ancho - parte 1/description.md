@@ -1,4 +1,4 @@
-#Actividad 9. ¡No te gastes el ancho! - parte 1
+#Actividad 5.1. ¡No te gastes el ancho! - parte 1
 
 En esta actividad tenés que contestar a una jugada de Truco hecha por la computadora. 
 En el escenario aparece una carta jugada por la computadora, y vos tenés que poner una carta que le gane. 
@@ -29,4 +29,4 @@ En el segundo caso, el 7 gana tranquilo y entonces es mejor jugarlo para no gast
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/1.Expresiones%20y%20funciones/9.No%20te%20gastes%20el%20ancho%20-%20parte%201/assets/resources/description.pdf "Enunciado de '¡No te gastes el ancho! - parte 1' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/5.1.No%20te%20gastes%20el%20ancho%20-%20parte%201/assets/resources/description.pdf "Enunciado de '¡No te gastes el ancho! - parte 1' en PDF"

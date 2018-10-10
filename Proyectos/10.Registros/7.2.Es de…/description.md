@@ -1,4 +1,4 @@
-#Actividad 3.2. Es de…
+#Actividad 7.2. Es de…
 
 Este ejercicio empieza parecido al anterior.
 Tenemos que volver a ver si las cartas que hay en la mesa forman una "flor" en el juego del truco.
@@ -28,4 +28,4 @@ Si todo sale como se espera, deberías obtener escenarios finales como los sigui
 [Enunciado en PDF][PDF]
 
 [PDF]: 
-https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/5.Par%C3%A1metros%20en%20procedimientos%20y%20funciones/3.2.Es%20de%E2%80%A6/assets/resources/description.pdf "Enunciado de 'Es de…' en PDF"
+https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/7.2.Es%20de%E2%80%A6/assets/resources/description.pdf "Enunciado de 'Es de…' en PDF"

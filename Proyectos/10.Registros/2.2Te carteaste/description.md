@@ -1,4 +1,4 @@
-#Actividad 5. ¡Te carteaste!
+#Actividad 2.2. ¡Te carteaste!
 
 Esta actividad es similar a la anterior, pero en lugar de una mano válida de truco, tenés que generar una mano para que 
 el oponente diga _“¡te carteaste!”_ 
@@ -18,4 +18,4 @@ Otra vez, la actividad es tan simple como poner las 3 cartas pedidas.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/1.Expresiones%20y%20funciones/5.Te%20carteaste/assets/resources/description.pdf "Enunciado de '¡Te carteaste!' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/2.2.Te%20carteaste/assets/resources/description.pdf "Enunciado de '¡Te carteaste!' en PDF"

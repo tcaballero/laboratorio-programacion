@@ -1,4 +1,4 @@
-#Actividad 5.2. Son buenas
+#Actividad 9.2. Son buenas
 
 Una vez más, cuatro cartas: dos en tu mano, dos en la mano de la computadora.
 Y una vez más, se trata de controlar el puntaje del envido.
@@ -25,4 +25,4 @@ Si el programa es correcto, el escenario final tiene que verse como el siguiente
 [Enunciado en PDF][PDF]
 
 [PDF]: 
-https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos//master/Proyectos/2.Par%C3%A1metros%20y%20Entrada-Salida/5.2.Son%20buenas/assets/resources/description.pdf "Enunciado de 'Son buenas' en PDF"
+https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/9.2.Son%20buenas/assets/resources/description.pdf "Enunciado de 'Son buenas' en PDF"

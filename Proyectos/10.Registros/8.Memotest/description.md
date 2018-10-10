@@ -1,4 +1,4 @@
-#Actividad 4. Memotest
+#Actividad 8. Memotest
 
 En esta actividad ya viene (casi) construido un programa para jugar al Memotest. 
 Sin embargo, por un descuido, falta una de las funciones: la que verifica si las dos cartas que se destaparon son 
@@ -15,4 +15,4 @@ debería verse como el siguiente.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/2.Par%C3%A1metros%20y%20Entrada-Salida/4.Memotest/assets/resources/description.pdf "Enunciado de 'Memotest' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/8.Memotest/assets/resources/description.pdf "Enunciado de 'Memotest' en PDF"

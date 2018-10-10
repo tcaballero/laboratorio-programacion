@@ -1,4 +1,4 @@
-#Actividad 3.1. Es de espadas
+#Actividad 7.1. Es de espadas
 
 En esta actividad ya viene un programa a medio construir. 
 Su propósito es informar si las 3 cartas que tiene la computadora forman lo que en el juego del Truco 
@@ -26,4 +26,4 @@ Los resultados finales tienen que ser como los siguientes escenarios:
 [Enunciado en PDF][PDF]
 
 [PDF]: 
-https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/2.Par%C3%A1metros%20y%20Entrada-Salida/3.1.Es%20de%20espadas/assets/resources/description.pdf "Enunciado de 'Es de espadas' en PDF"
+https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/7.1.Es%20de%20espadas/assets/resources/description.pdf "Enunciado de 'Es de espadas' en PDF"
