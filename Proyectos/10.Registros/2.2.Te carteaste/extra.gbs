@@ -37,7 +37,7 @@
 //procedure MoverSiPuede_(dir) { AuxMoverSiPuede(dir) }
 
 //procedure IrAlOrigen()              { AuxIrAlOrigen()              }
-//procedure PasarASiguientePosición() { AuxPasarASiguientePosición() }
+procedure PasarASiguientePosición() { AuxPasarASiguientePosición() }
 /*==================================================================================================*/
 /*----------------------------- FIN INTERFAZ de 00.Gobstones-Base.gbs ------------------------------*/
 /*==================================================================================================*/
@@ -949,12 +949,12 @@ type PaloDeCartaEspañola  is variant { case Bastos {} case Copas {} case Espada
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de creación de palos (interfaz) ------------------------/
 /---------------------------------------------------------------------------------------------------*/
-/*@ATTRIBUTE@tooltip@Denota el palo de una carta de un mazo de cartas españolas@*/
+///*@ATTRIBUTE@tooltip@Denota el palo de una carta de un mazo de cartas españolas@*/
 /*@ATTRIBUTE@block_name@_@*/
 /*@ATTRIBUTE@block_dropdown@[("Bastos", 'Bastos'), ("Copas", 'Copas'), ("Espadas", 'Espadas'), ("Oros", 'Oros')]@*/
 function paloDeCartaEspañolaDe40_(palo) { return (palo) }
 
-/*@ATTRIBUTE@tooltip@Denota el palo de espadas de un mazo de cartas españolas@*/
+///*@ATTRIBUTE@tooltip@Denota el palo de espadas de un mazo de cartas españolas@*/
 /*@ATTRIBUTE@block_name@Bastos@*/ function bastos()  { return(Bastos)  }
 /*@ATTRIBUTE@block_name@Copas@*/  function copas()   { return(Copas)   }
 /*@ATTRIBUTE@block_name@Espadas@*/function espadas() { return(Espadas) }
@@ -1115,11 +1115,11 @@ function aux_códigoParaElPaloDeCartaEspañolaPrevio(palo) {
 function númeroDeCartaEspañolaDe40_(valor) { if (not aux_esCódigoParaElValorDeCartaEspañolaDe40(valor)) { BOOM("No es un número válido de carta española de 40 cartas") } 
                                              return (valor) }
 
-///*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
-///*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
-///*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
-///*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
-///*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
+/*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
+/*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
+/*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
+/*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
+/*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de acceso a valores (interfaz) -------------------------/
@@ -1336,7 +1336,7 @@ type CartaEspañola is variant {
 //---------------------------------------------------------------------------------------------------/
 /*--------------------- Operaciones de creación de cartas españolas (interfaz) ----------------------/
 /---------------------------------------------------------------------------------------------------*/
-///*@ATTRIBUTE@block_name@la carta _ de _@*/           function dameCarta__(v,p) { return(aux_armarCartaEspañola(v, p)) }
+/*@ATTRIBUTE@block_name@la carta _ de _@*/           function dameCarta__(v,p) { return(aux_armarCartaEspañola(v, p)) }
 ///*@ATTRIBUTE@block_name@comodín@*/                   function dameComodín()    { return(aux_armarComodín())           }
 
 //---------------------------------------------------------------------------------------------------/
@@ -1364,9 +1364,9 @@ type CartaEspañola is variant {
 //---------------------------------------------------------------------------------------------------/
 /*------------------------ Operaciones de E/S de cartas españolas (interfaz) ------------------------/
 /---------------------------------------------------------------------------------------------------*/
-function  cartaActual()               { return(aux_cartaEspañolaActual())     }
+//function  cartaActual()               { return(aux_cartaEspañolaActual())     }
 //function  cartaTapada()               { return(aux_cartaEspañolaTapada())     }
-//procedure PonerCarta_(carta)          { AuxPonerCartaEspañolaDestapada(carta) }
+procedure PonerCarta_(carta)          { AuxPonerCartaEspañolaDestapada(carta) }
 //procedure SacarCartaActual()          { AuxSacarCartaEspañolaActual()         }
 
 //procedure DarVueltaLaCartaActual()    { AuxDarVueltaLaCartaEspañolaActual()   }
@@ -1591,7 +1591,7 @@ function aux_hayCartaEspañolaDestapada() {
 function aux_cartaEspañolaActual() {
   // PRECONDICIÓN: hay una carta destapada en la celda actual
   if (not aux_hayCartaEspañola())      { BOOM("No hay una carta española que pueda leer") }
-  //if (aux_laCartaEspañolaEstáTapada()) { BOOM("No puedo leer una carta española tapada")  }
+  if (aux_laCartaEspañolaEstáTapada()) { BOOM("No puedo leer una carta española tapada")  }
   return(aux_cartaEspañolaParaElCódigo(aux_leerDato()))
 }         
 
@@ -1781,103 +1781,3 @@ procedure AuxIluminarLaCartaEspañolaActual() {
 /*----------------------- FIN AUXILIARES de 03-CartasEspañolasDe40-Base.gbs ------------------------*/
 /*==================================================================================================*/
 
-
-
-/*==================================================================================================*/
-/*--------------------------- OPERACIONES ESPECÍFICAS DE LA ACTIVIDAD ------------------------------*/
-/*==================================================================================================*/
-procedure DecirPalo_(palo)    { AuxDecirPalo_(palo)    }
-procedure DecirNúmero_(valor) { AuxDecirNúmero_(valor) }
-
-procedure AuxDecirPalo_(palo) {
-  carta := aux_cartaEspañolaParaAdivinar()   // Se recuerdan antes, porque si
-  valor := aux_númeroDicho()                 // no existen, no se dice el palo
-  AuxIrAlInicioDelPalo()
-  AuxDecirElPalo(palo)
-  if (carta == aux_armarCartaEspañola(valor, palo)) 
-    { AuxDescubrirCartaEspañolaParaAdivinar() }
-  // AuxValidarResultado(carta == aux_armarCartaEspañola(valor, palo))
-}
-
-procedure AuxDecirNúmero_(valor) {
-  AuxValidarExistenciaCartaEspañolaParaAdivinar()
-  AuxIrAlInicioDeLaSalida()
-  AuxDecirElValor(valor)
-  AuxIrAlInicioDeLaEntrada()
-}
-
-function aux_cartaEspañolaParaAdivinar() {
-  AuxValidarExistenciaCartaEspañolaParaAdivinar()
-  return(aux_cartaEspañolaTapada())
-}
-
-procedure AuxDescubrirCartaEspañolaParaAdivinar() {
-  AuxValidarExistenciaCartaEspañolaParaAdivinar()
-  AuxDarVueltaLaCartaEspañolaActual()
-}
-
-procedure AuxValidarExistenciaCartaEspañolaParaAdivinar() {
-  // PROPÓSITO: va a la posición donde debería estar la carta española para adivinar y valida que exista.
-  // PRECONDICIÓN: hay una carta española para adivinar en la posición adecuada.
-  // OBSERVACIÓN: si está la carta esperada, deja el cabezal sobre ella
-  AuxIrAlInicioDeLaEntrada()
-  if (not aux_hayCartaEspañolaTapada()) { BOOM("No hay carta para adivinar") }
-}
-
-function aux_númeroDicho() {
-  AuxIrAlInicioDeLaSalida()
-  if (not aux_hayNúmero()) { BOOM("Primero deberías decir el número de la carta") }
-  return (aux_númeroActual())
-}
-
-procedure AuxIrAlInicioDeLaEntrada() {  IrAlBorde(Norte) IrAlBorde(Oeste) }
-procedure AuxIrAlInicioDeLaSalida()  {  IrAlBorde(Sur) IrAlBorde(Oeste)   }
-procedure AuxIrAlInicioDelPalo() { 
-  AuxIrAlInicioDeLaSalida() 
-  AuxIrAPosiciónLibre()
-  AuxPasarASiguientePosición()
-}
-
-procedure AuxIrAPosiciónLibre() {
-  while (not aux_laCeldaEstáVacía()) {
-    AuxPasarASiguientePosición()
-  }
-}
-
-procedure AuxDecirElValor(valor) {
-   AuxPonerNúmero(valor)
-}
-
-procedure AuxDecirElPalo(palo) {
-  AuxDecir([D,E])
-  AuxEspaciar()
-  switch (palo) to {
-    Bastos  -> { AuxDecir([B,A,S,T,O,S])   }
-    Copas   -> { AuxDecir([C,O,P,A,S])     }
-    Espadas -> { AuxDecir([E,S,P,A,D,A,S]) }
-    Oros    -> { AuxDecir([O,R,O,S])       }
-  }
-}
-
-procedure AuxDecir(msg) {
-  letrasQueFaltan := msg
-  while (not aux_esVacía(letrasQueFaltan)) {
-     AuxPonerLetra(primero(letrasQueFaltan))
-     AuxPasarASiguientePosición ()
-     letrasQueFaltan := resto(letrasQueFaltan)
-  }
-}
-
-procedure AuxEspaciar() {
-  AuxPonerLetra(Espacio)
-  AuxPasarASiguientePosición()
-}
-
-function aux_laCeldaEstáVacía() {
-   return(not hayBolitas(Azul) && not hayBolitas(Negro) 
-       && not hayBolitas(Rojo) && not hayBolitas(Verde))
-}
-
-procedure AuxValidarResultado(condición) {
-  if (not condición) { BOOM("El programa no es correcto") }
-}   
