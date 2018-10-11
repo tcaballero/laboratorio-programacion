@@ -52,6 +52,7 @@ blocks:
         </category>
         <category name="Funciones primitivas.">
           <block type="númeroDeCartaEspañolaDe40_"></block>
+          <block type="cartaActual"></block>
         </category>
         <category name="Mis funciones" custom="FUNCTION_CALLS">
         </category>
