@@ -1115,11 +1115,11 @@ function aux_códigoParaElPaloDeCartaEspañolaPrevio(palo) {
 function númeroDeCartaEspañolaDe40_(valor) { if (not aux_esCódigoParaElValorDeCartaEspañolaDe40(valor)) { BOOM("No es un número válido de carta española de 40 cartas") } 
                                              return (valor) }
 
-/*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
-/*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
-/*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
-/*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
-/*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
+///*@ATTRIBUTE@block_name@As@*/       function armarValorAs()      { return(1) }
+///*@ATTRIBUTE@block_name@valor _@*/  function armarValor_(valor)  { return (aux_armarValorDeCartaEspañolaDe40(valor)) }
+///*@ATTRIBUTE@block_name@Sota@*/     function armarValorSota()    { return(10) }
+///*@ATTRIBUTE@block_name@Caballo@*/  function armarValorCaballo() { return(11) }
+///*@ATTRIBUTE@block_name@Rey@*/      function armarValorRey()     { return(12) }
 
 //---------------------------------------------------------------------------------------------------/
 /*------------------------------ Operaciones de acceso a valores (interfaz) -------------------------/
