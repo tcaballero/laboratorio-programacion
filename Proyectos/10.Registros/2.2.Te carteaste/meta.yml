@@ -1,4 +1,4 @@
-name: Descubrir la carta
+name: ¡Te carteaste!
 attire:
   active: 'Cartas, letras y números'
   user_permissions:
@@ -17,8 +17,8 @@ blocks:
           <block type="BOOM"></block>
         </category>
         <category name="Procedimientos primitivos.">
-          <block type="DecirPalo_"></block>
-          <block type="DecirNúmero_"></block>
+          <block type="PasarASiguientePosición"></block>
+          <block type="PonerCarta_"></block>
         </category>
         <category name="Mis procedimientos" custom=PROCEDURE_CALLS>
         </category>
@@ -41,6 +41,7 @@ blocks:
           <block type="DireccionSelector"></block>
           <block type="BoolSelector"></block>
           <block type="paloDeCartaEspañolaDe40_"></block>
+          <block type="dameCarta__"></block>
         </category>
         <category name="Expresiones primitivas">
           <block type="hayBolitas"></block>
@@ -50,7 +51,6 @@ blocks:
           <block type="dameElNúmero_"></block>
         </category>
         <category name="Funciones primitivas.">
-          <block type="cartaActual"></block>
           <block type="númeroDeCartaEspañolaDe40_"></block>
         </category>
         <category name="Mis funciones" custom="FUNCTION_CALLS">
@@ -90,7 +90,7 @@ blocks:
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
   disabled: [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
-                            , "RepeticionCondicional"
+                            , "RepeticionSimple", "RepeticionCondicional"
                             , "AlternativaCompleta", "AlternativaSimple"
                             , "Asignación"
             , "EXPRESIONES" , "Color", "Direccion"
@@ -98,6 +98,7 @@ blocks:
                             , "OperadorNumerico", "OperadorDeComparacion"
                             , "OperadorDeNegacion", "OperadorLogico"
                             , "siguiente", "previo", "opuesto"
+            , "dameElPalo_", "dameElNúmero_"
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                             , "Procedimientos primitivos", "Mis procedimientos"
@@ -113,6 +114,7 @@ blocks:
             , "DEFINICIONES", "procedures_defnoreturn"
                             , "procedures_defreturnsimplewithparams"
                             , "procedures_defreturn"
+            , "dameElPalo_", "dameElNúmero_"
             ]
 board:
   active: 1
