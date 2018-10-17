@@ -44,11 +44,11 @@ blocks:
           <block type="hayBolitas"></block>
           <block type="puedeMover"></block>
           <block type="nroBolitas"></block>
+          <block type="primerElemento_"></block>
+          <block type="resto_"></block>
         </category>
         <category name="Funciones primitivas.">
           <block type="listaDeNúmerosOculta"></block>
-          <block type="primerElemento_"></block>
-          <block type="resto_"></block>
         </category>
         <category name="Mis funciones" custom="FUNCTION_CALLS">
         </category>
