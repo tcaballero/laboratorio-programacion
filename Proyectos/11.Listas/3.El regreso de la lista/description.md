@@ -19,4 +19,4 @@ Algunos escenarios iniciales posibles:
 [Enunciado en PDF][PDF]
 
 [PDF]: 
-https://raw.githubusercontent.com/gobstones/laprogramacionysudidactica2/master/Proyectos/4.Introducci%C3%B3n%20a%20listas/3.El%20regreso%20de%20la%20lista/assets/resources/description.pdf "Enunciado de 'El regreso de la lista' en PDF"
+https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/11.Listas/3.El%20regreso%20de%20la%20lista/assets/resources/description.pdf "Enunciado de 'El regreso de la lista' en PDF"
