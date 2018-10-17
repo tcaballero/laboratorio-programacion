@@ -1,4 +1,4 @@
-program { DescubrirElMazo(mazoDesdeEstaPosición()) }
+program { DescubrirElMazo(mazoActual()) }
 
 procedure DescubrirElMazo(mazo) {
   cartasSinProcesar := mazo
