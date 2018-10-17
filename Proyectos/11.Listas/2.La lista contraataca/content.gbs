@@ -9,10 +9,14 @@ procedure DescubrirLaLista() {
 }
 
 function sinLosDosPrimeros(lista) {
-  return (resto_(...))
+  return (...)
 }
 
 function segundoElemento(lista) {
   return (primerElemento_(...))
+}
+
+function tercerElemento(lista) {
+  return (...)
 }
 
