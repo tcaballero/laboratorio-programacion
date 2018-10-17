@@ -111,7 +111,6 @@ blocks:
                             , "procedures_defreturnsimplewithparams"
                             , "procedures_defreturn"
             ]
-
 board:
   active: 1
   initial_board_source: random
