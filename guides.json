@@ -1,5 +1,5 @@
 [ 
-  {"name": "Descubrir Gobstones",   "repo": "gobstones/curso-InPr-UNQ",
+  { "name": "Descubrir Gobstones"         , "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "La simulación del docente robot",
         "path": "Proyectos/1.Descubrir Gobstones/1.1.La simulación del docente robot"
@@ -41,7 +41,7 @@
         "path": "Proyectos/1.Descubrir Gobstones/7.Snake básico"
       }
     ] }
-, {"name": "Procedimientos",   "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Procedimientos"              , "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "Programo el cuadrado",
         "path": "Proyectos/2.Procedimientos/1.1.Programo el cuadrado"
@@ -77,7 +77,7 @@
         "path": "Proyectos/2.Procedimientos/6.Reparando la nave"
       }
     ] }
-, {"name": "Repetición simple",   "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Repetición simple"           , "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",    "name": "Poner muchas bolitas se vuelve incómodo",
         "path": "Proyectos/3.Repetición simple/1.1.Poner muchas bolitas se vuelve incómodo"
@@ -98,7 +98,7 @@
         "path": "Proyectos/3.Repetición simple/5.Entrenamiento para fútbol de robots"
       }
 	] } 
-, {"name": "Parámetros",   "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Parámetros"                  , "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
       { "id": "1.1",        "name": "Tablero de Ludo, toma 1",
         "path": "Proyectos/4.Parámetros/1.1.Tablero de Ludo, toma 1"
@@ -128,7 +128,7 @@
         "path": "Proyectos/4.Parámetros/5.El planeta de Nano"
       }
 	] } 
-, { "name": "Expresiones y tipos",    "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Expresiones y tipos"         , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",        "name": "No encuentro bolitas de color Sur",
         "path": "Proyectos/5.Expresiones y tipos/1.1.No encuentro bolitas de color Sur"
@@ -158,7 +158,7 @@
         "path": "Proyectos/5.Expresiones y tipos/4.Laberinto"
       }
     ] }
-, { "name": "Alternativa condicional",    "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Alternativa condicional"     , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1",        "name": "Apagar la luz, o prenderla",
         "path": "Proyectos/6.Alternativa condicional/1.Apagar la luz, o prenderla"
@@ -173,7 +173,7 @@
         "path": "Proyectos/6.Alternativa condicional/4.No, no y no"
       }
     ] }
-, { "name": "Funciones",  "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Funciones"                   , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",      "name": "Mi elección es clara",
         "path": "Proyectos/7.Funciones/1.1.Mi elección es clara"
@@ -191,7 +191,7 @@
         "path": "Proyectos/7.Funciones/4.Está lista la cena"
       }
     ] }
-, { "name": "Repetición condicional",  "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Repetición condicional"      , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",      "name": "Super Lucho 1",
         "path": "Proyectos/8.Repetición condicional/1.1.Super Lucho 1"
@@ -215,7 +215,7 @@
         "path": "Proyectos/8.Repetición condicional/6.Dónde puse las llaves"
       }
    ] }
-, { "name": "Otras herramientas avanzadas",  "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Otras herramientas avanzadas", "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1.1",      "name": "Recuerden la contraseña",
         "path": "Proyectos/9.Otras herramientas avanzadas/1.1.Recuerden la contraseña"
@@ -242,7 +242,7 @@
         "path": "Proyectos/9.Otras herramientas avanzadas/4.El radar"
       }
    ] }
-, { "name": "Introducción a registros",  "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Introducción a registros"    , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
       { "id": "1",      "name": "Descubrir la carta",
         "path": "Proyectos/10.Registros/1.Descubrir la carta"
@@ -260,13 +260,16 @@
         "path": "Proyectos/10.Registros/4.El rey, el caballo, …"
       }
    ] }
-, { "name": "Introducción a listas",  "repo": "gobstones/curso-InPr-UNQ",
+, { "name": "Introducción a listas"       , "repo": "gobstones/curso-InPr-UNQ",
     "exercises": [
-      { "id": "1",      "name": "Descubrir la lista",
+      { "id": "1",    "name": "Descubrir la lista",
         "path": "Proyectos/11.Listas/1.Descubrir la lista"
       }
     , { "id": "2",    "name": "La lista contraataca",
         "path": "Proyectos/11.Listas/2.La lista contraataca"
+      }
+    , { "id": "3",    "name": "El regreso de la lista",
+        "path": "Proyectos/11.Listas/3.El regreso de la lista"
       }
    ] }
 ]
