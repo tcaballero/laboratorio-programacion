@@ -289,5 +289,19 @@
     , { "id": "10.1",   "name": "¿Cuánto envido?",
         "path": "Proyectos/10.Registros/10.2.Cuánto envido"
       }
+, { "name": "Introducción a listas",  "repo": "gobstones/curso-InPr-UNQ",
+    "exercises": [
+      { "id": "1",      "name": "Descubrir la lista",
+        "path": "Proyectos/11.Listas/1.Descubrir la lista"
+      }
+    , { "id": "2",    "name": "La lista contraataca",
+        "path": "Proyectos/11.Listas/2.La lista contraataca"
+      }
+    , { "id": "3",    "name": "El regreso de la lista",
+        "path": "Proyectos/11.Listas/3.El regreso de la lista"
+      }
+    , { "id": "4",      "name": "El repartir de las cartas",
+        "path": "Proyectos/11.Listas/4.El repartir de las cartas"
+      }
    ] }
 ]

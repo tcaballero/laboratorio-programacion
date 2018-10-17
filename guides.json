@@ -259,5 +259,13 @@
     , { "id": "4",      "name": "El rey, el caballo, …",
         "path": "Proyectos/10.Registros/4.El rey, el caballo, …"
       }
+, { "name": "Introducción a listas",  "repo": "gobstones/curso-InPr-UNQ",
+    "exercises": [
+      { "id": "1",      "name": "Descubrir la lista",
+        "path": "Proyectos/11.Listas/1.Descubrir la lista"
+      }
+    , { "id": "2",    "name": "La lista contraataca",
+        "path": "Proyectos/11.Listas/2.La lista contraataca"
+      }
    ] }
 ]
