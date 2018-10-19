@@ -93,7 +93,7 @@ blocks:
             , "EXPRESIONES" , "Color", "Direccion", "Numero"
                             , "nroBolitas", "hayBolitas", "puedeMover"
                             , "OperadorNumerico", "OperadorDeComparacion"
-                            , "OperadorDeNegacion", "OperadorLogico"
+                            , "OperadorLogico"
                             , "siguiente", "previo", "opuesto"
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
