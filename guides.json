@@ -1,44 +1,45 @@
 [ 
-  { "name": "Descubrir Gobstones"         , "repo": "gobstones/curso-InPr-UNQ",
+  { "name": "Programas y comandos básicos",
+    "repo": "gobstones/curso-InPr-UNQ",
    "exercises": [
-      { "id": "1.1",        "name": "La simulación del docente robot",
-        "path": "Proyectos/1.Descubrir Gobstones/1.1.La simulación del docente robot"
+      { "id": "1.1",        "name": "Repartija de caramelos",
+        "path": "Proyectos/1.Programas y comandos básicos/1.1.Repartija de caramelos"
       }
-    , { "id": "1.2",        "name": "El docente, el granjero y las bolitas",
-        "path": "Proyectos/1.Descubrir Gobstones/1.2.El docente, el granjero y las bolitas"
+    , { "id": "1.2",        "name": "¿Caramelos, tomates o bolitas?",
+        "path": "Proyectos/1.Programas y comandos básicos/1.2.Caramelos, tomates o bolitas"
       }
-    , { "id": "2",          "name": "Gobstones",
-        "path": "Proyectos/1.Descubrir Gobstones/2.Gobstones"
+    , { "id": "2",          "name": "Bolitas de colores",
+        "path": "Proyectos/1.Programas y comandos básicos/2.Bolitas de colores"
       }
-    , { "id": "3.1",        "name": "Víbora de bolitas, horizontal",
-        "path": "Proyectos/1.Descubrir Gobstones/3.1.Víbora de bolitas, horizontal"
+    , { "id": "3.1",        "name": "La víbora esperando una presa",
+        "path": "Proyectos/1.Programas y comandos básicos/3.1.La víbora esperando una presa"
       }
-    , { "id": "3.2",        "name": "Víbora de bolitas, vertical",
-        "path": "Proyectos/1.Descubrir Gobstones/3.2.Víbora de bolitas, vertical"
+    , { "id": "3.2",        "name": "La víbora, a punto de atacar",
+        "path": "Proyectos/1.Programas y comandos básicos/3.2.La víbora, a punto de atacar"
       }
-    , { "id": "3.3",        "name": "Una víbora más inquieta",
-        "path": "Proyectos/1.Descubrir Gobstones/3.3.Una víbora más inquieta"
+    , { "id": "3.3",        "name": "La víbora al ataque",
+        "path": "Proyectos/1.Programas y comandos básicos/3.3.La víbora al ataque"
       }
-    , { "id": "4.1",        "name": "Vaciar la celda",
-        "path": "Proyectos/1.Descubrir Gobstones/4.1.Vaciar la celda"
+    , { "id": "4.1",        "name": "La celda vacía",
+        "path": "Proyectos/1.Programas y comandos básicos/4.1.La celda vacía"
       }
-    , { "id": "4.2",        "name": "Limpiar la cruz roja",
-        "path": "Proyectos/1.Descubrir Gobstones/4.2.Limpiar la cruz roja"
+    , { "id": "4.2",        "name": "La cruz roja",
+        "path": "Proyectos/1.Programas y comandos básicos/4.2.La cruz roja"
       }
-    , { "id": "5.1",        "name": "Marquemos las puntas",
-        "path": "Proyectos/1.Descubrir Gobstones/5.1.Marquemos las puntas"
+    , { "id": "5.1",        "name": "¡Al rincón!",
+        "path": "Proyectos/1.Programas y comandos básicos/5.1.Al rincón"
       }
-    , { "id": "5.2",        "name": "Lugar para los corners",
-        "path": "Proyectos/1.Descubrir Gobstones/5.2.Lugar para los corners"
+    , { "id": "5.2",        "name": "Marcando los corners",
+        "path": "Proyectos/1.Programas y comandos básicos/5.2.Marcando los corners"
       }
     , { "id": "6.1",         "name": "Haz lo que yo digo…",
-        "path": "Proyectos/1.Descubrir Gobstones/6.1.Haz lo que yo digo…"
+        "path": "Proyectos/1.Programas y comandos básicos/6.1.Haz lo que yo digo…"
       }
     , { "id": "6.2",         "name": "Puede fallar",
-        "path": "Proyectos/1.Descubrir Gobstones/6.2.Puede fallar"
+        "path": "Proyectos/1.Programas y comandos básicos/6.2.Puede fallar"
       }
-    , { "id": "7",          "name": "Snake básico",
-        "path": "Proyectos/1.Descubrir Gobstones/7.Snake básico"
+    , { "id": "7",          "name": "La víbora que come manzanas deliciosas",
+        "path": "Proyectos/1.Programas y comandos básicos/7.La víbora que come manzanas deliciosas"
       }
     ] }
 , { "name": "Procedimientos"              , "repo": "gobstones/curso-InPr-UNQ",
@@ -58,11 +59,11 @@
     , { "id": "2.2",        "name": "Armamos 'El alien toca botón'",
         "path": "Proyectos/2.Procedimientos/2.2.Armamos 'El alien toca botón'"
       }
-    , { "id": "3.1",        "name": "Preparar el fútbol de robots",
-        "path": "Proyectos/2.Procedimientos/3.1.Preparar el fútbol de robots"
+    , { "id": "3.1",        "name": "El Beto, el robot goleador",
+        "path": "Proyectos/2.Procedimientos/3.1.El Beto, el robot goleador"
       }
-    , { "id": "3.2",        "name": "Preparar el fútbol de robots, sin procedimientos",
-        "path": "Proyectos/2.Procedimientos/3.2.Preparar el fútbol de robots, sin procedimientos"
+    , { "id": "3.2",        "name": "El Beto, el robot goleador, sin procedimientos",
+        "path": "Proyectos/2.Procedimientos/3.2.El Beto, el robot goleador, sin procedimientos"
       }
     , { "id": "4",          "name": "La gran aventura del mar encantado",
         "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"

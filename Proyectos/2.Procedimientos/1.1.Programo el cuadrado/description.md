@@ -22,7 +22,3 @@ Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como mu
 > No te olvides de que cuando el programa esté listo ¡tenés que guardarlo en la computadora así 
 > podés volver a verlo más adelante! 
 > Te sugerimos que le cambies el nombre, así no se mezclan tu solución con el proyecto original.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/1.1.Programo%20el%20cuadrado/assets/resources/description.pdf "Enunciado de 'Programo el cuadrado' en PDF"

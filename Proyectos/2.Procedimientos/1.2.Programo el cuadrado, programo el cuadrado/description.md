@@ -30,7 +30,3 @@ B) Luego de guardar el programa en tu computadora, tratá de hacer un cambio.
 ¿Cuántos comandos primitivos tuviste que agregar y en qué lugares? 
 ¿Y si los cuadrados tuvieran que ocupar toda la altura del tablero, qué tan difícil sería hacer los cambios?
 Acordate, al terminar, de volver a guardar tu solución con un nombre diferente al de antes.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/1.2.Programo%20el%20cuadrado%2C%20programo%20el%20cuadrado/assets/resources/description.pdf "Enunciado de 'Programo el cuadrado, programo el cuadrado' en PDF"

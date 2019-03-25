@@ -39,7 +39,3 @@ B) Después de guardar tu solución en la computadora, cambiá el programa para 
 >
 > Reutilizar es aprovechar un programa o procedimiento ya hecho para no tener que hacerlo todo de nuevo, 
 > y solamente hacerle pequeñas modificaciones para ajustarlo al nuevo problema.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/1.3.Dos%20cuadrados%2C%20pero%20m%C3%A1s%20f%C3%A1ciles/assets/resources/description.pdf "Enunciado de 'Dos cuadrados, pero más fáciles' en PDF"

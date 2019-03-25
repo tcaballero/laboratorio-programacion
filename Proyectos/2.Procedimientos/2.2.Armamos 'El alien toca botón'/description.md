@@ -36,7 +36,3 @@ de la actividad anterior. ¡No te olvides de activar la vestimenta!
 > con la actividad, pero ahora vos tenés que hacerlos, con los mismos nombres.
 > La diferencia entre un procedimiento primitivo y uno que construís para resolver la actividad es
 > solamente quién lo escribe.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/2.Procedimientos/2.1.Armamos%20'El%20alien%20toca%20bot%C3%B3n'/assets/resources/description.pdf "Enunciado de 'Armamos 'El alien toca botón'' en PDF"

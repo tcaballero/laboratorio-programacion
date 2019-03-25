@@ -6,6 +6,12 @@ rules:
       blue: 0
       green: 0
       red: 0
+  - image: FondoConPlantas.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
   - image: ProtagonistaSola.png
     when:
       black: 0
