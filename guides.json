@@ -286,4 +286,10 @@
         "path": "Proyectos/11.Listas/4.El repartir de las cartas"
       }
    ] }
+, { "name": "Ejercicios de la Práctica"       , "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "1",    "name": "Otro ladrillo en la pared",
+        "path": "Proyectos/12.Prácticas/1.Otro ladrillo en la pared"
+      }
+   ] }
 ]
