@@ -288,10 +288,16 @@
    ] }
 , { "name": "Ejercicios de la Práctica"       , "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
+      { "id": "0",    "name": "Libre Soy",
+        "path": "Proyectos/12.Prácticas/0.Libre Soy"
+      },
       { "id": "1",    "name": "Otro ladrillo en la pared",
         "path": "Proyectos/12.Prácticas/1.Otro ladrillo en la pared"
       },
-      { "id": "2",    "name": "Soporte técnico",
+      { "id": "2",    "name": "Dominó",
+        "path": "Proyectos/12.Prácticas/2.Domino"
+      },
+      { "id": "3",    "name": "Soporte técnico",
         "path": "Proyectos/12.Prácticas/2.Soporte Técnico"
       }
    ] }

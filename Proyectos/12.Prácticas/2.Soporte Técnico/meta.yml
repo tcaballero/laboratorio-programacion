@@ -34,6 +34,7 @@ blocks:
     - Color
     - Direccion
     - Numero
+    - nroBolitas
     - DEFINICIONES
     - procedures_defnoreturnnoparams
     - procedures_defnoreturn
