@@ -20,8 +20,3 @@ Después que completaste esta tarea, tenemos dos desafíos:
    
 2. Suponiendo que ya tenés el procedimiento del ítem anterior, ¿cómo harías para sacar todas las bolitas, de todos los colores?
    Nuevamente, ¿cómo llamarías a ese procedimiento? 
- 
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Par%C3%A1metros/4.Varias%20cosas%20de%20una%20sola%20vez/assets/resources/description.pdf "Enunciado de 'Varias cosas de una sola vez' en PDF"
-

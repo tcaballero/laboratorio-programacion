@@ -34,8 +34,3 @@ Acordate: solamente tenés que agregar si _no_ hay pelota.
 > considera al caso de borde, es decir, el último caso que consideramos por separado por ser 
 > levemente diferente, tal cual hiciste vos en la actividad _“Candela, ¡me quemo!”_. 
 > Es importante que te acuerdes de estos detalles cuando hagas todo el programa por tu cuenta.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/6.Alternativa%20condicional/4.No%2C%20no%20y%20no/assets/resources/description.pdf "Enunciado de 'No, no y no' en PDF"
-

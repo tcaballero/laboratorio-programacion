@@ -24,7 +24,3 @@ Revisá los procedimientos y funciones primitivos para ver cómo hacer.
 >
 > Podés definir un procedimiento `AvanzarUnPasoSiguiendoLaFlecha` para hacer uno de los movimientos. 
 > Para hacerlo podés mirar cómo hiciste en _“Escapar de la jaula”_, porque la idea es parecida…
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Expresiones%20y%20tipos/4.Laberinto/assets/resources/description.pdf "Enunciado de 'Laberinto' en PDF"

@@ -28,4 +28,4 @@ puede verse dando click sobre dicho ícono.
 > - ¿El comentario es acorde al código?
 > - ¿Cómo podría modificar mi programa para que lo haga?
 > - ¿Cómo debería modificar el comentario para que coincida con el código?
-> - ¿Tengo que cambiar el código o el programa? ¿Cuál es el que yo quería?
+> - ¿Tengo que cambiar el código o el programa? ¿Qué es lo que yo quería lograr?

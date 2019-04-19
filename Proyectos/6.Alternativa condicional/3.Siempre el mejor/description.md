@@ -35,8 +35,3 @@ Para saber el nivel de un Gobstomon podés usar la expresión primitiva `nroBoli
 ¿Pero cómo podés hacer para hacer la condición que diga si los dos niveles _son iguales_? 
 ¿Y para saber cuál de los dos niveles _es mayor_? 
 Buscá en el entorno de Gobstones. 
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/6.Alternativa%20condicional/3.Siempre%20el%20mejor/assets/resources/description.pdf "Enunciado de 'Siempre el mejor' en PDF"
-

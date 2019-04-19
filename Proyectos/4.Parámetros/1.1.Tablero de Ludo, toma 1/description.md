@@ -7,7 +7,3 @@ Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, y c
 </center>
 
 Para que no te olvides de dividir en subtareas y representar las mismas con procedimientos, te damos algunos procedimientos ya hechos, y otros empezados para que los completes.
-        
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Par%C3%A1metros/1.1.Tablero%20de%20ludo,%20toma%201/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 1' en PDF"

@@ -9,7 +9,3 @@ Completá el programa para lograr el mismo tablero que en la actividad _"Tablero
 La diferencia es que esta vez solamente vas a poder definir un único procedimiento para dibujar. ¿Cómo tenés que hacer para que el color no sea siempre el mismo? Acordate que pasar argumentos es una forma de indicarle a un comando con qué dato queremos que trabaje.
 
 Es mejor poder hacer un único procedimiento que haga los cuatro cuadrados, antes que tener que hacer cuatro procedimientos diferentes, ¿no? Imaginate si en lugar de cambiar el color, lo que cambiase fuese el tamaño… ¿Cuántos procedimientos harían falta si no se puede usar un parámetro?
-        
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Par%C3%A1metros/1.2.Tablero%20de%20ludo,%20toma%202/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 2' en PDF"

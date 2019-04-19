@@ -31,8 +31,3 @@ Una vez más, tenés que explorar el entorno para encontrar las herramientas que
 >   y eso quiere decir que la luz está apagada.
 >
 >¡No te olvides de definir procedimientos para las subtareas!
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/6.Alternativa%20condicional/1.Apagar%20la%20luz%2C%20o%20prenderla/assets/resources/description.pdf "Enunciado de 'Apagar la luz, o prenderla' en PDF"
-

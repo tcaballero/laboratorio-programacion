@@ -23,7 +23,3 @@ Recomendación: explorá el entorno para ver si hay alguna herramienta nueva que
 >
 > Los mimos son actores que utilizan la mímica como único medio teatral (no hablan), 
 > y cuando realizan actuaciones en la calle se especializan en imitar a otras personas.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Expresiones%20y%20tipos/2.1.El%20cabezal%20juega%20a%20ser%20mimo/assets/resources/description.pdf "Enunciado de 'El cabezal juega a ser mimo' en PDF"

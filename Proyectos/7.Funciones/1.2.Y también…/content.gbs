@@ -1,28 +1,25 @@
-﻿program {
-  
+﻿procedure CosecharTodosLosTomates() {
+  repeat(9) {
+    CosecharLosTomatesSiHay()
+    Mover(Este)
+  }
+  CosecharLosTomatesSiHay()
 }
 
-function hayFlor() {
+procedure CosecharLosTomatesSiHay() {
+  if (hayTomates()) {
+    CosecharLosTomates()
+  }
+}
+
+function hayTomates() {
   return (...)
 }
 
-procedure MantenerElCantero() {
-  repeat(9) {
-    MantenerSecciónDelCantero()
-    IrALaSiguienteSecciónDelCantero()
-  }
-  MantenerSecciónDelCantero()
+procedure CosecharLosTomates() {
+  ...
 }
 
-procedure MantenerSecciónDelCantero() {
-  if (not hayFlor()) { PlantarFlor() }
-}
 
-procedure IrALaSiguienteSecciónDelCantero() {
-   Mover(Este)
-}
-
-procedure PlantarFlor() {
-  if (hayFlor()) { BOOM("Ya hay una flor, ¡y no puedo plantar encima!") }
-  else           { ... }
+program {
 }

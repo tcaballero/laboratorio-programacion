@@ -17,7 +17,3 @@ y podés lograr que pida **más** de un argumento.
 >
 > ¿Viste que al agregar un parámetro en la definición del procedimiento para dibujar cuadrados,
 > el comando definido solicita un argumento? ¿Qué pasaría si agregamos más de un parámetro?
-        
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Par%C3%A1metros/1.3.Tablero%20de%20ludo,%20toma%203/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 3' en PDF"

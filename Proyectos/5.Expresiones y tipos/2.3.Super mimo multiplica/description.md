@@ -25,7 +25,3 @@ Recomendación: explorá el entorno para ver si hay alguna herramienta nueva que
 >
 > Los mimos son actores que utilizan la mímica como único medio teatral (no hablan), 
 > y cuando realizan actuaciones en la calle se especializan en imitar a otras personas.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/4.Expresiones%20y%20tipos/2.3.Super%20mimo%20multiplica/assets/resources/description.pdf "Enunciado de 'Super mimo multiplica' en PDF"

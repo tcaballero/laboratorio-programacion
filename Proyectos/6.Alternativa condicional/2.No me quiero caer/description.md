@@ -23,8 +23,3 @@ que dibuja un segmento de la víbora y avanza a la siguiente posición. ¡
 Pero cuidado! La siguiente posición no está siempre para el mismo lado. 
 ¿Cómo hacer para saber si hay lugar o no para moverse hacia el Este? 
 Recordá que podés mirar la caja de herramientas.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/6.Alternativa%20condicional/2.No%20me%20quiero%20caer/assets/resources/description.pdf "Enunciado de 'No me quiero caer' en PDF"
-

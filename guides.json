@@ -23,8 +23,8 @@
     , { "id": "4.1",        "name": "La celda vacía",
         "path": "Proyectos/1.Programas y comandos básicos/4.1.La celda vacía"
       }
-    , { "id": "4.2",        "name": "La cruz roja",
-        "path": "Proyectos/1.Programas y comandos básicos/4.2.La cruz roja"
+    , { "id": "4.2",        "name": "Limpiando la cruz roja",
+        "path": "Proyectos/1.Programas y comandos básicos/4.2.Limpiando la cruz roja"
       }
     , { "id": "5.1",        "name": "¡Al rincón!",
         "path": "Proyectos/1.Programas y comandos básicos/5.1.Al rincón"
@@ -38,8 +38,8 @@
     , { "id": "6.2",         "name": "Puede fallar",
         "path": "Proyectos/1.Programas y comandos básicos/6.2.Puede fallar"
       }
-    , { "id": "7",          "name": "La víbora que come manzanas deliciosas",
-        "path": "Proyectos/1.Programas y comandos básicos/7.La víbora que come manzanas deliciosas"
+    , { "id": "7",          "name": "La víbora que se tienta con manzanas",
+        "path": "Proyectos/1.Programas y comandos básicos/7.La víbora que se tienta con manzanas"
       }
     ] }
 , { "name": "Procedimientos",
@@ -60,11 +60,11 @@
     , { "id": "2.2",        "name": "Armamos 'El alien toca botón'",
         "path": "Proyectos/2.Procedimientos/2.2.Armamos 'El alien toca botón'"
       }
-    , { "id": "3.1",        "name": "El Beto, el robot goleador",
-        "path": "Proyectos/2.Procedimientos/3.1.El Beto, el robot goleador"
+    , { "id": "3.1",        "name": "Futbol Para Robots",
+        "path": "Proyectos/2.Procedimientos/3.1.Futbol Para Robots"
       }
-    , { "id": "3.2",        "name": "El Beto, el robot goleador, sin procedimientos",
-        "path": "Proyectos/2.Procedimientos/3.2.El Beto, el robot goleador, sin procedimientos"
+    , { "id": "3.2",        "name": "Futbol Para Robots, sin procedimientos",
+        "path": "Proyectos/2.Procedimientos/3.2.Futbol Para Robots, sin procedimientos"
       }
     , { "id": "4",          "name": "La gran aventura del mar encantado",
         "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"
@@ -97,8 +97,8 @@
     , { "id": "4",      "name": "Candela, me quemo",
         "path": "Proyectos/3.Repetición simple/4.Candela, me quemo"
       }
-    , { "id": "5",      "name": "Entrenamiento para fútbol de robots",
-        "path": "Proyectos/3.Repetición simple/5.Entrenamiento para fútbol de robots"
+    , { "id": "5",      "name": "Entrenando al Beto",
+        "path": "Proyectos/3.Repetición simple/5.Entrenando al Beto"
       }
 	] } 
 , { "name": "Parámetros",
@@ -119,11 +119,11 @@
     , { "id": "2.2",    "name": "Ludo loco, toma 2",
         "path": "Proyectos/4.Parámetros/2.2.Ludo loco, toma 2"
       }
-    , { "id": "3.1",    "name": "Dibujar figuras con subtareas",
-        "path": "Proyectos/4.Parámetros/3.1.Dibujar figuras con subtareas"
+    , { "id": "3.1",    "name": "Ludo loco, toma 3",
+        "path": "Proyectos/4.Parámetros/3.1.Ludo loco, toma 3"
       }
-    , { "id": "3.2",    "name": "Dibujar figuras con subtareas, revisado",
-        "path": "Proyectos/4.Parámetros/3.2.Dibujar figuras con subtareas, revisado"
+    , { "id": "3.2",    "name": "Ludo loco, toma 4",
+        "path": "Proyectos/4.Parámetros/3.2.Ludo loco, toma 4"
       }
     , { "id": "4",      "name": "Varias cosas de una sola vez",
         "path": "Proyectos/4.Parámetros/4.Varias cosas de una sola vez"
@@ -182,8 +182,8 @@
 , { "name": "Funciones",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
-      { "id": "1.1",      "name": "Mi elección es clara",
-        "path": "Proyectos/7.Funciones/1.1.Mi elección es clara"
+      { "id": "1.1",      "name": "Código para entendidos",
+        "path": "Proyectos/7.Funciones/1.1.Código para entendidos"
       }
     , { "id": "1.2",        "name": "Y también…",
         "path": "Proyectos/7.Funciones/1.2.Y también…"
@@ -223,32 +223,32 @@
         "path": "Proyectos/8.Repetición condicional/6.Dónde puse las llaves"
       }
    ] }
-, { "name": "Otras herramientas avanzadas",
+, { "name": "Variables",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
       { "id": "1.1",      "name": "Recuerden la contraseña",
-        "path": "Proyectos/9.Otras herramientas avanzadas/1.1.Recuerden la contraseña"
+        "path": "Proyectos/9.Variables/1.1.Recuerden la contraseña"
       }
     , { "id": "1.2",        "name": "Otra vez el cabezal juega a ser mimo",
-        "path": "Proyectos/9.Otras herramientas avanzadas/1.2.Otra vez el cabezal juega a ser mimo"
+        "path": "Proyectos/9.Variables/1.2.Otra vez el cabezal juega a ser mimo"
       }
     , { "id": "2.1",        "name": "Super Lucho también cuenta luces",
-        "path": "Proyectos/9.Otras herramientas avanzadas/2.1.Super Lucho también cuenta luces"
+        "path": "Proyectos/9.Variables/2.1.Super Lucho también cuenta luces"
       }
     , { "id": "2.2",        "name": "A qué distancia está el borde",
-        "path": "Proyectos/9.Otras herramientas avanzadas/2.2.A qué distancia está el borde"
+        "path": "Proyectos/9.Variables/2.2.A qué distancia está el borde"
       }
     , { "id": "3.1",        "name": "Contar las baldosas",
-        "path": "Proyectos/9.Otras herramientas avanzadas/3.1.Contar las baldosas"
+        "path": "Proyectos/9.Variables/3.1.Contar las baldosas"
       }
     , { "id": "3.2",        "name": "Contar las baldosas rajadas",
-        "path": "Proyectos/9.Otras herramientas avanzadas/3.2.Contar las baldosas rajadas"
+        "path": "Proyectos/9.Variables/3.2.Contar las baldosas rajadas"
       }
     , { "id": "3.3",        "name": "Super Lucho, recargado",
-        "path": "Proyectos/9.Otras herramientas avanzadas/3.3.Super Lucho, recargado"
+        "path": "Proyectos/9.Variables/3.3.Super Lucho, recargado"
       }
     , { "id": "4",        "name": "El radar",
-        "path": "Proyectos/9.Otras herramientas avanzadas/4.El radar"
+        "path": "Proyectos/9.Variables/4.El radar"
       }
    ] }
 , { "name": "Introducción a registros",

@@ -98,7 +98,7 @@ board:
   visible_edition: true
   collapse_toolbox: false
   user_permissions:
-    can_view_attire_section: false
+    can_view_attire_section: true
     can_edit_board: false
     can_change_initial_board: false
     can_change_initial_board_source: false
