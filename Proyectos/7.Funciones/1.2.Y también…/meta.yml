@@ -82,19 +82,17 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ "Sacar", "IrAlBorde"
+  disabled: [ "Poner", "IrAlBorde"
             , "puedeMover"
             , "OperadorNumerico"
             , "siguiente", "previo", "opuesto"
             ]
-  visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
-                            , "Procedimientos primitivos"
+  visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
                             , "Mis procedimientos"
                             , "RepeticionSimple"
                             , "AlternativaCompleta", "AlternativaSimple"
             , "EXPRESIONES" , "Color", "Direccion", "Numero"
                             , "nroBolitas", "hayBolitas", "puedeMover"
-                            , "FuncionesPrimitivas"
                             , "Mis funciones"
                             , "OperadorNumerico", "OperadorDeComparacion"
                             , "OperadorDeNegacion", "OperadorLogico"
