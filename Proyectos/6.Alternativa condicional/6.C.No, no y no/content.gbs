@@ -1,0 +1,20 @@
+﻿program {
+  ...
+}
+
+procedure CompletarLaFilaDePelotas() {
+  repeat(4) {
+    AgregarPelotaSiHaceFalta()
+    IrALaSiguientePosiciónAControlar()
+  }
+  AgregarPelotaSiHaceFalta()
+}
+
+procedure AgregarPelotaSiHaceFalta() {
+  ...
+}
+
+
+procedure IrALaSiguientePosiciónAControlar() {
+    Mover(Sur)
+}

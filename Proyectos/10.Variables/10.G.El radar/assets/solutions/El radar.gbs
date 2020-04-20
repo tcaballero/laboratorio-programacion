@@ -1,0 +1,43 @@
+﻿program { SimularUnRadar() }
+
+procedure SimularUnRadar() {
+  if (hayEnCuadrante(avión(), Norte, Oeste)) { Poner(Azul)  }
+  if (hayEnCuadrante(avión(), Norte, Este))  { Poner(Negro) }
+  if (hayEnCuadrante(avión(), Sur,   Este))  { Poner(Verde) }
+  if (hayEnCuadrante(avión(), Sur,   Oeste)) { Poner(Rojo)  }
+}
+
+function avión() { return(Rojo) }
+
+function hayEnCuadrante(objeto, dirección1, dirección2) {
+  BuscarEnCuadrante(objeto, dirección1, dirección2)
+  return (hayBolitas(objeto))
+}
+
+procedure BuscarEnCuadrante(objetoABuscar, direcciónPrincipal, direcciónSecundaria) {
+  anchoDelCuadrante := distanciaAlBorde(direcciónPrincipal)
+  while (not (hayBolitas(objetoABuscar)) && not (esLaÚltimaCelda(direcciónPrincipal, direcciónSecundaria))) 
+    { IrALaSiguienteCelda(anchoDelCuadrante, direcciónPrincipal, direcciónSecundaria) }
+}
+
+procedure IrALaSiguienteCelda(ancho, direcciónPrincipal, direcciónSecundaria) {
+  if (puedeMover(direcciónPrincipal)) 
+        { Mover(direcciónPrincipal) }
+   else {
+          Mover__Veces(opuesto(direcciónPrincipal), ancho)
+          Mover(direcciónSecundaria)
+        }
+}
+
+function esLaÚltimaCelda(dirección1, dirección2) {
+  return (not (puedeMover(dirección1)) && not (puedeMover(dirección2)))
+}
+
+function distanciaAlBorde(direcciónAMedir) {
+  cantidadDePasosAvanzados := 0
+  while (puedeMover(direcciónAMedir)) {
+    Mover(direcciónAMedir)
+    cantidadDePasosAvanzados := cantidadDePasosAvanzados + 1
+  }
+  return (cantidadDePasosAvanzados)
+}

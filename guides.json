@@ -1,304 +1,338 @@
 [ 
-  { "name": "Programas y comandos básicos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-   "exercises": [
-      { "id": "1.1",        "name": "Repartija de caramelos",
-        "path": "Proyectos/1.Programas y comandos básicos/1.1.Repartija de caramelos"
-      }
-    , { "id": "1.2",        "name": "¿Caramelos, tomates o bolitas?",
-        "path": "Proyectos/1.Programas y comandos básicos/1.2.Caramelos, tomates o bolitas"
-      }
-    , { "id": "2",          "name": "Bolitas de colores",
-        "path": "Proyectos/1.Programas y comandos básicos/2.Bolitas de colores"
-      }
-    , { "id": "3.1",        "name": "La víbora esperando una presa",
-        "path": "Proyectos/1.Programas y comandos básicos/3.1.La víbora esperando una presa"
-      }
-    , { "id": "3.2",        "name": "La víbora, a punto de atacar",
-        "path": "Proyectos/1.Programas y comandos básicos/3.2.La víbora, a punto de atacar"
-      }
-    , { "id": "3.3",        "name": "La víbora al ataque",
-        "path": "Proyectos/1.Programas y comandos básicos/3.3.La víbora al ataque"
-      }
-    , { "id": "4.1",        "name": "La celda vacía",
-        "path": "Proyectos/1.Programas y comandos básicos/4.1.La celda vacía"
-      }
-    , { "id": "4.2",        "name": "Limpiando la cruz roja",
-        "path": "Proyectos/1.Programas y comandos básicos/4.2.Limpiando la cruz roja"
-      }
-    , { "id": "5.1",        "name": "¡Al rincón!",
-        "path": "Proyectos/1.Programas y comandos básicos/5.1.Al rincón"
-      }
-    , { "id": "5.2",        "name": "Marcando los corners",
-        "path": "Proyectos/1.Programas y comandos básicos/5.2.Marcando los corners"
-      }
-    , { "id": "6.1",         "name": "Haz lo que yo digo…",
-        "path": "Proyectos/1.Programas y comandos básicos/6.1.Haz lo que yo digo…"
-      }
-    , { "id": "6.2",         "name": "Puede fallar",
-        "path": "Proyectos/1.Programas y comandos básicos/6.2.Puede fallar"
-      }
-    , { "id": "7",          "name": "La víbora que se tienta con manzanas",
-        "path": "Proyectos/1.Programas y comandos básicos/7.La víbora que se tienta con manzanas"
-      }
-    ] }
-, { "name": "Procedimientos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-   "exercises": [
-      { "id": "1.1",        "name": "Programo el cuadrado",
-        "path": "Proyectos/2.Procedimientos/1.1.Programo el cuadrado"
-      }
-    , { "id": "1.2",        "name": "Programo el cuadrado, programo el cuadrado",
-        "path": "Proyectos/2.Procedimientos/1.2.Programo el cuadrado, programo el cuadrado"
-      }
-    , { "id": "1.3",        "name": "Dos cuadrados, pero más fáciles",
-        "path": "Proyectos/2.Procedimientos/1.3.Dos cuadrados, pero más fáciles"
-      }
-    , { "id": "2.1",        "name": "El alien toca botón",
-        "path": "Proyectos/2.Procedimientos/2.1.El alien toca botón"
-      }
-    , { "id": "2.2",        "name": "Armamos 'El alien toca botón'",
-        "path": "Proyectos/2.Procedimientos/2.2.Armamos 'El alien toca botón'"
-      }
-    , { "id": "3.1",        "name": "Futbol Para Robots",
-        "path": "Proyectos/2.Procedimientos/3.1.Futbol Para Robots"
-      }
-    , { "id": "3.2",        "name": "Futbol Para Robots, sin procedimientos",
-        "path": "Proyectos/2.Procedimientos/3.2.Futbol Para Robots, sin procedimientos"
-      }
-    , { "id": "4",          "name": "La gran aventura del mar encantado",
-        "path": "Proyectos/2.Procedimientos/4.La gran aventura del mar encantado"
-      }
-    , { "id": "5.1",        "name": "Lucho enciende las luces",
-        "path": "Proyectos/2.Procedimientos/5.1.Lucho enciende las luces"
-      }
-    , { "id": "5.2",        "name": "Lucho enciende las luces, extendido",
-        "path": "Proyectos/2.Procedimientos/5.2.Lucho enciende las luces, extendido"
-      }
-    , { "id": "6",          "name": "Reparando la nave",
-        "path": "Proyectos/2.Procedimientos/6.Reparando la nave"
-      }
-    ] }
-, { "name": "Repetición simple",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-   "exercises": [
-      { "id": "1.1",    "name": "Poner muchas bolitas se vuelve incómodo",
-        "path": "Proyectos/3.Repetición simple/1.1.Poner muchas bolitas se vuelve incómodo"
-      }
-    , { "id": "1.2",    "name": "La computadora repite por nosotros",
-        "path": "Proyectos/3.Repetición simple/1.2.La computadora repite por nosotros"
-      }
-    , { "id": "2.",      "name": "El final del pasillo",
-        "path": "Proyectos/3.Repetición simple/2.El final del pasillo"
-      }
-    , { "id": "3",      "name": "Siga la flecha",
-        "path": "Proyectos/3.Repetición simple/3.Siga la flecha"
-      }
-    , { "id": "4",      "name": "Candela, me quemo",
-        "path": "Proyectos/3.Repetición simple/4.Candela, me quemo"
-      }
-    , { "id": "5",      "name": "Entrenando al Beto",
-        "path": "Proyectos/3.Repetición simple/5.Entrenando al Beto"
-      }
-	] } 
-, { "name": "Parámetros",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-   "exercises": [
-      { "id": "1.1",        "name": "Tablero de Ludo, toma 1",
-        "path": "Proyectos/4.Parámetros/1.1.Tablero de Ludo, toma 1"
-      }
-    , { "id": "1.2",        "name": "Tablero de Ludo, toma 2",
-        "path": "Proyectos/4.Parámetros/1.2.Tablero de Ludo, toma 2"
-      }
-    , { "id": "1.3",        "name": "Tablero de Ludo, toma 3",
-        "path": "Proyectos/4.Parámetros/1.3.Tablero de Ludo, toma 3"
-      }
-    , { "id": "2.1",    "name": "Ludo loco, toma 1",
-        "path": "Proyectos/4.Parámetros/2.1.Ludo loco, toma 1"
-      }
-    , { "id": "2.2",    "name": "Ludo loco, toma 2",
-        "path": "Proyectos/4.Parámetros/2.2.Ludo loco, toma 2"
-      }
-    , { "id": "3.1",    "name": "Ludo loco, toma 3",
-        "path": "Proyectos/4.Parámetros/3.1.Ludo loco, toma 3"
-      }
-    , { "id": "3.2",    "name": "Ludo loco, toma 4",
-        "path": "Proyectos/4.Parámetros/3.2.Ludo loco, toma 4"
-      }
-    , { "id": "4",      "name": "Varias cosas de una sola vez",
-        "path": "Proyectos/4.Parámetros/4.Varias cosas de una sola vez"
-      }
-    , { "id": "5",      "name": "El planeta de Nano",
-        "path": "Proyectos/4.Parámetros/5.El planeta de Nano"
-      }
-	] } 
-, { "name": "Expresiones y tipos",
+  {
+    "name": "Programas y comandos básicos",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
-      { "id": "1.1",        "name": "No encuentro bolitas de color Sur",
-        "path": "Proyectos/5.Expresiones y tipos/1.1.No encuentro bolitas de color Sur"
-      }
-    , { "id": "1.2",        "name": "Para dónde queda Rojo",
-        "path": "Proyectos/5.Expresiones y tipos/1.2.Para dónde queda Rojo"
-      }
-    , { "id": "1.3",        "name": "Y por qué hace BOOM",
-        "path": "Proyectos/5.Expresiones y tipos/1.3.Y por qué hace BOOM"
-      }
-    , { "id": "2.1",        "name": "El cabezal juega a ser mimo",
-        "path": "Proyectos/5.Expresiones y tipos/2.1.El cabezal juega a ser mimo"
-      }
-    , { "id": "2.2",        "name": "El mimo que suma",
-        "path": "Proyectos/5.Expresiones y tipos/2.2.El mimo que suma"
-      }
-    , { "id": "2.3",        "name": "Super mimo multiplica",
-        "path": "Proyectos/5.Expresiones y tipos/2.3.Super mimo multiplica"
-      }
-    , { "id": "3.1",        "name": "Escapar de la jaula",
-        "path": "Proyectos/5.Expresiones y tipos/3.1.Escapar de la jaula"
-      }
-    , { "id": "3.2",        "name": "La flecha enloqueció",
-        "path": "Proyectos/5.Expresiones y tipos/3.2.La flecha enloqueció"
-      }
-    , { "id": "4",          "name": "Laberinto",
-        "path": "Proyectos/5.Expresiones y tipos/4.Laberinto"
-      }
-    ] }
-, { "name": "Alternativa condicional",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1",        "name": "Apagar la luz, o prenderla",
-        "path": "Proyectos/6.Alternativa condicional/1.Apagar la luz, o prenderla"
-      }
-    , { "id": "2",        "name": "No me quiero caer",
-        "path": "Proyectos/6.Alternativa condicional/2.No me quiero caer"
-      }
-    , { "id": "3",        "name": "Siempre el mejor",
-        "path": "Proyectos/6.Alternativa condicional/3.Siempre el mejor"
-      }
-    , { "id": "4",        "name": "No, no y no",
-        "path": "Proyectos/6.Alternativa condicional/4.No, no y no"
-      }
-    ] }
-, { "name": "Funciones",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1.1",      "name": "Código para entendidos",
-        "path": "Proyectos/7.Funciones/1.1.Código para entendidos"
-      }
-    , { "id": "1.2",        "name": "Y también…",
-        "path": "Proyectos/7.Funciones/1.2.Y también…"
-      }
-    , { "id": "2",        "name": "Laberinto con queso",
-        "path": "Proyectos/7.Funciones/2.Laberinto con queso"
-      }
-    , { "id": "3",        "name": "Lucho recargado",
-        "path": "Proyectos/7.Funciones/3.Lucho recargado"
-      }
-    , { "id": "4",        "name": "Está lista la cena",
-        "path": "Proyectos/7.Funciones/4.Está lista la cena"
-      }
-    ] }
-, { "name": "Repetición condicional",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1.1",      "name": "Super Lucho 1",
-        "path": "Proyectos/8.Repetición condicional/1.1.Super Lucho 1"
-      }
-    , { "id": "1.2",        "name": "Super Lucho 2",
-        "path": "Proyectos/8.Repetición condicional/1.2.Super Lucho 2"
-      }
-    , { "id": "2",        "name": "Laberinto con queso, recargado",
-        "path": "Proyectos/8.Repetición condicional/2.Laberinto con queso, recargado"
-      }
-    , { "id": "3",        "name": "Más entrenamiento para Beto",
-        "path": "Proyectos/8.Repetición condicional/3.Más entrenamiento para Beto"
-      }
-    , { "id": "4",        "name": "Hansel y Gretel van a la casa de la Bruja",
-        "path": "Proyectos/8.Repetición condicional/4.Hansel y Gretel van a a la casa de la Bruja"
-      }
-    , { "id": "5",        "name": "Limpiemos imágenes",
-        "path": "Proyectos/8.Repetición condicional/5.Limpiemos imágenes"
-      }
-     , { "id": "6",        "name": "¿Dónde puse las llaves?",
-        "path": "Proyectos/8.Repetición condicional/6.Dónde puse las llaves"
-      }
-   ] }
-, { "name": "Variables",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1.1",      "name": "Recuerden la contraseña",
-        "path": "Proyectos/9.Variables/1.1.Recuerden la contraseña"
-      }
-    , { "id": "1.2",        "name": "Otra vez el cabezal juega a ser mimo",
-        "path": "Proyectos/9.Variables/1.2.Otra vez el cabezal juega a ser mimo"
-      }
-    , { "id": "2.1",        "name": "Super Lucho también cuenta luces",
-        "path": "Proyectos/9.Variables/2.1.Super Lucho también cuenta luces"
-      }
-    , { "id": "2.2",        "name": "A qué distancia está el borde",
-        "path": "Proyectos/9.Variables/2.2.A qué distancia está el borde"
-      }
-    , { "id": "3.1",        "name": "Contar las baldosas",
-        "path": "Proyectos/9.Variables/3.1.Contar las baldosas"
-      }
-    , { "id": "3.2",        "name": "Contar las baldosas rajadas",
-        "path": "Proyectos/9.Variables/3.2.Contar las baldosas rajadas"
-      }
-    , { "id": "3.3",        "name": "Super Lucho, recargado",
-        "path": "Proyectos/9.Variables/3.3.Super Lucho, recargado"
-      }
-    , { "id": "4",        "name": "El radar",
-        "path": "Proyectos/9.Variables/4.El radar"
-      }
-   ] }
-, { "name": "Introducción a registros",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1",      "name": "Descubrir la carta",
-        "path": "Proyectos/10.Registros/1.Descubrir la carta"
-      }
-    , { "id": "2.1",    "name": "¡Quiero retruco!",
-        "path": "Proyectos/10.Registros/2.1.Quiero retruco"
-      }
-    , { "id": "2.2",    "name": "¡Te carteaste!",
-        "path": "Proyectos/10.Registros/2.2.Te carteaste"
-      }
-    , { "id": "3",      "name": "El alquimista",
-        "path": "Proyectos/10.Registros/3.El alquimista"
-      }
-    , { "id": "4",      "name": "El rey, el caballo, …",
-        "path": "Proyectos/10.Registros/4.El rey, el caballo, …"
-      }
-   ] }
-, { "name": "Introducción a listas",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "1",    "name": "Descubrir la lista",
-        "path": "Proyectos/11.Listas/1.Descubrir la lista"
-      }
-    , { "id": "2",    "name": "La lista contraataca",
-        "path": "Proyectos/11.Listas/2.La lista contraataca"
-      }
-    , { "id": "3",    "name": "El regreso de la lista",
-        "path": "Proyectos/11.Listas/3.El regreso de la lista"
-      }
-    , { "id": "4",      "name": "El repartir de las cartas",
-        "path": "Proyectos/11.Listas/4.El repartir de las cartas"
-      }
-   ] }
-, { "name": "Trabajos Prácticos"       , "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-      { "id": "0",    "name": "Libre Soy",
-        "path": "Proyectos/12.Trabajos Prácticos/0.Libre Soy"
+      { "id": "1.A1",        "name": "Repartija de caramelos",
+        "path": "Proyectos/1.Programas y comandos básicos/1.A1.Repartija de caramelos"
       },
-      { "id": "1",    "name": "Otro ladrillo en la pared",
-        "path": "Proyectos/12.Trabajos Prácticos/1.Otro ladrillo en la pared"
+      { "id": "1.A2",        "name": "¿Caramelos, tomates o bolitas?",
+        "path": "Proyectos/1.Programas y comandos básicos/1.A2.Caramelos, tomates o bolitas"
       },
-      { "id": "2",    "name": "Dominó",
-        "path": "Proyectos/12.Trabajos Prácticos/2.Domino"
+      { "id": "1.B",          "name": "Bolitas de colores",
+        "path": "Proyectos/1.Programas y comandos básicos/1.B.Bolitas de colores"
       },
-      { "id": "3",    "name": "Soporte técnico",
-        "path": "Proyectos/12.Trabajos Prácticos/2.Soporte Técnico"
+      { "id": "1.C1",        "name": "La víbora esperando una presa",
+        "path": "Proyectos/1.Programas y comandos básicos/1.C1.La víbora esperando una presa"
+      },
+      { "id": "1.C2",        "name": "La víbora, a punto de atacar",
+        "path": "Proyectos/1.Programas y comandos básicos/1.C2.La víbora, a punto de atacar"
+      },
+      { "id": "1.C3",        "name": "La víbora al ataque",
+        "path": "Proyectos/1.Programas y comandos básicos/1.C3.La víbora al ataque"
+      },
+      { "id": "1.D1",        "name": "La celda queda vacía",
+        "path": "Proyectos/1.Programas y comandos básicos/1.D1.La celda queda vacía"
+      },
+      { "id": "1.D2",        "name": "Limpiando la cruz roja",
+        "path": "Proyectos/1.Programas y comandos básicos/1.D2.Limpiando la cruz roja"
+      },
+      { "id": "1.E1",        "name": "¡Al rincón!",
+        "path": "Proyectos/1.Programas y comandos básicos/1.E1.Al rincón"
+      },
+      { "id": "1.E2",        "name": "Marcando los corners",
+        "path": "Proyectos/1.Programas y comandos básicos/1.E2.Marcando los corners"
+      },
+      { "id": "1.F1",         "name": "Haz lo que yo digo…",
+        "path": "Proyectos/1.Programas y comandos básicos/1.F1.Haz lo que yo digo…"
+      },
+      { "id": "1.F2",         "name": "Puede fallar",
+        "path": "Proyectos/1.Programas y comandos básicos/1.F2.Puede fallar"
+      },
+      { "id": "1.G",          "name": "La víbora que se tienta con manzanas",
+        "path": "Proyectos/1.Programas y comandos básicos/1.G.La víbora que se tienta con manzanas"
       }
-   ] }
+    ]
+  },
+  {
+    "name": "Procedimientos",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "2.A1",        "name": "Programo el cuadrado",
+        "path": "Proyectos/2.Procedimientos/2.A1.Programo el cuadrado"
+      }
+    , { "id": "2.A2",        "name": "Programo el cuadrado, programo el cuadrado",
+        "path": "Proyectos/2.Procedimientos/2.A2.Programo el cuadrado, programo el cuadrado"
+      }
+    , { "id": "2.A3",        "name": "Dos cuadrados, pero más fáciles",
+        "path": "Proyectos/2.Procedimientos/2.A3.Dos cuadrados, pero más fáciles"
+      }
+    , { "id": "2.B1",        "name": "El alien toca botón",
+        "path": "Proyectos/2.Procedimientos/2.B1.El alien toca botón"
+      }
+    , { "id": "2.B2",        "name": "Armamos 'El alien toca botón'",
+        "path": "Proyectos/2.Procedimientos/2.B2.Armamos 'El alien toca botón'"
+      }
+    , { "id": "2.C1",        "name": "Futbol Para Robots",
+        "path": "Proyectos/2.Procedimientos/2.C1.Futbol Para Robots"
+      }
+    , { "id": "2.C2",        "name": "Futbol Para Robots, sin procedimientos",
+        "path": "Proyectos/2.Procedimientos/2.C2.Futbol Para Robots, sin procedimientos"
+      }
+    , { "id": "2.D",          "name": "La gran aventura del mar encantado",
+        "path": "Proyectos/2.Procedimientos/2.D.La gran aventura del mar encantado"
+      }
+    , { "id": "2.E",        "name": "Lucho enciende las luces",
+        "path": "Proyectos/2.Procedimientos/2.E.Lucho enciende las luces"
+      }
+    , { "id": "2.F",          "name": "Reparando la nave",
+        "path": "Proyectos/2.Procedimientos/2.F.Reparando la nave"
+      }
+    ]
+  },
+  {
+    "name": "Repetición simple",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "3.A1",    "name": "Poner muchas bolitas se vuelve incómodo",
+        "path": "Proyectos/3.Repetición simple/3.A1.Poner muchas bolitas se vuelve incómodo"
+      },
+      { "id": "3.A2",    "name": "La computadora repite por nosotros",
+        "path": "Proyectos/3.Repetición simple/3.A2.La computadora repite por nosotros"
+      },
+      { "id": "3.B",      "name": "El final del pasillo",
+        "path": "Proyectos/3.Repetición simple/3.B.El final del pasillo"
+      },
+      { "id": "3.C",      "name": "Siga la flecha",
+        "path": "Proyectos/3.Repetición simple/3.C.Siga la flecha"
+      },
+      { "id": "3.D",      "name": "Candela, me quemo",
+        "path": "Proyectos/3.Repetición simple/3.D.Candela, me quemo"
+      },
+      { "id": "3.E",      "name": "Entrenando al Beto",
+        "path": "Proyectos/3.Repetición simple/3.E.Entrenando al Beto"
+      },
+      { "id": "3.F",      "name": "Lucho enciende las luces, extendido",
+        "path": "Proyectos/3.Repetición simple/3.F.Lucho enciende las luces, extendido"
+      }
+    ]
+  },
+  {
+    "name": "Parámetros",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "4.A1",        "name": "Tablero de Ludo, toma 1",
+        "path": "Proyectos/4.Parámetros/4.A1.Tablero de Ludo, toma 1"
+      },
+      { "id": "4.A2",        "name": "Tablero de Ludo, toma 2",
+        "path": "Proyectos/4.Parámetros/4.A2.Tablero de Ludo, toma 2"
+      },
+      { "id": "4.A3",        "name": "Tablero de Ludo, toma 3",
+        "path": "Proyectos/4.Parámetros/4.A3.Tablero de Ludo, toma 3"
+      },
+      { "id": "4.B1",    "name": "Ludo loco, toma 1",
+        "path": "Proyectos/4.Parámetros/4.B1.Ludo loco, toma 1"
+      },
+      { "id": "4.B2",    "name": "Ludo loco, toma 2",
+        "path": "Proyectos/4.Parámetros/4.B2.Ludo loco, toma 2"
+      },
+      { "id": "4.B3",    "name": "Ludo loco, toma 3",
+        "path": "Proyectos/4.Parámetros/4.B3.Ludo loco, toma 3"
+      },
+      { "id": "4.B4",    "name": "Ludo loco, toma 4",
+        "path": "Proyectos/4.Parámetros/4.B4.Ludo loco, toma 4"
+      },
+      { "id": "4.C",      "name": "Varias cosas de una sola vez",
+        "path": "Proyectos/4.Parámetros/4.C.Varias cosas de una sola vez"
+      },
+      { "id": "4.D",      "name": "El planeta de Nano",
+        "path": "Proyectos/4.Parámetros/4.D.El planeta de Nano"
+      }
+    ]
+  },
+  {
+    "name": "Expresiones y tipos",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "5.A1",        "name": "No encuentro bolitas de color Sur",
+        "path": "Proyectos/5.Expresiones y tipos/5.A1.No encuentro bolitas de color Sur"
+      },
+      { "id": "5.A2",        "name": "Para dónde queda Rojo",
+        "path": "Proyectos/5.Expresiones y tipos/5.A2.Para dónde queda Rojo"
+      },
+      { "id": "5.B",        "name": "Y por qué hace BOOM",
+        "path": "Proyectos/5.Expresiones y tipos/5.B.Y por qué hace BOOM"
+      },
+      { "id": "5.C1",        "name": "El cabezal juega a ser mimo",
+        "path": "Proyectos/5.Expresiones y tipos/5.C1.El cabezal juega a ser mimo"
+      },
+      { "id": "5.C2",        "name": "El mimo que suma",
+        "path": "Proyectos/5.Expresiones y tipos/5.C2.El mimo que suma"
+      },
+      { "id": "5.C3",        "name": "Super mimo multiplica",
+        "path": "Proyectos/5.Expresiones y tipos/5.C3.Super mimo multiplica"
+      },
+      { "id": "5.D1",        "name": "Escapar de la jaula",
+        "path": "Proyectos/5.Expresiones y tipos/5.D1.Escapar de la jaula"
+      },
+      { "id": "5.D2",         "name": "La flecha enloqueció",
+        "path": "Proyectos/5.Expresiones y tipos/5.D2.La flecha enloqueció"
+      },
+      { "id": "5.E",          "name": "Laberinto",
+        "path": "Proyectos/5.Expresiones y tipos/5.E.Laberinto"
+      }
+    ]
+  },
+  {
+    "name": "Alternativa condicional",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "6.A",        "name": "Apagar la luz, o prenderla",
+        "path": "Proyectos/6.Alternativa condicional/6.A.Apagar la luz, o prenderla"
+      },
+      { "id": "6.B",        "name": "No me quiero caer",
+        "path": "Proyectos/6.Alternativa condicional/6.B.No me quiero caer"
+      },
+      { "id": "6.C",        "name": "No, no y no",
+      "path": "Proyectos/6.Alternativa condicional/6.C.No, no y no"
+      },
+      { "id": "6.D",        "name": "Siempre el mejor",
+        "path": "Proyectos/6.Alternativa condicional/6.D.Siempre el mejor"
+      }
+    ]
+  },
+  {
+    "name": "Funciones",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "7.A1",      "name": "Código para entendidos",
+        "path": "Proyectos/7.Funciones/7.A1.Código para entendidos"
+      },
+      { "id": "7.A2",        "name": "Y también…",
+        "path": "Proyectos/7.Funciones/7.A2.Y también…"
+      },
+      { "id": "7.B",        "name": "Laberinto con queso",
+        "path": "Proyectos/7.Funciones/7.B.Laberinto con queso"
+      },
+      { "id": "7.C",        "name": "Lucho recargado",
+        "path": "Proyectos/7.Funciones/7.C.Lucho recargado"
+      },
+      { "id": "7.D",        "name": "Está lista la cena",
+        "path": "Proyectos/7.Funciones/7.D.Está lista la cena"
+      }
+    ]
+  },
+  {
+    "name": "Alternativa condicional de expresiones",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+    ]
+  },
+  {
+    "name": "Repetición condicional",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "9.A1",      "name": "Super Lucho 1",
+        "path": "Proyectos/9.Repetición condicional/9.A1.Super Lucho 1"
+      },
+      { "id": "9.A2",        "name": "Super Lucho 2",
+        "path": "Proyectos/9.Repetición condicional/9.A2.Super Lucho 2"
+      },
+      { "id": "9.B",        "name": "Laberinto con queso, recargado",
+        "path": "Proyectos/9.Repetición condicional/9.B.Laberinto con queso, recargado"
+      },
+      { "id": "9.C",        "name": "Más entrenamiento para Beto",
+        "path": "Proyectos/9.Repetición condicional/9.C.Más entrenamiento para Beto"
+      },
+      { "id": "9.D",        "name": "Hansel y Gretel van a la casa de la Bruja",
+        "path": "Proyectos/9.Repetición condicional/9.D.Hansel y Gretel van a a la casa de la Bruja"
+      },
+      { "id": "9.E",        "name": "Limpiemos imágenes",
+        "path": "Proyectos/9.Repetición condicional/9.E.Limpiemos imágenes"
+      },
+      { "id": "9.G",        "name": "¿Dónde puse las llaves?",
+        "path": "Proyectos/9.Repetición condicional/9.F.Dónde puse las llaves"
+      }
+    ]
+  },
+  {
+    "name": "Variables",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "10.A",      "name": "Recuerden la contraseña",
+        "path": "Proyectos/10.Variables/10.A.Recuerden la contraseña"
+      },
+      { "id": "10.B",        "name": "Otra vez el cabezal juega a ser mimo",
+        "path": "Proyectos/10.Variables/10.B.Otra vez el cabezal juega a ser mimo"
+      },
+      { "id": "10.C1",        "name": "Super Lucho también cuenta luces",
+        "path": "Proyectos/10.Variables/10.C.Super Lucho también cuenta luces"
+      },
+      { "id": "10.C2",        "name": "A qué distancia está el borde",
+        "path": "Proyectos/10.Variables/10.D.A qué distancia está el borde"
+      },
+      { "id": "10.D1",        "name": "Contar las baldosas",
+        "path": "Proyectos/10.Variables/10.E1.Contar las baldosas"
+      },
+      { "id": "10.D2",        "name": "Contar las baldosas rajadas",
+        "path": "Proyectos/10.Variables/10.E2.Contar las baldosas rajadas"
+      },
+      { "id": "10.E",        "name": "Super Lucho, recargado",
+        "path": "Proyectos/10.Variables/10.F.Super Lucho, recargado"
+      },
+      { "id": "10.F",        "name": "El radar",
+        "path": "Proyectos/10.Variables/10.G.El radar"
+      }
+    ]
+  },
+  {
+    "name": "Introducción a registros",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "10.A",      "name": "Descubrir la carta",
+        "path": "Proyectos/11.Registros/11.A.Descubrir la carta"
+      },
+      { "id": "11.B1",    "name": "¡Quiero retruco!",
+        "path": "Proyectos/11.Registros/11.B1.Quiero retruco"
+      },
+      { "id": "11.B2",    "name": "¡Te carteaste!",
+        "path": "Proyectos/11.Registros/11.B2.Te carteaste"
+      },
+      { "id": "11.C",      "name": "El alquimista",
+        "path": "Proyectos/11.Registros/11.C.El alquimista"
+      },
+      { "id": "11.D",      "name": "El rey, el caballo, …",
+        "path": "Proyectos/11.Registros/11.D.El rey, el caballo, …"
+      }
+   ]
+  },
+  {
+    "name": "Introducción a listas",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "12.A",    "name": "Descubrir la lista",
+        "path": "Proyectos/12.Listas/12.A.Descubrir la lista"
+      },
+      { "id": "12.B",    "name": "La lista contraataca",
+        "path": "Proyectos/12.Listas/12.B.La lista contraataca"
+      },
+      { "id": "12.C",    "name": "El regreso de la lista",
+        "path": "Proyectos/12.Listas/12.C.El regreso de la lista"
+      },
+      { "id": "12.D",      "name": "El repartir de las cartas",
+        "path": "Proyectos/12.Listas/12.D.El repartir de las cartas"
+      }
+    ]
+  },
+  {
+    "name": "Trabajos Prácticos",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "TP.A",    "name": "Libre Soy",
+        "path": "Proyectos/TP.Trabajos Prácticos/TP.A.Libre Soy"
+      },
+      { "id": "TP.B",    "name": "Otro ladrillo en la pared",
+        "path": "Proyectos/TP.Trabajos Prácticos/TP.B.Otro ladrillo en la pared"
+      },
+      { "id": "TP.C",    "name": "Dominó",
+        "path": "Proyectos/TP.Trabajos Prácticos/TP.C.Domino"
+      },
+      { "id": "TP.D1",    "name": "Soporte técnico",
+        "path": "Proyectos/TP.Trabajos Prácticos/TP.D1.Soporte Técnico"
+      },
+      { "id": "TP.D2",    "name": "Soporte avanzado",
+        "path": "Proyectos/TP.Trabajos Prácticos/TP.D2.Soporte Avanzado"
+      }
+    ]
+  }
 ]

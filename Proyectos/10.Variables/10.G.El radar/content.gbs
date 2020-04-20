@@ -1,0 +1,38 @@
+﻿program {
+}
+
+procedure SimularUnRadar() {
+  if (hayEnCuadrante(avión(), Norte, Oeste)) { ... }
+  if (hayEnCuadrante(avión(), ..., ...)) { Poner(Negro) }
+  if (...) { Poner(Verde) }
+  if (...) { ... }
+}
+
+function avión() { return(Rojo) }
+
+function hayEnCuadrante(objeto, dirección1, dirección2) {
+  ...
+  return (...)
+}
+
+procedure BuscarEnCuadrante(objetoABuscar, direcciónPrincipal, direcciónSecundaria) {
+  anchoDelCuadrante := ...
+  ...
+}
+
+procedure IrALaSiguienteCelda(ancho, direcciónPrincipalAPasar, direcciónSecundariaAPasar) {
+  if (...) {
+    ...
+  } 
+  else {
+    Mover__Veces(opuesto(...), ancho)
+    ...
+  }
+}
+
+function esLaÚltimaCelda(dirección1, dirección2) { return (...) }
+
+function distanciaAlBorde(direcciónAMedir) {
+  ...
+  return (...)
+}

@@ -1,9 +1,0 @@
-program {
-  
-}
-
-procedure GenerarManoCarteada() {
-  PonerCarta_(...)
-  PasarASiguientePosición()
-  ...
-}
