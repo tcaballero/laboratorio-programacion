@@ -87,7 +87,7 @@ blocks:
   visible: [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
                            , "Procedimientos primitivos"
                            , "Mis procedimientos"
-           , "EXPRESIONES" , "Color", "Direccion", "Numero"
+           , "EXPRESIONES" , "Color", "Direccion",
            , "DEFINICIONES", "procedures_defnoreturnnoparams"
            ]
 board:

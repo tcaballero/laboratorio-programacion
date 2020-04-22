@@ -22,4 +22,4 @@ Y no te olvides de guardar el programa antes de modificarlo.
 >
 > Para solucionar un problema dado puede haber más de un programa que sirva. 
 > O sea, no existe “la” solución.
-> ¡Hay MUCHAS soluciones!
+> ¡Hay INFINITAS soluciones!

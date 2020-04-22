@@ -19,7 +19,7 @@ board:
 execution_speed:
   user_permissions:
     can_change_speed: false
-  active: instantaneous
+  active: low
 attire:
   user_permissions:
     can_toggle_visibility: false

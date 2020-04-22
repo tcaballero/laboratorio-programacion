@@ -17,9 +17,3 @@ Por ejemplo, `IrHastaElCarbón`, `AgarrarCarbón`, `VolverConElCarbón` podrían
 procedimientos que definas. 
 ¿Podés organizar bien el programa para que todas las tareas tengan su procedimiento? 
 Al leer el programa final, ¿se entiende la estrategia de solución que pensaste?
-
-> **Recordatorio**
->
-> Cuando definas los procedimientos para cada una de las tareas, 
-> ¡no te olvides de usar repetición para las cosas que se repiten! 
-> Además, tené cuidado con las condiciones de borde.
