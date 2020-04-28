@@ -1,4 +1,4 @@
-name: Snake básico
+name: La vibora que se tienta con manzanas
 attire:
   active: null
   user_permissions:
@@ -88,12 +88,17 @@ blocks:
            , "EXPRESIONES", "Color", "Direccion"
            ]
 board:
+  visible_edition: false
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: true
+    can_view_size_section: false
+    can_view_attire_section: false
+    can_toggle_visibility: false
   active: 1
   initial_board_source: selected
-  user_permissions:
-    can_change_source: false
-    can_edit_board: false
-  visible_edition: false
 execution_speed:
   active: instantaneous
   user_permissions:
