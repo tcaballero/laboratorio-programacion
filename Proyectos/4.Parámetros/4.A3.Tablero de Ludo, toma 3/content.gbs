@@ -1,5 +1,12 @@
 ﻿program {
-  ...
+  PosicionarseParaElPrimerCuadrado()
+  DibujarCuadrado(Rojo)
+  PosicionarseParaElSegundoCuadrado()
+  DibujarCuadrado(...)
+  PosicionarseParaElTercerCuadrado()
+  DibujarCuadrado(...)
+  PosicionarseParaElCuartoCuadrado()
+  DibujarCuadrado(...)
 }
 
 procedure DibujarCuadrado(colorDelCuadrado) {

@@ -1,4 +1,4 @@
-#Proyecto 1.3. Tablero de ludo, toma 3
+# Proyecto 1.3. Tablero de ludo, toma 3
 
 Completá el programa para lograr el mismo tablero que en las otras actividades _"Tablero de ludo"_, o sea, 
 obtener el siguiente tablero final (mostrado con y sin vestimenta):
@@ -9,11 +9,25 @@ obtener el siguiente tablero final (mostrado con y sin vestimenta):
 
 La diferencia es que esta vez además de usar un único procedimiento para dibujar cuadrados, tenés que utilizar un único 
 procedimiento para dibujar líneas.
-¿Cómo hacer para las líneas sean de diferentes colores y en diferentes direcciones?
+¿Cómo hacer para que las líneas sean de diferentes colores y en diferentes direcciones?
 Una vez más, recordá que pasar argumentos es una forma de indicarle a un comando con qué datos queremos que trabaje;
 y podés lograr que pida **más** de un argumento.
 
-> **Por cada parámetro, un argumento**
+> **La cantidad y el orden es importante**
 >
-> ¿Viste que al agregar un parámetro en la definición del procedimiento para dibujar cuadrados,
-> el comando definido solicita un argumento? ¿Qué pasaría si agregamos más de un parámetro?
+> Siempre hay que darle al comando tantos argumentos como
+> parámetros tiene. Y no solo eso, sino que si primero
+> pide un color y luego una dirección, hay que darle los
+> argumentos en ese orden. Por suerte,
+> usar buenos nombres en los parámetros ayuda, ¿no?
+
+.
+
+> **Algunos son literales, otro no**
+>
+> ¿Que argumento le damos a _dibujar línea hacia_?
+> El parámetro de un procedimiento se usa como expresión,
+> y como los argumentos son expresiones, podemos usar un
+> parámetro como argumento de otro comando que tenga
+> parámetros. También podemos mezclar estos con expresiones
+> literales.

@@ -1,4 +1,4 @@
-#Proyecto 2.1. Ludo loco, toma 1
+# Proyecto 2.1. Ludo loco, toma 1
 
 Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, cada uno de diferente color y tamaño. 
 El resultado final debería ser como el de la figura (mostrado con y sin vestimenta):
@@ -8,7 +8,23 @@ El resultado final debería ser como el de la figura (mostrado con y sin vestime
 </center>
 
 Observá que tenés que definir cuatro procedimientos, uno por cada tamaño, pero que cada uno de ellos ya tiene como parámetro el 
-color del cuadrado a dibujar, tal como se aprendió en la actividad _“Tablero de ludo, toma 2”_. 
-¿No te parece molesto tener que definir 4 procedimientos diferentes para poder tener diferentes tamaños? 
-Ya viste que podemos parametrizar el color y la dirección. Sería genial poder parametrizar algo más… 
-¡Pero esperá hasta la actividad que sigue!
+color del cuadrado a dibujar, tal como se aprendió en la actividad _“Tablero de ludo, toma 2”_. También, lo vamos a resolver llamando a
+un procedimiento para hacer líneas, que ahora espera 3 argumentos,
+el _color_, la _dirección_ y la _longitud_ a dibujar, similar a lo que aprendimos en _“Tablero de ludo, toma 3”_. Pensá como dibujar
+cuadrados de distinto tamaño usando ese procedimiento, que ya te lo
+damos hecho.
+
+Ahh, y esta vez, vas a tener que armar vos el programa.
+
+> ##### Mejor, pero molesto...
+>
+> ¿No te parece molesto tener que definir 4 procedimientos 
+> diferentes para poder tener cuadrados de diferentes tamaños? 
+>
+> Ya viste que podemos parametrizar el color, la dirección y
+> hasta la longitud, en el procedimiento que dibuja líneas.
+>
+> ¿Podremos contar con un único procedimiento que dibuje
+> cuadrados de diferente tamaño y color? Si te animás a ver
+> si sale con un único procedimiento, pasá a la actividad que
+> sigue.

@@ -1,4 +1,4 @@
-#Actividad 5. El planeta de Nano
+# Actividad 5. El planeta de Nano
 
 En esta actividad hay que lograr que Nano se coma todas las bananas.
 El tablero inicial es siempre el mismo, o sea que la cantidad de bananas en cada fila es la 
@@ -15,6 +15,6 @@ para solucionar el problema. ¡Probalos para conocerlos!
 
 > **Repeticiones con variaciones**
 >
-> La solución completa de esta actividad no puede hacerse con las repeticiones que conocés hasta ahora.
+> La solución completa de esta actividad no puede hacerse con las repeticiones que conocemos hasta ahora.
 > Para poder hacer repeticiones que tienen variaciones hacen falta más herramientas.
 > Más adelante vamos a volver a este ejercicio para ver una solución mucho más expresiva.
