@@ -189,23 +189,23 @@
     ]
   },
   {
-    "name": "Funciones",
+    "name": "Funciones simples",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
-      { "id": "7.A1",      "name": "Código para entendidos",
-        "path": "Proyectos/7.Funciones/7.A1.Código para entendidos"
+      { "id": "7.A",      "name": "Código para entendidos",
+        "path": "Proyectos/7.Funciones simples/7.A.Código para entendidos"
       },
-      { "id": "7.A2",        "name": "Y también…",
-        "path": "Proyectos/7.Funciones/7.A2.Y también…"
+      { "id": "7.B",        "name": "Y también…",
+        "path": "Proyectos/7.Funciones simples/7.B.Y también…"
       },
-      { "id": "7.B",        "name": "Laberinto con queso",
-        "path": "Proyectos/7.Funciones/7.B.Laberinto con queso"
+      { "id": "7.C",        "name": "Está lista la cena",
+        "path": "Proyectos/7.Funciones simples/7.C.Está lista la cena"
       },
-      { "id": "7.C",        "name": "Lucho recargado",
-        "path": "Proyectos/7.Funciones/7.C.Lucho recargado"
+      { "id": "7.D1",        "name": "Laberinto con queso",
+        "path": "Proyectos/7.Funciones simples/7.D1.Laberinto con queso"
       },
-      { "id": "7.D",        "name": "Está lista la cena",
-        "path": "Proyectos/7.Funciones/7.D.Está lista la cena"
+      { "id": "7.D2",        "name": "Lucho recargado",
+        "path": "Proyectos/7.Funciones simples/7.D2.Lucho recargado"
       }
     ]
   },

@@ -1,9 +1,9 @@
-name: Y también…
+name: Laberinto con queso
 attire:
-  active: null
+  active: Laberinto con queso
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
   defaultToolbox: |
       <category name="COMANDOS">
@@ -64,9 +64,9 @@ blocks:
           <block type="procedures_defnoreturn"></block>
         </category>
         <category name="Funciones">
-          <block type="procedures_defreturnsimple"></block>
-          <block type="procedures_defreturnsimplewithparams"></block>
-          <block type="procedures_defreturn"></block>
+          <block type="DefinicionDeFuncionSimpleDeclarativa"></block>
+          <block type="DefinicionDeFuncionSimpleConParametrosDeclarativa"></block>
+          <block type="DefinicionDeFuncionDeclarativa"></block>
         </category>
         <category name="Programas">
           <block type="Program"></block>
@@ -82,23 +82,22 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ "Poner", "IrAlBorde"
-            , "puedeMover"
-            , "OperadorNumerico"
-            , "siguiente", "previo", "opuesto"
+  disabled: [ 
             ]
-  visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
+  visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+                            , "Procedimientos primitivos"
                             , "Mis procedimientos"
                             , "RepeticionSimple"
                             , "AlternativaCompleta", "AlternativaSimple"
             , "EXPRESIONES" , "Color", "Direccion", "Numero"
                             , "nroBolitas", "hayBolitas", "puedeMover"
+                            , "FuncionesPrimitivas"
                             , "Mis funciones"
                             , "OperadorNumerico", "OperadorDeComparacion"
                             , "OperadorDeNegacion", "OperadorLogico"
                             , "siguiente", "previo", "opuesto"
             , "DEFINICIONES", "procedures_defnoreturn"
-                            , "procedures_defreturnsimple"
+                            , "DefinicionDeFuncionSimpleDeclarativa"
             ]
 board:
   active: 1
@@ -116,4 +115,3 @@ library:
 source:
   visible: true
   percentage: 0.75  
-  

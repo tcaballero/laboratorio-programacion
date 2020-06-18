@@ -1,4 +1,5 @@
-#Proyecto 2. Laberinto con queso
+### Funciones simples
+# Proyecto 7.D1: 'Laberinto con queso'
 
 Una vez más el ratón está en el laberinto, a 20 pasos de distancia de la salida. 
 Pero esta vez hay una diferencia: en algunos lugares del laberinto hay pedacitos de queso desperdigados. 
@@ -26,7 +27,8 @@ Para hacer las funciones recordá cómo se representan los diferentes elementos:
      3 rojas al Sur y 
      4 rojas al Oeste.
 * los quesos se representan con 1 bolita verde ¡y la salida con 2 ó 3 verdes! 
-  Que el ratón no se confunda y piense que hay un queso en la salida…
+
+Ojo, que el ratón no se confunda y piense que hay un queso en la salida…
 
 Vas a tener que repasar cómo usar el operador de igualdad.
 
@@ -36,7 +38,3 @@ La alternativa condicional tiene una opción de agregar más condiciones para qu
 Esto es una forma de elegir entre **múltiples alternativas** para asegurar que se mueva una sola vez por cada llamado 
 al procedimiento; si bien se puede simular _anidando_ cada nueva alternativa en la rama-del-si-no de la anterior,
 esa es una práctica algo fea que solo debe usarse cuando la **_multialternativa_** no está disponible. 
-           
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/7.Funciones/2.Laberinto%20con%20queso/assets/resources/description.pdf "Enunciado de 'Laberinto con queso' en PDF"

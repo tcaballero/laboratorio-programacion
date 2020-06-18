@@ -1,4 +1,5 @@
-#Proyecto 1.2. Y también…
+### Funciones simples
+# Proyecto 7.B: 'Y también…'
 
 En este proyecto también se representan tomates, pero con una diferencia interesante respecto del anterior: 
 en lugar de representarse con una única bolia roja, en éste los tomates se representan con una rojas y una verde. 

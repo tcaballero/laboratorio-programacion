@@ -1,4 +1,5 @@
-#Proyecto 1.1. La luz está prendida vs. hay bolitas: mi elección es clara
+### Funciones simples
+# Proyecto 7.A: 'Código para entendidos'
 
 Compará los procedimientos que vienen hechos: `SimularInterruptorDeLuz` y `MantenerLaSecciónDeLaHuerta`. 
 Después de que encuentres en qué se diferencian, tenemos un desafío. 

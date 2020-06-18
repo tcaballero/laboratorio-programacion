@@ -28,3 +28,5 @@ Nuevamente tenemos más de un tablero inicial diferente, y el mismo programa deb
 >   y eso quiere decir que la luz está apagada.
 >
 >¡No te olvides de definir procedimientos para las subtareas!
+
+Por cierto, si sentís que algo le falta a tu solución con respecto a la anterior para poder leerse y comunicar apropiadamente, no te preocupes, efectivamente nos faltan cosas.

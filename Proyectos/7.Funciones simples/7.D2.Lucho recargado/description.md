@@ -1,4 +1,5 @@
-#Proyecto 4. Lucho recargado
+### Funciones simples
+# Proyecto 7.D2: 'Lucho recargado'
 
 El robot Lucho otra vez tiene que prender las luces, y por supuesto, vos tenés que completar el programa para que lo haga. 
 Hay 6 filas de luces, y cada fila tiene 9 lugares, pero no hay luces en todas las celdas, así que Lucho tiene que ir con 
@@ -23,7 +24,3 @@ Cuando construyas los procedimientos para expresar la estrategia, no te olvides 
 de borde en las repeticiones, y de encender una luz solamente cuando corresponde. 
 Si te sentís confundido por la cantidad de procedimientos y funciones, ordenalos en tres grupos: 
 los que representan elementos, los que representan operaciones y los que expresan la estrategia de solución.
-           
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/7.Funciones/4.Lucho%20recargado/assets/resources/description.pdf "Enunciado de 'Lucho recargado' en PDF"

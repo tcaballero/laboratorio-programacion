@@ -1,4 +1,5 @@
-#Actividad 4. Está lista la cena
+### Funciones simples
+# Proyecto 7.C: 'Está lista la cena'
 
 En esta actividad ya está construido un programa para avisar cuando está lista la cena.
 Pero hay un problema: el programa no está funcionando bien.
@@ -28,7 +29,3 @@ resultado del programa al ejecutarlo en la segunda imagen.
 > Las funciones que te presentamos tienen buenos nombres. Eso significa que leyendo el código, podrías descubrir
 > fácilmente cuál es el error. ¡Probá hacerlo de esta forma!
 > ¿Viste qué importante que es poner buenos nombres a tus procedimientos y funciones?
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/7.Funciones/4.Est%C3%A1%20lista%20la%20cena/assets/resources/description.pdf "Enunciado de 'Está lista la cena' en PDF"

@@ -3,11 +3,23 @@ function laLuzEstáPrendida() {
 }
 
 procedure PrenderLaLuz() {
+    if (nroBolitas(Azul)==1) {
+        BOOM("La luz ya está prendida")
+    }
+    if (not nroBolitas(Negro)==1) {
+        BOOM("No hay una luz para prender en este lugar")
+    }
     Poner(Azul)
     Sacar(Negro)
 }
 
 procedure ApagarLaLuz() {
+    if (nroBolitas(Negro)==1) {
+        BOOM("La luz ya está apagada")
+    }
+    if (not nroBolitas(Azul)==1) {
+        BOOM("No hay una luz para apagar en este lugar")
+    }
     Poner(Negro)
     Sacar(Azul)
 }
