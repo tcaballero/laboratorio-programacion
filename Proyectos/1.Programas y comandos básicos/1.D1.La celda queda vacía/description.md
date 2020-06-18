@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.D1: 'La celda queda vacía'
+# Proyecto 1.D1: 'La celda queda vacía'
 
 Tenés que construir un programa que haga que la celda quede vacía. 
 Vas a precisar nuevos comandos primitivos. ¡A explorar! 

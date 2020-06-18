@@ -1,4 +1,5 @@
-# Proyecto 3.2. Futbol Para Robots, sin procedimientos
+### Procedimientos
+# Proyecto 2.C2: 'Fútbol para Robots, sin procedimientos'
 
 En esta actividad solamente tenés que mirar el programa que está realizado, y comprobar 
 qué difícil que es entender qué hace el programa cuando no se utilizan procedimientos para 

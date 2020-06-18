@@ -1,5 +1,6 @@
 ### Programas y comandos básicos
 # Proyecto 1.C1: 'La víbora esperando una presa'
+
 Construí un programa para obtener una víbora de bolitas como la siguiente:
 
 <center>

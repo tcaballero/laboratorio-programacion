@@ -1,7 +1,8 @@
-#Proyecto 2.3. Super mimo multiplica
+### Expresiones y tipos
+# Proyecto 5.C3: 'Super mimo multiplica'
 
 Esta vez el mimo tiene que imitar nuevamente a las bolitas azules pero ahora tiene 
-que poner el doble de bolitas rojas que de azules. 
+que poner el triple de bolitas rojas que de azules. 
 El desafío, nuevamente, es hacerlo con una única repetición y esta vez además, 
 la solución debe tener un solo comando `Poner` y usar una sola vez la expresión `nroBolitas`. 
 Mirá algunas de las combinaciones de tablero inicial y final.

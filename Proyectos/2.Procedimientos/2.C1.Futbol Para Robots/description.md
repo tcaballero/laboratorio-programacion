@@ -1,4 +1,5 @@
-# Proyecto 3.1. Futbol Para Robots
+### Procedimientos
+# Proyecto 2.C1: 'Fútbol para Robots'
 
 En esta actividad vas a completar un programa para que el robot Beto juegue al fútbol, 
 llevando una pelota hacia el arco y haciendo un gol. 

@@ -1,4 +1,5 @@
-#Proyecto 1.1. Poner muchas bolitas se vuelve incómodo
+### Repetición simple
+# Proyecto 3.A1: 'Poner muchas bolitas se vuelve incómodo'
 
 La idea de esta actividad es poner muchas bolitas. 
 Al principio vas a ver que, según cuántas bolitas haya que poner, eso puede ser incómodo. 

@@ -1,4 +1,5 @@
-#Proyecto 5. Entrenando al Beto
+### Repetición simple
+# Proyecto 3.E: 'Entrenando al Beto'
 
 En una actividad anterior enseñamos al Beto a patear la pelota. 
 Pero como el técnico no entiende que los autómatas siempre hacen las cosas igual, 

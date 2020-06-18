@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.B: 'Bolitas de colores'
+# Proyecto 1.B: 'Bolitas de colores'
 
 ¡Ahora es tu turno de usar Gobstones! 
 Construí un programa que haga que la máquina al ejecutarlo ponga 4 bolitas, 

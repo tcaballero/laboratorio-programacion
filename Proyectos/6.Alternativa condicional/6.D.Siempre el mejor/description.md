@@ -1,4 +1,5 @@
-#Proyecto 3. Siempre el mejor
+### Alternativa condicional
+# Proyecto 6.D: 'Siempre el mejor'
 
 Los Gobstomon son pequeñas criaturas mágicas que habitan en la naturaleza, y que son adoptadas como 
 mascotas por algunas personas, que las entrenan para realizar combates Gobstomon. 
@@ -35,3 +36,12 @@ Para saber el nivel de un Gobstomon podés usar la expresión primitiva `nroBoli
 ¿Pero cómo podés hacer para hacer la condición que diga si los dos niveles _son iguales_? 
 ¿Y para saber cuál de los dos niveles _es mayor_? 
 Buscá en el entorno de Gobstones. 
+
+**Ojo, no es lo mismo comparar colores que números.**
+
+> **Multialternativas**
+>
+> Un detalle interesante para mirar es cómo está hecho el procedimiento para detrminar quien gana o si empatan.
+> usa alternativas, pero esta alternativa es diferente a las que habíamos visto, pues contiene 3 ramas en lugar de 2.
+> La alternativa condicional tiene una opción de agregar más condiciones para que pueda pasar esto.
+> Esto es una forma de elegir entre **múltiples alternativas** para evitar anidar alternativas.

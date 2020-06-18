@@ -1,4 +1,5 @@
-#Proyecto 3. Siga la flecha
+### Repetición simple
+# Proyecto 3.C: 'Siga la flecha'
 
 Completá los procedimientos y el programa para dibujar una flecha como la de la figura: 
 consiste en una línea de 7 celdas con bolitas verdes hacia el Este, que culmina en una punta 

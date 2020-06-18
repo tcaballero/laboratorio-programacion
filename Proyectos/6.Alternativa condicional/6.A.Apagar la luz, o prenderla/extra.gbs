@@ -1,0 +1,13 @@
+function laLuzEstáPrendida() {
+    return (hayBolitas(Azul))
+}
+
+procedure PrenderLaLuz() {
+    Poner(Azul)
+    Sacar(Negro)
+}
+
+procedure ApagarLaLuz() {
+    Poner(Negro)
+    Sacar(Azul)
+}

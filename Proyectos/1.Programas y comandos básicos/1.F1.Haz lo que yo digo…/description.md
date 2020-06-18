@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.F1: 'Haz lo que yo digo…'
+# Proyecto 1.F1: 'Haz lo que yo digo…'
 
 En muchas ocasiones puede ser súmamente útil agregar comentarios a tu programa que 
 permitan saber a los demás (y a vos mismo, por si te olvidas luego) 

@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.F2: 'Puede fallar'
+# Proyecto 1.F2: 'Puede fallar'
 
 No siempre nuestros programas funcionan como esperamos. Ejecutá el siguiente programa y fijate que ocurre.
 

@@ -1,4 +1,5 @@
-# Proyecto 4. Varias cosas de una sola vez
+### Parámetros
+# Proyecto 4.C: 'Varias cosas de una sola vez'
 
 En esta actividad tenés que definir tres procedimientos parametrizados, uno que ponga muchas bolitas, otro que saque muchas, y otro que mueva el cabezal muchas celdas, en la cantidad indicada en el parámetro. 
 Después tenés que utilizarlos para transformar el tablero inicial dado en el tablero final que se ve en la figura; 

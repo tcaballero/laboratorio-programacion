@@ -1,4 +1,5 @@
-#Proyecto 1.2. ¿Para dónde queda Rojo?
+### Expresiones y tipos
+# Proyecto 5.A2: '¿Para dónde queda Rojo?'
 
 Antes de este ejercicio deberías hacer _“No encuentro bolitas de color Sur”_. 
 Si ya hiciste ese, ahora tenés que tratar de pensar qué va a pasar si el programa intenta hacer `Mover(Rojo)`. 

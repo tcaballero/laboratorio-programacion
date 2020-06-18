@@ -1,4 +1,5 @@
-#Proyecto 1.3. ¿Y por qué hace BOOM?
+### Expresiones y tipos
+# Proyecto 5.B: '¿Y por qué hace BOOM?'
 
 Mirá el programa de la imagen. 
 Sin ejecutarlo, pensá: ¿cómo va a comportarse la máquina al intentar realizarlo? 

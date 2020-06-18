@@ -1,4 +1,5 @@
-# Proyecto 2.2. Armamos 'El alien toca botón'
+### Procedimientos
+# Proyecto 2.B1: 'Armamos "El alien toca botón"'
 
 Esta actividad es muy parecida a la anterior, en cuanto a que hay un alien que tiene que tocar un botón.
 Pero, a diferencia de la actividad anterior, ahora te toca a vos armar los procedimientos para mover al alien

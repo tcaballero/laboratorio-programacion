@@ -1,4 +1,5 @@
-#Proyecto 2.1. El cabezal juega a ser mimo
+### Expresiones y tipos
+# Proyecto 5.C1: 'El cabezal juega a ser mimo'
 
 En esta actividad tenés que construir un programa que ponga bolitas rojas. 
 El tema es que la cantidad de bolitas rojas que hay que colocar no la conocés de antemano: 

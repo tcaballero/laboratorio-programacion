@@ -1,4 +1,5 @@
-#Proyecto 1.1. Programo el cuadrado
+### Procedimientos
+# Proyecto 2.A1: 'Programo el cuadrado'
 
 Con los comandos que aprendimos se pueden hacer _“dibujos”_. 
 Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como muestra la figura.

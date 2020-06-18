@@ -1,4 +1,5 @@
-#Proyecto 4. Laberinto
+### Expresiones y tipos
+# Proyecto 5.E: 'Laberinto'
 
 ¿Te acordás del ratón que escapó de la jaula? 
 Resulta que a la salida lo estaban esperando para ponerlo en un laberinto y ver si podía escaparse de él. 

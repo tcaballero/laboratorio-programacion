@@ -1,4 +1,5 @@
-#Proyecto 1.2. La computadora repite por nosotros
+### Repetición simple
+# Proyecto 3.A2: 'La computadora repite por nosotros'
 
 Tratá de hacer un procedimiento que sirva para poner 1500 bolitas rojas. 
 ¿Habrá alguna herramienta en el entorno que nos haga el trabajo más fácil? 

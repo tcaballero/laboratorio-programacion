@@ -1,4 +1,5 @@
-# Proyecto 1.1. Tablero de ludo, toma 1
+### Parámetros
+# Proyecto 4.A1: 'Tablero de ludo, toma 1'
 
 Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, y cada uno de diferente color. El tablero final debería ser (con y sin vestimenta):
 

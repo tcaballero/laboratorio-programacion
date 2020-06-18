@@ -1,4 +1,5 @@
-# Proyecto 2.1. El alien toca botón
+### Procedimientos
+# Proyecto 2.B1: 'El alien toca botón'
 
 En esta actividad no vamos a trabajar con bolitas… directamente. 
 La idea es que en el tablero hay un alien que para poder activar su nave tiene que 

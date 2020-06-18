@@ -1,4 +1,5 @@
-#Proyecto 3.2. La flecha enloqueció
+### Expresiones y tipos
+# Proyecto 5.D2: 'La flecha enloqueció'
 
 Otra vez el ratón está atrapado en una jaula y necesita ayuda para encontrar la salida. 
 Y otra vez tenés que construir un procedimiento `AyudarAlRatonASalir` que ayude al ratón a lograrlo. 

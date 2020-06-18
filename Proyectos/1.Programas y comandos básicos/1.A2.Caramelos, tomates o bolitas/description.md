@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.A2: '¿Caramelos, tomátes o bolitas?'
+# Proyecto 1.A2: '¿Caramelos, tomátes o bolitas?'
 
 Ejecutá el programa y observá como el granjero siembra tomates y luego los cosecha.
 

@@ -1,4 +1,5 @@
-#Actividad 5.2. Lucho enciende las luces, extendido
+### Repetición simple
+# Proyecto 3.F: 'Lucho enciende las luces, extendido'
 
 El programa a realizar es similar al de la actividad anterior de Lucho que realizamos en la sección de procedimientos: debe instruir a Lucho para que encienda todas las luces que aparecen en el escenario, que están siempre en el mismo lugar. Pero ahora el escenario inicial es diferente:
 

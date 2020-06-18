@@ -1,4 +1,5 @@
-#Proyecto 2.2. El mimo que suma
+### Expresiones y tipos
+# Proyecto 5.C2: 'El mimo que suma'
 
 Nuevamente hay que hacer que el cabezal juegue a ser un mimo, pero en lugar de imitar 
 solamente las bolitas azules, ahora hay que imitar _al mismo tiempo_ las bolitas azules y las negras. 

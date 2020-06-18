@@ -1,4 +1,5 @@
-#Proyecto 5.1. Lucho enciende las luces
+### Procedimientos
+# Proyecto 2.E: 'Lucho enciende las luces'
 
 El programa a realizar debe instruir a Lucho, nuestro robot de casa, para que encienda todas las luces 
 que aparecen en el tablero, que están siempre en el mismo lugar. 

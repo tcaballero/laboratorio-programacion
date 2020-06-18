@@ -1,4 +1,5 @@
-#Proyecto 1.2. Programo el cuadrado, programo el cuadrado
+### Procedimientos
+# Proyecto 2.A2: 'Programo el cuadrado, programo el cuadrado'
 
 A) Construí un programa para dibujar dos cuadrados de color rojo, cada uno de tres bolitas 
    de lado, como muestra la figura. 

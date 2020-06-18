@@ -1,4 +1,5 @@
-#Proyecto 3.1. Escapar de la jaula
+### Expresiones y tipos
+# Proyecto 5.D1: 'Escapar de la jaula'
 
 Un ratón está atrapado en una jaula y necesita ayuda para encontrar la salida. 
 Tenés que construir un procedimiento `AyudarAlRatonASalir` que ayude al ratón a lograrlo. 

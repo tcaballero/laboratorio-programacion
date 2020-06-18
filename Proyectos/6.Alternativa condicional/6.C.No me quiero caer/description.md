@@ -1,4 +1,5 @@
-#Proyecto 2. No me quiero caer
+### Alternativa condicional
+# Proyecto 6.C: 'No me quiero caer'
 
 Construí un programa para dibujar una víbora de bolitas de longitud 10. 
 La víbora debe empezar en la celda actual, y continuar hacia el Este. 

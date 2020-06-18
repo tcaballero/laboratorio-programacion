@@ -1,4 +1,5 @@
-#Proyecto 6. Reparando la nave
+### Procedimientos
+# Proyecto 2.F: 'Reparando la nave'
 
 Utilizando los procedimientos primitivos provistos, escribí un programa que permita que 
 el marciano repare su nave y pueda volver a su planeta. 

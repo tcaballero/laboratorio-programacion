@@ -1,4 +1,5 @@
-#Proyecto 1.1. No encuentro bolitas de color Sur
+### Expresiones y tipos
+# Proyecto 5.A1: 'No encuentro bolitas de color Sur'
 
 ¿Qué hará el cabezal si le damos como instrucción `Poner(Sur)`? 
 Puesto que el comando `Poner` espera un dato como argumento y `Sur` es un dato, podemos intentar hacer esa combinación. 

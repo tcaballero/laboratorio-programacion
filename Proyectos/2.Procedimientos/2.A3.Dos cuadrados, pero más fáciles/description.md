@@ -1,4 +1,5 @@
-# Proyecto 3.1. Dos cuadrados, pero más fáciles 
+### Procedimientos
+# Proyecto 2.A3: 'Dos cuadrados, pero más fáciles'
 
 A) La idea es que de nuevo dibujes dos cuadrados rojos, como en la actividad 
 _“Programo el cuadrado, programo el cuadrado”_, pero en esta ocasión te pedimos que 

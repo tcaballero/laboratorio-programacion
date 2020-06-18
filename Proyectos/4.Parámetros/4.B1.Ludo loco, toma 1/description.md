@@ -1,4 +1,5 @@
-# Proyecto 2.1. Ludo loco, toma 1
+### Parámetros
+# Proyecto 4.B1: 'Ludo loco, toma 1'
 
 Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, cada uno de diferente color y tamaño. 
 El resultado final debería ser como el de la figura (mostrado con y sin vestimenta):

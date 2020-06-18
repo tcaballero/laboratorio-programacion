@@ -1,4 +1,5 @@
-#Proyecto 4. Candela, me quemo
+### Repetición simple
+# Proyecto 3.D: 'Candela, me quemo'
 
 ¡Se prende fuego el tablero! 
 Valiéndote del procedimiento primitivo "`Usar matafuego`" escribí un procedimiento que apague el incendio 

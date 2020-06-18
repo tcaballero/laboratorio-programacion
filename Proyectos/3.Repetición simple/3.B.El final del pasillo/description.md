@@ -1,4 +1,5 @@
-#Proyecto 2. El final del pasillo
+### Repetición simple
+# Proyecto 3.B: 'El final del pasillo'
 
 Escribí un procedimiento al que tenés que ponerle como nombre "`Llegar al final del pasillo`" que permita a Lucho moverse por un pasillo 
 en forma de L, como el que muestra la figura, hasta llegar a la otra punta:

@@ -1,4 +1,5 @@
-# Proyecto 1.3. Tablero de ludo, toma 3
+### Parámetros
+# Proyecto 4.A3: 'Tablero de ludo, toma 3'
 
 Completá el programa para lograr el mismo tablero que en las otras actividades _"Tablero de ludo"_, o sea, 
 obtener el siguiente tablero final (mostrado con y sin vestimenta):

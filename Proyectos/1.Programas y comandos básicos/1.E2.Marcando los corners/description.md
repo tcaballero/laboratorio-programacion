@@ -1,5 +1,5 @@
 ### Programas y comandos básicos
-#Proyecto 1.E2: 'Marcando los corners'
+# Proyecto 1.E2: 'Marcando los corners'
 
 Partiendo de diferentes tableros vacíos con el cabezal en el origen, tenés que escribir 
 un programa en el que se pueda obtener un tablero con _“semicírculos”_ rojos en las esquinas 
