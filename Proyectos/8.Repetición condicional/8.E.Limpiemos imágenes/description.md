@@ -1,4 +1,5 @@
-#Proyecto 5. Limpiemos imágenes
+### Repetición condicional
+# Proyecto 8.E: 'Limpiemos imágenes'
 
 En este proyecto utilizamos una forma de representar muchos colores usando bolitas de 3 colores.
 La representación admite entre 0 y 4 bolitas de cada uno de los colores Rojo, Verde y Azul.
@@ -41,7 +42,3 @@ Te mostramos un tablero inicial posible, y su correspondiente tablero final.
 > Antes habíamos visto otras formas de recorrer: por ejemplo, en los proyectos donde aparece el Beto,
 > los recorridos son "por fila", ya que se hace una repetición por cada fila.
 > ¿Cómo será un "recorrido por columnas"?
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/8.Repetici%C3%B3n%20condicional/5.Limpiemos%20im%C3%A1genes/assets/resources/description.pdf "Enunciado de 'Limpiemos imágenes' en PDF"

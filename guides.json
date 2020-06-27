@@ -210,35 +210,29 @@
     ]
   },
   {
-    "name": "Alternativa condicional de expresiones",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
-    "exercises": [
-    ]
-  },
-  {
     "name": "Repetición condicional",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
-      { "id": "9.A1",      "name": "Super Lucho 1",
-        "path": "Proyectos/9.Repetición condicional/9.A1.Super Lucho 1"
+      { "id": "8.A1",      "name": "Super Lucho 1",
+        "path": "Proyectos/8.Repetición condicional/8.A1.Super Lucho 1"
       },
-      { "id": "9.A2",        "name": "Super Lucho 2",
-        "path": "Proyectos/9.Repetición condicional/9.A2.Super Lucho 2"
+      { "id": "8.A2",        "name": "Super Lucho 2",
+        "path": "Proyectos/8.Repetición condicional/8.A2.Super Lucho 2"
       },
-      { "id": "9.B",        "name": "Laberinto con queso, recargado",
-        "path": "Proyectos/9.Repetición condicional/9.B.Laberinto con queso, recargado"
+      { "id": "8.B",        "name": "Laberinto con queso, recargado",
+        "path": "Proyectos/8.Repetición condicional/8.B.Laberinto con queso, recargado"
       },
-      { "id": "9.C",        "name": "Más entrenamiento para Beto",
-        "path": "Proyectos/9.Repetición condicional/9.C.Más entrenamiento para Beto"
+      { "id": "8.C",        "name": "Más entrenamiento para Beto",
+        "path": "Proyectos/8.Repetición condicional/8.C.Más entrenamiento para Beto"
       },
-      { "id": "9.D",        "name": "Hansel y Gretel van a la casa de la Bruja",
-        "path": "Proyectos/9.Repetición condicional/9.D.Hansel y Gretel van a a la casa de la Bruja"
+      { "id": "8.D",        "name": "Hansel y Gretel van a la casa de la Bruja",
+        "path": "Proyectos/8.Repetición condicional/8.D.Hansel y Gretel van a a la casa de la Bruja"
       },
-      { "id": "9.E",        "name": "Limpiemos imágenes",
-        "path": "Proyectos/9.Repetición condicional/9.E.Limpiemos imágenes"
+      { "id": "8.E",        "name": "Limpiemos imágenes",
+        "path": "Proyectos/8.Repetición condicional/8.E.Limpiemos imágenes"
       },
-      { "id": "9.G",        "name": "¿Dónde puse las llaves?",
-        "path": "Proyectos/9.Repetición condicional/9.F.Dónde puse las llaves"
+      { "id": "8.G",        "name": "¿Dónde puse las llaves?",
+        "path": "Proyectos/8.Repetición condicional/8.F.Dónde puse las llaves"
       }
     ]
   },

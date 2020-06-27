@@ -1,5 +1,5 @@
-function estáEnLaMeta()  { return (nroBolitas(Verde) == 2) }
-function hayLuzApagada() { return (nroBolitas(Azul)  == 1) }
+/*@ATTRIBUTE@block_name@No está en la meta@*/
+function noEstáEnLaMeta() { return (not auxEstáEnLaMeta()) }
 
 procedure EncenderLuz() {
   if (not auxHayLuz())      { BOOM("No hay luz en esta celda") }
@@ -10,7 +10,7 @@ procedure EncenderLuz() {
 /*@ATTRIBUTE@block_name@Mover a Lucho al Este@*/
 procedure MoverALuchoAlEste() {
   if (not auxEstáLucho()) { BOOM("No está Lucho en esta celda")   }
-  if (estáEnLaMeta())     { BOOM("Salí fuera del panel de luces") }
+  if (auxEstáEnLaMeta())  { BOOM("Salí fuera del panel de luces") }
   Sacar(Negro)
   Mover(Este)
   Poner(Negro)
@@ -19,3 +19,4 @@ procedure MoverALuchoAlEste() {
 function auxHayLuzEncendida() { return (nroBolitas(Azul)  == 2) }
 function auxHayLuz()          { return (nroBolitas(Azul)  >  0) }
 function auxEstáLucho()       { return (nroBolitas(Negro) == 1) }
+function auxEstáEnLaMeta()    { return (nroBolitas(Verde) == 1) }

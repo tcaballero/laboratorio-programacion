@@ -1,4 +1,5 @@
-#Proyecto 4. Hansel y Gretel van a a la casa de la Bruja
+### Repetición condicional
+# Proyecto 8.D: 'Hansel y Gretel van a a la casa de la Bruja'
 
 Hansel y Gretel van en la carreta mágica hacia la casa de la Bruja y deben 
 dejar miguitas de pan en el camino para poder volver, porque no saben qué 
@@ -25,7 +26,3 @@ se observan en las imágenes:
 necesarias para expresarla! 
 Al finalizar, el docente va a proponer un análisis de las soluciones propuestas, así que 
 pensá bien las partes de tu programa, y cómo se arman para proveer la solución final.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/8.Repetici%C3%B3n%20condicional/4.Hansel%20y%20Gretel%20van%20a%20a%20la%20casa%20de%20la%20Bruja/assets/resources/description.pdf "Enunciado de 'Hansel y Gretel van a a la casa de la Bruja' en PDF"

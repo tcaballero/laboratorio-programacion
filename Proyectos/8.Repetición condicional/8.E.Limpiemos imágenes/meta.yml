@@ -1,6 +1,6 @@
-name: ¿Dónde puse las llaves?
+name: Limpiemos imágenes
 attire:
-  active: Cajones y llaves
+  active: RGB con cenizas
   user_permissions:
     can_toggle_visibility: true
   visible: true
@@ -26,7 +26,7 @@ blocks:
         </category>
         <category name="Repeticiones">
           <block type="RepeticionSimple"></block>
-          <block type="RepeticionCondicional"></block>
+          <block type="RepeticionCondicionalReal"></block>
         </category>
         <category name="Asignación">
           <block type="Asignacion"></block>
@@ -82,11 +82,17 @@ blocks:
         <block type="ExpresionCompletar"></block>
         <block type="AsociacionDeTeclaCompletar"></block>
       </category>
-  disabled: [ 
+  disabled: [ "Poner", "Sacar", "BOOM"
+            , "RepeticionSimple"
+            , "AlternativaSimple"
+            , "Numero"
+            , "nroBolitas", "hayBolitas"
+            , "OperadorNumerico", "OperadorDeComparacion"
+            , "siguiente", "previo", "opuesto"
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                             , "Procedimientos primitivos", "Mis procedimientos"
-                            , "RepeticionSimple", "RepeticionCondicional"
+                            , "RepeticionSimple", "RepeticionCondicionalReal"
                             , "AlternativaCompleta", "AlternativaSimple"
             , "EXPRESIONES" , "Color", "Direccion", "Numero"
                             , "nroBolitas", "hayBolitas", "puedeMover"
@@ -110,6 +116,6 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-source: 
+source:
   visible: true
   percentage: 0.80
