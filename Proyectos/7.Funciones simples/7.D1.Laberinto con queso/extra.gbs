@@ -11,3 +11,7 @@ procedure SacarLaFlecha() {
    if (not hayBolitas(Rojo)) { BOOM("No hay flecha en esta celda") }
    repeat(nroBolitas(Rojo)) { Sacar(Rojo) } 
 }
+
+procedure IndicarQueNoHayFlecha() {
+    BOOM("No hay una flecha en este lugar")
+}
