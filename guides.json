@@ -237,7 +237,7 @@
     ]
   },
   {
-    "name": "Variables",
+    "name": "Variables y Funciones con procesamiento",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
       { "id": "9.A",      "name": "Recuerden la contraseña",
@@ -246,23 +246,20 @@
       { "id": "9.B",        "name": "Otra vez el cabezal juega a ser mimo",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.B.Otra vez el cabezal juega a ser mimo"
       },
-      { "id": "9.C1",        "name": "Super Lucho también cuenta luces",
+      { "id": "9.C",        "name": "Super Lucho también cuenta luces",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.C.Super Lucho también cuenta luces"
       },
-      { "id": "9.C2",        "name": "A qué distancia está el borde",
+      { "id": "9.D",        "name": "A qué distancia está el borde",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.D.A qué distancia está el borde"
       },
-      { "id": "9.D1",        "name": "Contar las baldosas",
+      { "id": "9.E1",        "name": "Contar las baldosas",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.E1.Contar las baldosas"
       },
-      { "id": "9.D2",        "name": "Contar las baldosas rajadas",
+      { "id": "9.E2",        "name": "Contar las baldosas rajadas",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.E2.Contar las baldosas rajadas"
       },
-      { "id": "9.E",        "name": "Super Lucho, recargado",
+      { "id": "9.F",        "name": "Super Lucho, recargado",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.F.Super Lucho, recargado"
-      },
-      { "id": "9.F",        "name": "El radar",
-        "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.G.El radar"
       }
     ]
   },

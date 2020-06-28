@@ -1,5 +1,9 @@
 procedure Poner__Veces(color,cantidad) { repeat(cantidad) { Poner(color) } }
 
+procedure ResponderCon_(mensaje) {  }
+
+function yoNoDije_Dije_(a, b) { return (a) }
+
 /*@ATTRIBUTE@block_name@elegir _ cuando _ y si no, _@*/
 function elegir_cuando_ySiNo_(valor1, condición, valor2) {
  return (choose

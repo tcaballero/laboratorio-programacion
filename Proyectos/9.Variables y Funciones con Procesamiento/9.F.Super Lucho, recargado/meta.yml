@@ -26,7 +26,7 @@ blocks:
         </category>
         <category name="Repeticiones">
           <block type="RepeticionSimple"></block>
-          <block type="RepeticionCondicional"></block>
+          <block type="RepeticionCondicionalReal"></block>
         </category>
         <category name="Asignación">
           <block type="Asignacion"></block>
@@ -86,7 +86,7 @@ blocks:
             ]
   visible:  [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                             , "Procedimientos primitivos", "Mis procedimientos"
-                            , "RepeticionSimple", "RepeticionCondicional"
+                            , "RepeticionSimple", "RepeticionCondicionalReal"
                             , "AlternativaCompleta", "AlternativaSimple"
                             , "Asignación"
             , "EXPRESIONES" , "Color", "Direccion", "Numero"
