@@ -1,4 +1,5 @@
-#Proyecto 4. El radar
+### Variables y funciones con procesamiento
+# Proyecto 9.G: 'El radar'
 
 ¿Alguna vez te preguntaste cómo funciona un radar, como los que usan en las torres de los aeropuertos? 
 Lo que hace es enviar una onda en una dirección, y si la misma vuelve rebotada es porque hay algo en ese 
@@ -62,7 +63,3 @@ Te damos algunas partes ya empezadas para que te guíes.
 Este ejemplo puede parecerte complicado, pero eso es porque utiliza todas las herramientas que vimos hasta ahora. 
 Sin embargo, si prestás atención, cada una de las herramientas se usa para lo mismo que habíamos hecho en 
 otras actividades. ¡Y estas ideas sirven, por ejemplo, para construir un juego de Pacman!
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/4.El%20radar/assets/resources/description.pdf "Enunciado de 'El radar' en PDF"

@@ -1,1 +1,24 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"><variables></variables><block type="Program" id="kf!F$o(k*Bs*L~|Bx/W5" deletable="false" x="76" y="34"><mutation timestamp="1537104518394"></mutation></block></xml>
+<xml
+    xmlns="http://www.w3.org/1999/xhtml">
+    <variables></variables>
+    <block type="Program" id="kf!F$o(k*Bs*L~|Bx/W5" deletable="false" x="65" y="20">
+        <mutation timestamp="1594323203721"></mutation>
+        <statement name="STACK">
+            <shadow type="ComandoCompletar" id=",(KWkzmKBByih8V(aD]+"></shadow>
+        </statement>
+    </block>
+    <block type="procedures_defnoreturnnoparams" id="C={d4lxVZo1.eP}|k+Yj" x="64" y="185">
+        <mutation isatomic="false"></mutation>
+        <field name="NAME">Ir hasta el cuaderno</field>
+        <statement name="STACK">
+            <shadow type="ComandoCompletar" id=",(KWkzmKBByih8V(aD]+"></shadow>
+        </statement>
+    </block>
+    <block type="procedures_defnoreturnnoparams" id="T7W$ov{Y5_|PCw2!IUq^" x="66" y="307">
+        <mutation isatomic="false"></mutation>
+        <field name="NAME">Ir hasta el pizarrón</field>
+        <statement name="STACK">
+            <shadow type="ComandoCompletar" id=",(KWkzmKBByih8V(aD]+"></shadow>
+        </statement>
+    </block>
+</xml>

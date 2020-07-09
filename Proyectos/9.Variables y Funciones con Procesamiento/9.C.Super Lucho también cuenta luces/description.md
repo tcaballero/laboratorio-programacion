@@ -1,4 +1,5 @@
-#Proyecto 2.1 Super Lucho también cuenta luces
+### Variables y funciones con procesamiento
+# Proyecto 9.C: 'Super Lucho también cuenta luces'
 
 Una vez más tenemos que ayudar a Lucho a prender las luces. 
 Al igual que en las actividades de _"Super Lucho"_, hay una fila de luces que 
@@ -27,7 +28,3 @@ Fijate el nombre que le dimos a la variable: `cantidadDeLucesQueYaPrendí`.
 > Cuando una variable se usa de la forma en que lo hicimos en este programa, 
 > incrementándose de a poco durante un recorrido, se le da el nombre de **acumulador** 
 > o **contador**, porque se usa para ir acumulando las cantidades que se van contando.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/2.1.Super%20Lucho%20tambi%C3%A9n%20cuenta%20luces/assets/resources/description.pdf "Enunciado de 'Super Lucho también cuenta luces' en PDF"

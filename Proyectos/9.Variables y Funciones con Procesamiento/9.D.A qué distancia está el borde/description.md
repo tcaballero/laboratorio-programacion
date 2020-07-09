@@ -1,4 +1,5 @@
-#Proyecto 2.2. ¿A qué distancia está el borde?
+### Variables y funciones con procesamiento
+# Proyecto 9.D: '¿A qué distancia está el borde?'
 
 El propósito del programa en esta actividad es sencillo: hay que informar 
 en la celda actual cuál es la distancia hasta cada uno de los 4 bordes: 
@@ -30,7 +31,3 @@ Acordate que la función debe retornar el valor pedido al terminar.
 > Las funciones que realizan acciones antes de devolver el valor se denominan **funciones con procesamiento**. 
 > Pero como el propósito de una función es devolver un valor, ese procesamiento no es real, sino imaginario: 
 > el que usa la función no lo ve, ni se entera de que existió, salvo que la función explote.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/2.2.A%20qu%C3%A9%20distancia%20est%C3%A1%20el%20borde/assets/resources/description.pdf "Enunciado de '¿A qué distancia está el borde?' en PDF"

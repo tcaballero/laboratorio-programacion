@@ -1,4 +1,5 @@
-#Proyecto 3.3. Super Lucho, recargado
+### Variables y funciones con procesamiento
+# Proyecto 9.F: 'Super Lucho, recargado'
 
 Construí un programa para que, una vez más, Lucho encienda todas las 
 luces, pero esta vez también debe contar cuántas luces prendió. 
@@ -19,7 +20,3 @@ y tampoco de armar las subtareas para el recorrido que prende las luces.
 > Te contamos un secreto de los programadores profesionales: siempre miran los programas 
 > que ya hicieron para sacar ideas. 
 > Es más: si alguna parte del código sirve, ¡la reutilizan!
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/3.3.Super%20Lucho,%20recargado/assets/resources/description.pdf "Enunciado de 'Super Lucho, recargado' en PDF"

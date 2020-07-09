@@ -1,4 +1,5 @@
-#Proyecto 3.1. Contar las baldosas
+### Variables y funciones con procesamiento
+# Proyecto 9.E1: 'Contar las baldosas'
 
 Construí un programa que cuente las baldosas que hay en el patio. 
 El patio está representado por el tablero, y cada celda es una baldosa; 
@@ -20,7 +21,3 @@ el resultado puede llamarse `cantidadDeBaldosasYaVistas`.
 
 Este recorrido puede ser el procesamiento de una función `cantidadDeBaldosas`, 
 que se encargue de retornar ese número, que luego usás para poner las bolitas negras necesarias.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/3.1.Contar%20las%20baldosas/assets/resources/description.pdf "Enunciado de 'Contar las baldosas' en PDF"

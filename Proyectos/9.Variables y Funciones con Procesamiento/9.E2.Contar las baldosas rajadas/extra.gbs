@@ -1,1 +1,1 @@
-procedure Poner__Veces(color,cantidad) { repeat(cantidad) { Poner(color) } }
+procedure Poner_DeColor_(cantidad,color) { repeat(cantidad) { Poner(color) } }

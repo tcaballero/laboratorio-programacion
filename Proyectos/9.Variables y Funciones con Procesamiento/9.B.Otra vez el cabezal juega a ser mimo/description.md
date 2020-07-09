@@ -1,4 +1,5 @@
-#Proyecto 1.2. Otra vez el cabezal juega a ser mimo
+### Variables y funciones con procesamiento
+# Proyecto 9.B: 'Otra vez el cabezal juega a ser mimo'
 
 ¿Te acordás de la actividad _“El cabezal juega a ser mimo”_? 
 Ahí el cabezal tenía que imitar la cantidad de bolitas azules usando bolitas 
@@ -24,9 +25,5 @@ Lo que necesitás es una variable, como en la actividad anterior.
 > **Déjà vu**
 >
 > ¿No te resulta familiar esta actividad?
-> Quizás hayas hecho algo parecido cuando tuviste que imitar el largo del pasto de tu vecino…
-> Pero cuando te propusimos esa actividad, no tenías variables, y por eso era más difícil.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/1.2.Otra%20vez%20el%20cabezal%20juega%20a%20ser%20mimo/assets/resources/description.pdf "Enunciado de 'Otra vez el cabezal juega a ser mimo' en PDF"
+> Tenemos que hacer algo parecido que cuando la docente necesitaba escribir
+> la contraseña en el pizarrón.

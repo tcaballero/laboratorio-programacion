@@ -1,4 +1,5 @@
-#Proyecto 3.2. Contar las baldosas rajadas
+### Variables y funciones con procesamiento
+# Proyecto 9.E2: 'Contar las baldosas rajadas'
 
 Construí un programa que cuente las baldosas rajadas que hay en el patio. 
 Una baldosa está rajada si tiene al menos una bolita verde. 
@@ -11,7 +12,3 @@ Te mostramos algunos tableros finales, sin vestimenta y con ella.
 </center>
 
 ¡No te olvides de definir procedimientos y funciones para que tus programas sean legibles!
-
-[Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/9.Otras%20herramientas%20avanzadas/3.2.Contar%20las%20baldosas%20rajadas/assets/resources/description.pdf "Enunciado de 'Contar las baldosas rajadas' en PDF"
