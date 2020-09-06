@@ -22,10 +22,10 @@ Hay bastantes partes que ya están hechas.
 Vos tenés que hacer las funciones y completar dos procedimientos. 
 Para hacer las funciones recordá cómo se representan los diferentes elementos:
 * las flechas se representan con bolitas rojas: 
-     1 roja representa la flecha apuntando al Norte, 
-     2 rojas al Este, 
-     3 rojas al Sur y 
-     4 rojas al Oeste.
+     * 1 roja representa la flecha apuntando al Norte, 
+     * 2 rojas al Este, 
+     * 3 rojas al Sur y 
+     * 4 rojas al Oeste.
 * los quesos se representan con 1 bolita verde ¡y la salida con 2 ó 3 verdes! 
 
 Ojo, que el ratón no se confunda y piense que hay un queso en la salida…

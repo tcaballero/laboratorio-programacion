@@ -1,0 +1,13 @@
+function cantidadDePisos() {
+    if (not hayBolitas(Azul)) {
+        BOOM("El cabezal no está en el Hall del edificio.")
+    }
+    return (nroBolitas(Azul))
+}
+
+function cantidadDeMáquinasEnElPiso() {
+    if (not hayBolitas(Negro)) {
+        BOOM("El cabezal no está en el Hall de uno de los pisos.")
+    }
+    return (nroBolitas(Negro))
+}
