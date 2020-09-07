@@ -4,7 +4,7 @@ Una empresa encargada del Soporte técnico en un edificio de oficinas necesita h
 * El hall del edificio se representa en la celda de la esquina Sur-Oeste.
 * El hall de cada piso se representa en la celda del borde Oeste del piso en cuestión, donde los pisos son representados en una fila, desde la fila siguiente a la más al Sur hacia el Norte, tantos pisos como se indique en el hall del edificio.
 * Cada piso tiene una cantidad distinta de máquinas, y la cantidad se indicará en el hall del piso.
-* Los  virus se representan con bolitas Rojas. Hay virus que se representan con 1 bolita Roja, otros con 2 bolitas rojas, otros con 3, 4, 5, y hasta 6 bolitas rojas dependiendo del tipo de virus.
+* La cantidad de virus en una máquina puede variar, pudiendo haber entre 1 y 6 virus distintos en una misma máquina, y representandosé con entre 1 y 6 bolitas de color Rojo.
 * Una indicación de que la máquina de la celda actual no tiene virus (marca de OK) se representa con una bolita Verde.
 
 Para poder solucionar completamente el problema cuenta con las siguientes dos funciones primitivas:
@@ -26,6 +26,15 @@ function cantidadDeMáquinasEnElPiso()
         actual.
     PRECONDICIONES: El cabezal está en el hall de uno de
         los pisos.
+    TIPO: Número.
+*/
+```
+
+```
+function cantidadDeVirusEnLaMáquina()
+/*
+    PROPÓSITO: Describe la cantidad de virus que hay en la máquina actual.
+    PRECONDICIONES: El cabezal está en alguna de las máquinas de un piso.
     TIPO: Número.
 */
 ```

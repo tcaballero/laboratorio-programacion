@@ -11,3 +11,18 @@ function cantidadDeMáquinasEnElPiso() {
     }
     return (nroBolitas(Negro))
 }
+
+function cantidadDeVirusEnLaMáquina() {
+    if (not aux_estoyEnUnPiso()) {
+        BOOM("El cabezal no está en uno de los pisos con máquinas.")
+    }
+    if (not hayBolitas(Rojo)) {
+        BOOM("El cabezal no está sobre una de las máquinas del piso.")
+    }
+    return (nroBolitas(Rojo))
+}
+
+function aux_estoyEnUnPiso() {
+    IrAlBorde(Oeste)
+    return (hayBolitas(Negro))
+}
