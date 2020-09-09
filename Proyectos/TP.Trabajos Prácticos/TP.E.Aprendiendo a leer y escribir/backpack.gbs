@@ -1,0 +1,13 @@
+procedure Poner_DeColor_(cantidadAPoner, colorAPoner) {
+  /*
+    PROPÓSITO: Pone tantas bolitas como **cantidadAPoner** de color **colorAPoner**.
+    PARÁMETROS:
+      * cantidadAPoner: Un número que indica cuántas bolitas se van a poner.
+      * colorAPoner: El color del cual se pondrán las bolitas.
+    PRECONDICIONES:
+      * Ninguna
+  */
+  repeat(cantidadAPoner) {
+    Poner(colorAPoner)
+  }
+}
