@@ -1,0 +1,314 @@
+name: Letras
+rules:
+  - image: A.png
+    when:
+      black: 65
+      blue: 0
+      green: 0
+      red: 0
+  - image: B.png
+    when:
+      black: 66
+      blue: 0
+      green: 0
+      red: 0
+  - image: C.png
+    when:
+      black: 67
+      blue: 0
+      green: 0
+      red: 0
+  - image: D.png
+    when:
+      black: 68
+      blue: 0
+      green: 0
+      red: 0
+  - image: E.png
+    when:
+      black: 69
+      blue: 0
+      green: 0
+      red: 0
+  - image: F.png
+    when:
+      black: 70
+      blue: 0
+      green: 0
+      red: 0
+  - image: G.png
+    when:
+      black: 71
+      blue: 0
+      green: 0
+      red: 0
+  - image: H.png
+    when:
+      black: 72
+      blue: 0
+      green: 0
+      red: 0
+  - image: I.png
+    when:
+      black: 73
+      blue: 0
+      green: 0
+      red: 0
+  - image: J.png
+    when:
+      black: 74
+      blue: 0
+      green: 0
+      red: 0
+  - image: K.png
+    when:
+      black: 75
+      blue: 0
+      green: 0
+      red: 0
+  - image: L.png
+    when:
+      black: 76
+      blue: 0
+      green: 0
+      red: 0
+  - image: M.png
+    when:
+      black: 77
+      blue: 0
+      green: 0
+      red: 0
+  - image: N.png
+    when:
+      black: 78
+      blue: 0
+      green: 0
+      red: 0
+  - image: O.png
+    when:
+      black: 79
+      blue: 0
+      green: 0
+      red: 0
+  - image: P.png
+    when:
+      black: 80
+      blue: 0
+      green: 0
+      red: 0
+  - image: Q.png
+    when:
+      black: 81
+      blue: 0
+      green: 0
+      red: 0
+  - image: R.png
+    when:
+      black: 82
+      blue: 0
+      green: 0
+      red: 0
+  - image: S.png
+    when:
+      black: 83
+      blue: 0
+      green: 0
+      red: 0
+  - image: T.png
+    when:
+      black: 84
+      blue: 0
+      green: 0
+      red: 0
+  - image: U.png
+    when:
+      black: 85
+      blue: 0
+      green: 0
+      red: 0
+  - image: V.png
+    when:
+      black: 86
+      blue: 0
+      green: 0
+      red: 0
+  - image: W.png
+    when:
+      black: 87
+      blue: 0
+      green: 0
+      red: 0
+  - image: X.png
+    when:
+      black: 88
+      blue: 0
+      green: 0
+      red: 0
+  - image: Y.png
+    when:
+      black: 89
+      blue: 0
+      green: 0
+      red: 0
+  - image: Z.png
+    when:
+      black: 90
+      blue: 0
+      green: 0
+      red: 0
+  - image: a-minus.png
+    when:
+      black: 97
+      blue: 0
+      green: 0
+      red: 0
+  - image: b-minus.png
+    when:
+      black: 98
+      blue: 0
+      green: 0
+      red: 0
+  - image: c-minus.png
+    when:
+      black: 99
+      blue: 0
+      green: 0
+      red: 0
+  - image: d-minus.png
+    when:
+      black: 100
+      blue: 0
+      green: 0
+      red: 0
+  - image: e-minus.png
+    when:
+      black: 101
+      blue: 0
+      green: 0
+      red: 0
+  - image: f-minus.png
+    when:
+      black: 102
+      blue: 0
+      green: 0
+      red: 0
+  - image: g-minus.png
+    when:
+      black: 103
+      blue: 0
+      green: 0
+      red: 0
+  - image: h-minus.png
+    when:
+      black: 104
+      blue: 0
+      green: 0
+      red: 0
+  - image: i-minus.png
+    when:
+      black: 105
+      blue: 0
+      green: 0
+      red: 0
+  - image: j-minus.png
+    when:
+      black: 106
+      blue: 0
+      green: 0
+      red: 0
+  - image: k-minus.png
+    when:
+      black: 107
+      blue: 0
+      green: 0
+      red: 0
+  - image: l-minus.png
+    when:
+      black: 108
+      blue: 0
+      green: 0
+      red: 0
+  - image: m-minus.png
+    when:
+      black: 109
+      blue: 0
+      green: 0
+      red: 0
+  - image: n-minus.png
+    when:
+      black: 110
+      blue: 0
+      green: 0
+      red: 0
+  - image: o-minus.png
+    when:
+      black: 111
+      blue: 0
+      green: 0
+      red: 0
+  - image: p-minus.png
+    when:
+      black: 112
+      blue: 0
+      green: 0
+      red: 0
+  - image: q-minus.png
+    when:
+      black: 113
+      blue: 0
+      green: 0
+      red: 0
+  - image: r-minus.png
+    when:
+      black: 114
+      blue: 0
+      green: 0
+      red: 0
+  - image: s-minus.png
+    when:
+      black: 115
+      blue: 0
+      green: 0
+      red: 0
+  - image: t-minus.png
+    when:
+      black: 116
+      blue: 0
+      green: 0
+      red: 0
+  - image: u-minus.png
+    when:
+      black: 117
+      blue: 0
+      green: 0
+      red: 0
+  - image: v-minus.png
+    when:
+      black: 118
+      blue: 0
+      green: 0
+      red: 0
+  - image: w-minus.png
+    when:
+      black: 119
+      blue: 0
+      green: 0
+      red: 0
+  - image: x-minus.png
+    when:
+      black: 120
+      blue: 0
+      green: 0
+      red: 0
+  - image: y-minus.png
+    when:
+      black: 121
+      blue: 0
+      green: 0
+      red: 0
+  - image: z-minus.png
+    when:
+      black: 122
+      blue: 0
+      green: 0
+      red: 0
