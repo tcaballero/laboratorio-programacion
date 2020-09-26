@@ -1,5 +1,5 @@
 ### Repetición condicional
-# Proyecto 8.C: 'Más entrenamiento para Beto'
+# Proyecto 8.D: 'Más entrenamiento para Beto'
 
 El entrenador del Beto sigue con interés en que el robot entrene para poder jugar 
 en el partido, a pesar de que nosotros sabemos que no es necesario. 

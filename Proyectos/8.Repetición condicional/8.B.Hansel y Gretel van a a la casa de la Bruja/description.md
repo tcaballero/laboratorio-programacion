@@ -1,5 +1,5 @@
 ### Repetición condicional
-# Proyecto 8.D: 'Hansel y Gretel van a a la casa de la Bruja'
+# Proyecto 8.B: 'Hansel y Gretel van a a la casa de la Bruja'
 
 Hansel y Gretel van en la carreta mágica hacia la casa de la Bruja y deben 
 dejar miguitas de pan en el camino para poder volver, porque no saben qué 
