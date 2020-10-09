@@ -12,7 +12,7 @@ board:
     can_edit_board: true
     can_view_size_section: true
     can_view_attire_section: true
-  active: 9
+  active: 1
   initial_board_source: selected
 execution_speed:
   user_permissions:
