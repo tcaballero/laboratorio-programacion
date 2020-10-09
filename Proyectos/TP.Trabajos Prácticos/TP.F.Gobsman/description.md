@@ -1,6 +1,8 @@
-# Gobsman
+# Gobs-Man
 
-Este ejercicio es una suerte de "banco de pruebas" para los diferentes recorridos que se piden en el ejercicio del GobsMan. El enunciado puede leerse [accediendo a este enlace](https://raw.githubusercontent.com/alanrodas/curso-InPr-UNAHUR/master/Proyectos/TP.Trabajos%20Prácticos/TP.F.Gobsman/assets/resources/description.pdf). Se incluyen dos cosas: una vestimenta (para que puedan "ver" al GobsMan) y una serie de tableros iniciales para que puedan probar los diferentes ejercicios. Todo el código, incluido el de las primitivas, deberán proveerlo ustedes.
+![Gobs-Man](https://raw.githubusercontent.com/alanrodas/curso-InPr-UNAHUR/master/Proyectos/TP.Trabajos%20Prácticos/TP.F.Gobsman/cover.png)
+
+Este ejercicio es una suerte de "banco de pruebas" para los diferentes recorridos que se piden en el ejercicio del Gobs-Man, cuyo enunciado puede leerse [accediendo a este enlace](https://raw.githubusercontent.com/alanrodas/curso-InPr-UNAHUR/master/Proyectos/TP.Trabajos%20Prácticos/TP.F.Gobsman/assets/resources/description.pdf). Se incluyen dos cosas: una vestimenta (para que puedan "ver" al GobsMan) y una serie de tableros iniciales para que puedan probar los diferentes ejercicios. Todo el código, incluido el de las primitivas, deberán proveerlo ustedes.
 
 **Ojo:** cada parte del enunciado asume distintas cosas sobre el tablero, así que no todos los tableros sirven para todas las consignas. Prestar especial atención a la lista que está más abajo.
 
