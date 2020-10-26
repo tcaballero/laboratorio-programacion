@@ -1,4 +1,5 @@
-#Actividad 1. Descubrir la carta
+### Tipos personalizados
+# Proyecto 11.A: 'Descubrir la carta'
 
 En esta actividad tenés que descubrir cuál es la carta que la computadora eligió, y escribir el número y el palo de la misma.
 Para eso, indagá entre las operaciones primitivas, para ver de qué disponés. Si lográs como resultado la primera de las imágenes
@@ -23,8 +24,3 @@ leerlos del tablero con funciones primitivas.
 > de más de un dato simple, y existen funciones para preguntarle a un dato 
 > estructurado sus partes.
 > Y además, una de las partes de una carta es de un nuevo tipo de dato simple.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: 
-https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/10.Registros/1.Descubrir%20la%20carta/assets/resources/description.pdf "Enunciado de 'Descubrir la carta' en PDF"

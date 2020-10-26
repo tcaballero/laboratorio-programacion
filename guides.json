@@ -264,23 +264,23 @@
     ]
   },
   {
-    "name": "Introducción a registros",
+    "name": "Introducción a tipos personalizados",
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
       { "id": "10.A",      "name": "Descubrir la carta",
-        "path": "Proyectos/11.Registros/11.A.Descubrir la carta"
+        "path": "Proyectos/11.Tipos Personalizados/11.A.Descubrir la carta"
       },
       { "id": "11.B1",    "name": "¡Quiero retruco!",
-        "path": "Proyectos/11.Registros/11.B1.Quiero retruco"
+        "path": "Proyectos/11.Tipos Personalizados/11.B1.Quiero retruco"
       },
       { "id": "11.B2",    "name": "¡Te carteaste!",
-        "path": "Proyectos/11.Registros/11.B2.Te carteaste"
+        "path": "Proyectos/11.Tipos Personalizados/11.B2.Te carteaste"
       },
       { "id": "11.C",      "name": "El alquimista",
-        "path": "Proyectos/11.Registros/11.C.El alquimista"
+        "path": "Proyectos/11.Tipos Personalizados/11.C.El alquimista"
       },
       { "id": "11.D",      "name": "El rey, el caballo, …",
-        "path": "Proyectos/11.Registros/11.D.El rey, el caballo, …"
+        "path": "Proyectos/11.Tipos Personalizados/11.D.El rey, el caballo, …"
       }
    ]
   },
@@ -289,16 +289,22 @@
     "repo": "alanrodas/curso-InPr-UNAHUR",
     "exercises": [
       { "id": "12.A",    "name": "Descubrir la lista",
-        "path": "Proyectos/12.Listas/12.A.Descubrir la lista"
+        "path": "Proyectos/12.Introducción a Listas/12.A.Descubrir la lista"
       },
       { "id": "12.B",    "name": "La lista contraataca",
-        "path": "Proyectos/12.Listas/12.B.La lista contraataca"
+        "path": "Proyectos/12.Introducción a Listas/12.B.La lista contraataca"
+      }
+    ]
+  },
+  {
+    "name": "Recorridos sobre listas",
+    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "exercises": [
+      { "id": "13.A",    "name": "El regreso de la lista",
+        "path": "Proyectos/13.Recorridos sobre Listas/13.A.El regreso de la lista"
       },
-      { "id": "12.C",    "name": "El regreso de la lista",
-        "path": "Proyectos/12.Listas/12.C.El regreso de la lista"
-      },
-      { "id": "12.D",      "name": "El repartir de las cartas",
-        "path": "Proyectos/12.Listas/12.D.El repartir de las cartas"
+      { "id": "13.B",      "name": "El repartir de las cartas",
+        "path": "Proyectos/13.Recorridos sobre Listas/13.B.El repartir de las cartas"
       }
     ]
   },

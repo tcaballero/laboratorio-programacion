@@ -1,4 +1,5 @@
-#Actividad 2. La lista contraataca
+### Introducción a listas
+# Proyecto 12.B: 'La lista contraataca'
 
 Nuevamente, tenés que descrubrir cuál es la lista. 
 La idea es que uses el procedimiento para informar números para ir informando cada uno de los números de la lista en orden.
@@ -19,8 +20,3 @@ Un escenario final posible podría ser:
 > Indagá para saber qué hace cada una de ellas, y a partir de eso, pensá
 > cuál es la combinación que te hace falta para cada elemento.
 > Te damos un par de funciones empezadas, para guiarte.
-
-[Enunciado en PDF][PDF]
-
-[PDF]: 
-https://raw.githubusercontent.com/gobstones/curso-InPr-UNQ/master/Proyectos/11.Listas/2.La%20lista%20contraataca/assets/resources/description.pdf "Enunciado de 'La lista contraataca' en PDF"
