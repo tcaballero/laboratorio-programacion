@@ -1,7 +1,7 @@
 [ 
   {
     "name": "Programas y comandos básicos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "1.A1",        "name": "Repartija de caramelos",
         "path": "Proyectos/1.Programas y comandos básicos/1.A1.Repartija de caramelos"
@@ -46,7 +46,7 @@
   },
   {
     "name": "Procedimientos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "2.A1",        "name": "Programo el cuadrado",
         "path": "Proyectos/2.Procedimientos/2.A1.Programo el cuadrado"
@@ -82,7 +82,7 @@
   },
   {
     "name": "Repetición simple",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "3.A1",    "name": "Poner muchas bolitas se vuelve incómodo",
         "path": "Proyectos/3.Repetición simple/3.A1.Poner muchas bolitas se vuelve incómodo"
@@ -109,7 +109,7 @@
   },
   {
     "name": "Parámetros",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "4.A1",        "name": "Tablero de Ludo, toma 1",
         "path": "Proyectos/4.Parámetros/4.A1.Tablero de Ludo, toma 1"
@@ -136,7 +136,7 @@
   },
   {
     "name": "Expresiones y tipos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "5.A1",        "name": "No encuentro bolitas de color Sur",
         "path": "Proyectos/5.Expresiones y tipos/5.A1.No encuentro bolitas de color Sur"
@@ -169,7 +169,7 @@
   },
   {
     "name": "Alternativa condicional",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "6.A",        "name": "Apagar la luz, o prenderla",
         "path": "Proyectos/6.Alternativa condicional/6.A.Apagar la luz, o prenderla"
@@ -190,7 +190,7 @@
   },
   {
     "name": "Funciones simples",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "7.A",      "name": "Código para entendidos",
         "path": "Proyectos/7.Funciones simples/7.A.Código para entendidos"
@@ -211,7 +211,7 @@
   },
   {
     "name": "Repetición condicional",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "8.A1",      "name": "Super Lucho 1",
         "path": "Proyectos/8.Repetición condicional/8.A1.Super Lucho 1"
@@ -238,7 +238,7 @@
   },
   {
     "name": "Variables y Funciones con procesamiento",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "9.A",      "name": "Recuerden la contraseña",
         "path": "Proyectos/9.Variables y Funciones con Procesamiento/9.A.Recuerden la contraseña"
@@ -265,7 +265,7 @@
   },
   {
     "name": "Introducción a tipos personalizados",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "10.A",      "name": "Descubrir la carta",
         "path": "Proyectos/11.Tipos Personalizados/11.A.Descubrir la carta"
@@ -286,7 +286,7 @@
   },
   {
     "name": "Introducción a listas",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "12.A",    "name": "Descubrir la lista",
         "path": "Proyectos/12.Introducción a Listas/12.A.Descubrir la lista"
@@ -298,7 +298,7 @@
   },
   {
     "name": "Recorridos sobre listas",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "13.A",    "name": "El regreso de la lista",
         "path": "Proyectos/13.Recorridos sobre Listas/13.A.El regreso de la lista"
@@ -310,7 +310,7 @@
   },
   {
     "name": "Trabajos Prácticos",
-    "repo": "alanrodas/curso-InPr-UNAHUR",
+    "repo": "tcaballero/laboratorio-programacion",
     "exercises": [
       { "id": "TP.A",    "name": "Libre Soy",
         "path": "Proyectos/TP.Trabajos Prácticos/TP.A.Libre Soy"
